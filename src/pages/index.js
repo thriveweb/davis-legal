@@ -34,6 +34,7 @@ const IndexPage = () => (
 
       <Button
         Text="discover more"
+        Page="Areas"
       />
 
     </div>
@@ -62,6 +63,7 @@ const IndexPage = () => (
 
       <Button
         Text="discover more"
+        Page="About"
       />
 
     </div>

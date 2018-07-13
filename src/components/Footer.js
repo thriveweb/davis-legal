@@ -7,13 +7,13 @@ const Footer = () => (
 
     <div className="hero-footer">
       <div className="overlay"></div>
-      <img className="cover" src="img/footer-home.jpg" alt=""></img>
+      <img className="cover" src="img/footer-home.jpg" alt="" />
     </div>
 
     <div className="footer">
       <div className="top">
         <div className="logo">
-          <img src="img/logo-footer.svg" alt=""></img>
+          <img src="img/logo-footer.svg" alt="" />
         </div>
       </div>
 

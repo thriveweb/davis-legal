@@ -5,7 +5,7 @@ const Button = (props) => (
 
   <div>
 
-    <Link to="">
+    <Link to={props.Page}>
       <button>
         <p>{props.Text}</p>
         <div className="circle"></div>

@@ -7,7 +7,7 @@ const Hero = (props) => (
 
     <div className="hero">
       <div className="overlay"></div>
-      <img className="cover" src={props.image} alt=""></img>
+      <img className="cover" src={`${props.Image}`} alt="" />
     </div>
 
   </div>

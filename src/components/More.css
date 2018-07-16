@@ -1,0 +1,15 @@
+.more .small.content{
+  padding-bottom: 2rem;
+}
+
+.more .column h2{
+  margin-top: 1rem;
+  font-size: 2rem;
+  border: none;
+  text-align: right;
+}
+
+.more button{
+  display: inline-block;
+  margin-top: 2rem;
+}

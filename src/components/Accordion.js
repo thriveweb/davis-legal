@@ -1,20 +1,48 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
-const Accordion = (props) => (
+import './Accordion.css'
 
-  <div>
 
-    <div className="accordion">
-      <div className="title">{props.Title}</div>
+class Accordion extends Component {
+  state = {
+    activeItem: null
+  }
 
-      <div className="expand">
-        <p>{props.Content}</p>
+  handleClick = index => {
+    const activeItem = this.state.activeItem === index ? null : index
+    this.setState({ activeItem })
+  }
+
+  render () {
+    console.log(this.props)
+    const { accordionFields = [] } = this.props
+
+    if (accordionFields.length <= 0) return null
+
+    return  (
+
+      <div className="accordion">
+
+        {accordionFields.map((field, index) => {
+          const active = this.state.activeItem === index
+          return (
+
+            <div className={`item ${active ? 'active' : ''}`} onClick={() => this.handleClick(index)}>
+
+              <h4>{field.title}</h4>
+
+              <div className="expand">
+                <p>{field.content}</p>
+              </div>
+            </div>
+
+          )
+        })}
+
       </div>
-    </div>
-
-  </div>
-
-)
+    )
+  }
+}
 
 export default Accordion

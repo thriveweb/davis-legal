@@ -1,0 +1,43 @@
+.accordion .item{
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #AAA;
+  position: relative;
+}
+
+.accordion .item h4{
+  text-transform: uppercase;
+}
+
+.accordion .item:after{
+  content: '';
+  width: 1.2rem;
+  height: 0.8rem;
+  top: 1.7rem;
+  right: 2rem;
+  position: absolute;
+  background-image: url(/img/arrow-down.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.accordion .item.active:after{
+  content: '';
+  background-image: url(/img/arrow-up.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.accordion .item .expand{
+  display: none;
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+.accordion .item.active .expand{
+  height: auto;
+  display: block;
+}

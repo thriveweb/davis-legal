@@ -1,0 +1,53 @@
+.opener{
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.opener,
+.opener img,
+.opener .overlay{
+  height: 100vh;
+  width: 100%;
+}
+
+.opener .large{
+  position: absolute;
+  z-index: 999;
+  bottom: 3rem;
+  right: 0;
+  padding-right: 2rem;
+}
+
+.opener p{
+  width: 25rem;
+  opacity: 0.2;
+  bottom: 4rem;
+  text-align: right;
+}
+
+.opener .overlay{
+  background: linear-gradient(transparent 60%, #1D1E20 95%);
+}
+
+@media screen and (max-width: 900px){
+  .opener,
+  .opener img,
+  .opener .overlay{
+    height: 80vw;
+  }
+}
+
+@media screen and (max-width: 670px){
+  .opener{
+    margin-bottom: 3rem;
+  }
+
+  .opener .large{
+    bottom: 0;
+  }
+
+  .opener p{
+    font-size: 0.6rem;
+    text-align: left;
+  }
+}

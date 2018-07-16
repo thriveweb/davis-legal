@@ -6,6 +6,9 @@ import LargeTitle from '../components/LargeTitle'
 import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
 import Button from '../components/Button'
+import IconList from '../components/IconList'
+import More from '../components/More'
+import FooterImage from '../components/FooterImage'
 
 const AreasPage = () => (
   <div>
@@ -32,57 +35,57 @@ const AreasPage = () => (
         <div className="column left">
 
         <ul className="icons">
-          <li>
-            <img src="img/icon-medical.svg" alt="" />
-            <b>Legal, medical and financial professional negligence litigation</b>
-            <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-          </li>
+          <IconList
+            Image="img/icon-medical.svg"
+            Title="Legal, Medical & Financial Professional Negligence Litigation"
+            Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
 
-          <li>
-            <img src="img/icon-safety.svg" alt="" />
-            <b>Motor vehicle, workplace, defective products and premises liability</b>
-            <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-          </li>
+          <IconList
+            Image="img/icon-safety.svg"
+            Title="Motor Vehicle, Workplace, Defective Products & Premises Liability"
+            Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
 
-          <li>
-            <img src="img/icon-trade.svg" alt="" />
-            <b>Trade practices and consumer litigation</b>
-            <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-          </li>
+          <IconList
+            Image="img/icon-trade.svg"
+            Title="Trade Practices & Consumer Litigation"
+            Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
 
-          <li>
-            <img src="img/icon-super.svg" alt="" />
-            <b>Commonwealth superannuation litigation</b>
-            <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-          </li>
+          <IconList
+            Image="img/icon-super.svg"
+            Title="Commonwealth Superannuation Litigation"
+            Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
         </ul>
       </div>
 
       <div className="column right">
           <ul className="icons">
-            <li>
-              <img src="img/icon-aviation.svg" alt="" />
-              <b>Civil aviation litigation</b>
-              <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-            </li>
+            <IconList
+              Image="img/icon-aviation.svg"
+              Title="Civil Aviation Litigation"
+              Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+            />
 
-            <li>
-              <img src="img/icon-scuba.svg" alt="" />
-              <b>Scuba diving litigation</b>
-              <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-            </li>
+            <IconList
+              Image="img/icon-scuba.svg"
+              Title="Scuba Diving Litigation"
+              Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+            />
 
-            <li>
-              <img src="img/icon-inquests.svg" alt="" />
-              <b>Inquests and Commissions of Inquiry</b>
-              <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-            </li>
+            <IconList
+              Image="img/icon-inquests.svg"
+              Title="Inquests and Commissions of Inquiry"
+              Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+            />
 
-            <li>
-              <img src="img/icon-ethical.svg" alt="" />
-              <b>Professional and ethical standards disciplinary proceedings</b>
-              <p>Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan.</p>
-            </li>
+            <IconList
+              Image="img/icon-ethical.svg"
+              Title="Professional & Ethical Standards Disciplinary Proceedings"
+              Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+            />
           </ul>
         </div>
 
@@ -91,6 +94,12 @@ const AreasPage = () => (
       <div className="clear"></div>
 
     </div>
+
+    <More />
+
+    <FooterImage
+      Image="img/footer-areas.jpg"
+    />
 
   </div>
 )

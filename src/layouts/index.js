@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 
 import './index.css'
 
-import Menu from '../components/Menu'
+import Hamburger from '../components/Hamburger'
 import Footer from '../components/Footer'
 
 
@@ -12,7 +12,7 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet title="Davis Legal" />
 
-    <Menu />
+    <Hamburger />
 
       {children()}
 

@@ -1,0 +1,11 @@
+ul.icons li img{
+  width: 2.5rem;
+  height: 2.5rem;
+  opacity: 0.2;
+  margin: 5rem 0 1rem;
+  display: block;
+}
+
+ul.icons li:before{
+  margin-top: 4rem;
+}

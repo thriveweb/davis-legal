@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import './EventNow.css'
+
 const EventNow = (props) => (
 
   <div>

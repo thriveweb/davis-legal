@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import './Timeline.css'
+
 import Event from '../components/Event'
 import EventNow from '../components/EventNow'
 

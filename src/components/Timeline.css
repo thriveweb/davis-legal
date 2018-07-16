@@ -1,0 +1,25 @@
+.timeline{
+  position: relative;
+  margin-top: -6rem;
+}
+
+.line{
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  margin: auto;
+  right: 0;
+  background: #AAA;
+}
+
+.timeline .column{
+  width: 48%;
+}
+
+
+.line:before{
+  top: 100% !important;
+  left: -0.25rem;
+}

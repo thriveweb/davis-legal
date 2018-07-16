@@ -1,0 +1,45 @@
+.event{
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.event h4{
+  margin: 0;
+}
+
+.left .event{
+  text-align: right;
+  padding-right: 4rem;
+}
+
+.right .event{
+  text-align: left;
+  padding-left: 4rem;
+}
+
+.left .event:after,
+.right .event:after{
+  content: '';
+  width: 10%;
+  height: 1px;
+  background: #AAA;
+  display: block;
+  top: 0.6rem;
+  position: absolute;
+}
+
+.right .event:after{
+  left: 0;
+}
+
+.left .event:after{
+  right: 0;
+}
+
+.right .event:before{
+  left: -5.85rem;
+}
+
+.left .event:before{
+  right: 0;
+}

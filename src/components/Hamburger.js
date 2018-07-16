@@ -13,11 +13,10 @@ class Hamburger extends Component {
 
   render () {
     return (
-      <Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+      <Menu right>
+        <a id="about" className="menu-item" href="/About">About Robert Davis</a>
+        <a id="about" className="menu-item" href="/Areas">Practice Areas</a>
+        <a id="contact" className="menu-item" href="/contact">Contact Robert</a>
       </Menu>
     );
   }

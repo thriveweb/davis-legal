@@ -1,0 +1,41 @@
+form input,
+form textarea,
+form select,
+form option,
+form input::placeholder,
+form textarea::placeholder,
+form select::placeholder,
+form option::placeholder{
+  font-family: 'Sofia Pro';
+  font-size: 1rem;
+  color: #AAA;
+  letter-spacing: 1px;
+}
+
+form input,
+form textarea,
+form select,
+form option{
+  -webkit-appearance: none;
+  width: calc(100% - 2.15rem);
+  border: 1px solid #AAA;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+form textarea{
+  resize: none;
+  height: 5rem;
+}
+
+form select{
+  width: 100% !important;
+}
+
+form input:focus,
+form textarea:focus,
+form select:focus{
+  outline: none;
+}

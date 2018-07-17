@@ -17,17 +17,22 @@ body{
 
 @font-face{
   font-family: 'Sofia Pro';
-  src: url('/fonts/Sofia Pro Extra Light.otf');
+  src: url('/static/fonts/Sofia Pro Extra Light.otf');
 }
 
 @font-face{
   font-family: 'Sofia Pro Medium';
-  src: url('/fonts/Sofia Pro Medium.otf');
+  src: url('/static/fonts/Sofia Pro Medium.otf');
+}
+
+@font-face{
+  font-family: 'Cormorant';
+  src: url('/static/fonts/CormorantGaramond-Light.ttf');
 }
 
 @font-face{
   font-family: 'Eloquent Pro';
-  src: url('/fonts/EloquentJFCaptionPro.ttf');
+  src: url('/static/fonts/EloquentJFCaptionPro.ttf');
 }
 
 h1{
@@ -43,11 +48,12 @@ h1{
 
 h2{
   max-width: 26rem;
-  font-family: 'Cormorant Infant';
+  font-family: 'Cormorant';
   font-size: 1.7rem;
   font-weight: 100;
   color: #FFF;
   text-transform: uppercase;
+  letter-spacing: 1px;
   padding-bottom: 2rem;
   margin: 0;
   border-bottom: 1px solid #AAA;
@@ -80,6 +86,7 @@ h4{
   font-family: 'Sofia Pro';
   font-size: 1.2rem;
   color: #FFF;
+  letter-spacing: 2px;
 }
 
 p,

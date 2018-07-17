@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import Hamburger from './Hamburger.js'
+import Logo from '../../public/static/img/logo.svg'
 
 import './Menu.css'
 
@@ -11,7 +12,9 @@ const Menu = (props) => (
 
     <div className="menu large">
       <div className="left">
-        <img src="/img/logo.svg" alt="" />
+        <Link to="/">
+          <img src={`${Logo}`} alt="" />
+        </Link>
       </div>
 
       <div className="right">

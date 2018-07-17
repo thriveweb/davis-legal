@@ -1,13 +1,13 @@
 .accordion .item{
   width: 100%;
   margin: 1rem 0;
-  padding: 0 2rem;
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid #AAA;
   position: relative;
 }
 
 .accordion .item h4{
+  padding: 0 4rem 0 2rem;
   text-transform: uppercase;
 }
 
@@ -18,23 +18,27 @@
   top: 1.7rem;
   right: 2rem;
   position: absolute;
-  background-image: url(/img/arrow-down.svg);
+  background-image: url(/static/img/arrow-down.svg);
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.5;
+  transition: all 0.5s;
 }
 
 .accordion .item.active:after{
   content: '';
-  background-image: url(/img/arrow-up.svg);
+  background-image: url(/static/img/arrow-down.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  transform: rotate(-180deg);
+  transition: all 0.2s;
 }
 
 .accordion .item .expand{
   display: none;
   overflow: hidden;
   padding-bottom: 2rem;
+  padding: 0 2rem 2rem;
 }
 
 .accordion .item.active .expand{

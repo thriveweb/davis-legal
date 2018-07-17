@@ -15,7 +15,6 @@ class Accordion extends Component {
   }
 
   render () {
-    console.log(this.props)
     const { accordionFields = [] } = this.props
 
     if (accordionFields.length <= 0) return null

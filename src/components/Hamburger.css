@@ -21,7 +21,7 @@ span.bm-burger-bars{
 }
 
 .bm-menu{
-  background: linear-gradient(#000, transparent);
+  background: linear-gradient(#000, transparent 60%);
   font-size: 1.15em;
   z-index: 99999;
 }
@@ -72,4 +72,23 @@ span.bm-cross{
   font-family: 'Cormorant';
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px){
+  .bm-menu{
+    background: #000;
+  }
+
+  .bm-menu-wrap{
+    width: 100% !important;
+  }
+
+  .bm-item-list{
+    margin-right: 0;
+  }
+
+  .bm-item-list a{
+    text-align: center;
+    font-size: 1.4rem;
+  }
 }

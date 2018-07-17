@@ -1,8 +1,9 @@
-.menu.large{
+.menu .large{
   max-width: calc(100% - 6rem);
 }
 
 .menu{
+  background: linear-gradient(#1F1F1F 30%, transparent 100%);
   position: fixed;
   padding: 1.5rem 0;
   top: 0;
@@ -21,4 +22,15 @@
 .menu .left img{
   height: 1.4rem;
   width: auto;
+}
+
+@media screen and (max-width: 500px){
+  .menu .left{
+    z-index: 2222;
+  }
+
+  .menu .left img{
+    height: 1rem;
+    margin-top: 0.1rem;
+  }
 }

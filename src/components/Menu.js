@@ -9,19 +9,20 @@ import './Menu.css'
 const Menu = (props) => (
 
   <div>
+    <div className="menu">
+      <div className="large">
+        <div className="left">
+          <Link to="/">
+            <img src={`${Logo}`} alt="" />
+          </Link>
+        </div>
 
-    <div className="menu large">
-      <div className="left">
-        <Link to="/">
-          <img src={`${Logo}`} alt="" />
-        </Link>
+        <div className="right">
+          <Hamburger />
+        </div>
+
+        <div className="clear"></div>
       </div>
-
-      <div className="right">
-        <Hamburger />
-      </div>
-
-      <div className="clear"></div>
     </div>
 
   </div>

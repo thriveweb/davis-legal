@@ -4,9 +4,10 @@
 html,
 body{
   margin: 0;
-  background: #1D1E20;
+  background: #1F1F1F;
   position: relative;
   z-index: -99;
+  overflow-x: hidden;
 }
 
 .clear{
@@ -41,7 +42,7 @@ h1{
   font-weight: 100;
   line-height: 21rem;
   letter-spacing: -0.5rem;
-  color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.15);
   margin: 0;
   height: 17rem;
 }
@@ -104,7 +105,7 @@ form textarea{
 ul{
   margin: 2rem 0 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
 }
 
 li{
@@ -119,7 +120,7 @@ li:before{
   background: #AAA;
   display: block;
   margin-left: -4rem;
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
   position: absolute;
 }
 
@@ -187,9 +188,11 @@ img.cover{
   margin-top: 1.5rem;
 }
 
-.content img{
+.content ul img{
   width: 100%;
   opacity: 0.6;
+  margin-bottom: 2rem;
+  margin-top: -6rem;
 }
 
 /* responsive */
@@ -200,7 +203,17 @@ img.cover{
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1050px){
+  h1{
+    font-size: 15rem;
+    line-height: 16rem;
+    height: 13.5rem;
+  }
+
+  .section{
+    margin-top: 7rem;
+  }
+
   .small{
     padding: 0 2rem;
   }
@@ -208,10 +221,10 @@ img.cover{
 
 @media screen and (max-width: 670px){
   h1{
-    margin: 0;
-    height: 12.5rem;
-    line-height: 9rem;
-    font-size: 20vw;
+    font-size: 5rem;
+    line-height: 5rem;
+    height: 10.2rem;
+    letter-spacing: 2px;
   }
 
   h2{
@@ -223,7 +236,17 @@ img.cover{
   }
 
   ul{
-    margin: 0;
+    margin: 2rem 0 0;
+  }
+
+  li{
+    padding-left: 3rem;
+  }
+
+  li:before{
+    content: '';
+    width: 2rem;
+    margin-left: -3rem;
   }
 
   .section{
@@ -235,7 +258,11 @@ img.cover{
     display: block;
   }
 
-  .content .column img{
+  .content ul img{
     display: none;
+  }
+
+  .content ul:nth-child(1){
+    margin-top: 0;
   }
 }

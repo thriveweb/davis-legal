@@ -24,7 +24,11 @@ const AreasPage = () => (
 
       <div className="small content">
         <LeftColumn
-          Content="Get in cantact with Robert via phone or email or fill out the form below to find out more about his work. He looks forward to hearing from you and will get back to you as soon as possible."
+          Content={
+            <p>
+              Get in cantact with Robert via phone or email or fill out the form below to find out more about his work. He looks forward to hearing from you and will get back to you as soon as possible.
+            </p>
+            }
         />
 
         <div className="clear"></div>

@@ -1,11 +1,16 @@
+ul.icons li{
+  margin-bottom: 4rem;
+}
+
 ul.icons li img{
+  margin-top: 0;
   width: 2.5rem;
   height: 2.5rem;
   opacity: 0.2;
-  margin: 5rem 0 1rem;
+  margin-bottom: 2rem;
   display: block;
 }
 
 ul.icons li:before{
-  margin-top: 4rem;
+  margin-top: 5.25rem;
 }

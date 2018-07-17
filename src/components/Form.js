@@ -7,7 +7,7 @@ const FooterImage = (props) => (
 
   <div>
 
-    <form class="contact" action="success.html" method="post">
+    <form className="contact" action="success.html" method="post">
       <input type="text" name="reference" value="" placeholder="Solicitor's Reference" required />
       <input type="text" name="name" value="" placeholder="Solicitor's Firm Name" />
       <input type="text" name="email" value="" placeholder="Email Address" required />
@@ -18,6 +18,9 @@ const FooterImage = (props) => (
         <option value="three">Third Option</option>
       </select>
       <textarea name="comments" placeholder="Comments" />
+
+      <p>Court and other commitments may sometimes result in a delay in responding to email inquiries. If your inquiry is urgent then it is best to phone. Robert will not accept urgent briefs without prior discussion and agreement.</p>
+      
       <button type="sumbit">
         <p>send now</p>
         <div className="circle"></div>

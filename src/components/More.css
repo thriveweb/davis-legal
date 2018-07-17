@@ -1,15 +1,19 @@
 .more .small.content{
-  padding-bottom: 2rem;
+  margin-top: -11rem;
 }
 
-.more .column h2{
-  margin-top: 1rem;
-  font-size: 2rem;
+.more .title h2{
   border: none;
-  text-align: right;
+  font-size: 2rem;
+  padding-bottom: 5rem;
 }
 
 .more button{
-  display: inline-block;
-  margin-top: 2rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 670px){
+  .more .small.content{
+    margin-top: -5rem;
+  }
 }

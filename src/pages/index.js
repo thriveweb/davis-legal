@@ -25,11 +25,26 @@ const IndexPage = () => (
 
       <div className="small content">
         <LeftColumn
-          Content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+          Content={
+            <ul>
+              <li>Legal, Medical & Financial Professional Negligence Litigation</li>
+              <li>Motor Vehicle, Workplace, Defective Products & Premises Liability</li>
+              <li>Trade Practices & Consumer Litigation</li>
+              <li>Commonwealth Superannuation Litigation</li>
+              <li>Civil Aviation Litigation</li>
+              <li>Scuba Diving Litigation</li>
+            </ul>
+          }
         />
 
         <RightColumn
-          Content="It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages."
+          Content={
+            <ul>
+              <img src="/static/img/home-img.jpg" />
+              <li>Inquests and Commissions of Inquiry</li>
+              <li>Professional & Ethical Standards Disciplinary Proceedings</li>
+            </ul>
+          }
         />
       </div>
 
@@ -54,11 +69,19 @@ const IndexPage = () => (
 
       <div className="small content">
         <LeftColumn
-          Content="With extensive experience and ongoing academic qualifications, Robert began his career in Queensland and New South Wales in 1979 then worked for many years as a Litigation Solicitor before being called to the Queensland Bar in 2007."
+          Content={
+            <p>
+              With extensive experience and ongoing academic qualifications, Robert began his career in Queensland and New South Wales in 1979 then worked for many years as a Litigation Solicitor before being called to the Queensland Bar in 2007.
+            </p>
+          }
         />
 
         <RightColumn
-          Content="Over his career he has been featured in many publications and has served as President of the Queensland Law Society and the Australian Plaintiff Lawyers Association (now the Australian Lawyers Alliance). He has has appeared in many high profile cases in Australia."
+          Content={
+            <p>
+              Over his career he has been featured in many publications and has served as President of the Queensland Law Society and the Australian Plaintiff Lawyers Association (now the Australian Lawyers Alliance). He has has appeared in many high profile cases in Australia.
+            </p>
+          }
         />
       </div>
 

@@ -1,12 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link' 
+import Link from 'gatsby-link'
 
 const LeftColumn = (props) => (
 
   <div>
 
     <div className="column left">
-      <p>{props.Content}</p>
+      {props.Content}
     </div>
 
   </div>

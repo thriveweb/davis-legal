@@ -13,6 +13,7 @@ import FooterHero from '../components/FooterHero'
 
 import FooterImage from '../../public/static/img/footer-about.jpg'
 import HeroImage from '../../public/static/img/hero-about.jpg'
+import HeroImage2 from '../../public/static/img/hero-about2.jpg'
 
 const AboutPage = () => (
   <div>
@@ -31,11 +32,24 @@ const AboutPage = () => (
 
       <div className="small content">
         <LeftColumn
-          Content="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+          Content={
+            <ul>
+              <li>Law Studies - Queensland SAB (December 1978)</li>
+              <li>Bachelor of Social Science (major studies in psychology and human biology) - UNE (April 1989)</li>
+              <li>Master of Laws - Bond University (September 1991)</li>
+              <li>Certificate - Australian Advocacy Institute (August 1994)</li>
+            </ul>
+          }
         />
 
         <RightColumn
-          Content="Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+          Content={
+            <ul>
+              <li>Second Master of Laws (Corporate and Commercial Law) - Bond (February 1999)</li>
+              <li>Mediation Certificate - Bond University Dispute Resolution Centre (December 2001)</li>
+              <li>Bar Association of Queensland Bar Practice Course - QUT (February 2007)</li>
+            </ul>
+          }
         />
       </div>
 
@@ -56,6 +70,57 @@ const AboutPage = () => (
 
     </div>
 
+    <Hero
+      Image={`${HeroImage2}`}
+    />
+
+    <div className="section">
+
+      <LargeTitle
+        SmallTitle="about his career"
+        Title="past professional roles"
+        LargeTitle="Career"
+      />
+
+      <div className="small content">
+        <LeftColumn
+          Content={
+            <ul>
+              <li>Chair, Law Australia Group of law firms</li>
+              <li>Visiting Assistant Professor (Law), Bond University</li>
+              <li>Member of the Board of Governors, Association of Trial Lawyers of America</li>
+              <li>Board Member, Australian Plaintiff Lawyers Association Inc (APLA)</li>
+              <li>Member, Queensland Law Society Accident Compensation Committee</li>
+              <li>Member, first Personal Injury Specialist Accreditation Committee of the Queensland Law Society</li>
+              <li>Queensland President, APLA</li>
+              <li>Twice elected National President, APLA (now the Australian Lawyers Alliance)</li>
+              <li>Council Member, Queensland Law Society</li>
+            </ul>
+          }
+        />
+
+        <RightColumn
+          Content={
+            <ul>
+              <li>Vice President, Queensland Law Society</li>
+              <li>Director, College of Law Queensland Pty Ltd</li>
+              <li>Adjunct Professor, Centre for Tourism and Risk Management at the University of Queensland</li>
+              <li>Chair, Queensland Law Society Alternative Dispute Resolution Section</li>
+              <li>Member, Queensland Law Society Audit Committee</li>
+              <li>Director, Lexon Insurance Pty Ltd</li>
+              <li>President, Queensland Law Society</li>
+              <li>Advisory Board, Griffith University Innocence Project</li>
+            </ul>
+          }
+        />
+
+        <div className="clear"></div>
+      </div>
+
+      <div className="clear"></div>
+
+    </div>
+
     <div className="section">
 
       <LargeTitle
@@ -66,7 +131,11 @@ const AboutPage = () => (
 
       <div className="small content">
         <LeftColumn
-          Content="Publications authored, books contributed towards and conference presentations made, include:"
+          Content={
+            <p>
+              Publications authored, books contributed towards and conference presentations made, include:
+            </p>
+          }
         />
 
         <div className="clear"></div>
@@ -74,27 +143,17 @@ const AboutPage = () => (
         <Accordion
           accordionFields={[
             {
-              title: "What is a barrister?",
+              title: "Journals",
               content: "Donec porta, ex sed ullamcorper vehicula, augue diam cursus orci, porta pretium mauris leo iaculis metus. Mauris ac elit sit amet orci dictum pellentesque. Praesent eget aliquam libero. Aenean tempor ligula sed diam gravida, placerat blandit magna bibendum."
             },
 
             {
-              title: "How does a barrister differ from a solicitor?",
+              title: "Books",
               content: "Donec porta, ex sed ullamcorper vehicula, augue diam cursus orci, porta pretium mauris leo iaculis metus. Mauris ac elit sit amet orci dictum pellentesque. Praesent eget aliquam libero. Aenean tempor ligula sed diam gravida, placerat blandit magna bibendum."
             },
 
             {
-              title: "How do barristers charge?",
-              content: "Donec porta, ex sed ullamcorper vehicula, augue diam cursus orci, porta pretium mauris leo iaculis metus. Mauris ac elit sit amet orci dictum pellentesque. Praesent eget aliquam libero. Aenean tempor ligula sed diam gravida, placerat blandit magna bibendum."
-            },
-
-            {
-              title: "Do I also need a solicitor?",
-              content: "Donec porta, ex sed ullamcorper vehicula, augue diam cursus orci, porta pretium mauris leo iaculis metus. Mauris ac elit sit amet orci dictum pellentesque. Praesent eget aliquam libero. Aenean tempor ligula sed diam gravida, placerat blandit magna bibendum."
-            },
-
-            {
-              title: "How do I employ a barrister?", 
+              title: "Presentations & Submissions",
               content: "Donec porta, ex sed ullamcorper vehicula, augue diam cursus orci, porta pretium mauris leo iaculis metus. Mauris ac elit sit amet orci dictum pellentesque. Praesent eget aliquam libero. Aenean tempor ligula sed diam gravida, placerat blandit magna bibendum."
             },
           ]}

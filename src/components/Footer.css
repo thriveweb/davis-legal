@@ -52,7 +52,7 @@
   width: auto;
 }
 
-.footer a{
+.footer .map a{
   display: block;
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -63,6 +63,12 @@
 @media screen and (max-width: 1520px){
   .footer .large{
     padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .footer{
+    margin-top: 7rem;
   }
 }
 
@@ -83,7 +89,6 @@
   .footer .column{
     width: 100%;
     text-align: center;
-    padding-bottom: 1rem;
     display: block;
   }
 }

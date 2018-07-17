@@ -9,3 +9,9 @@
   left: 0;
   margin: auto;
 }
+
+@media screen and (max-width: 670px){
+  .title .small{
+    top: 1.2rem;
+  }
+}

@@ -30,7 +30,11 @@ const AreasPage = () => (
 
       <div className="small content">
         <LeftColumn
-          Content="Robert Davis appears as counsel in Australian State, Territorial and Federal Courts and the High Court of Australia. His main areas of practice include:"
+          Content={
+            <p>
+              Robert Davis appears as counsel in Australian State, Territorial and Federal Courts and the High Court of Australia. His main areas of practice include:
+            </p>
+          }
         />
 
           <div className="clear"></div>

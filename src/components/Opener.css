@@ -26,7 +26,7 @@
 }
 
 .opener .overlay{
-  background: linear-gradient(transparent 60%, #1D1E20 95%);
+  background: linear-gradient(transparent 60%, #1F1F1F 95%);
 }
 
 @media screen and (max-width: 900px){
@@ -39,15 +39,24 @@
 
 @media screen and (max-width: 670px){
   .opener{
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
   }
 
   .opener .large{
-    bottom: 0;
+    bottom: -4rem;
+    right: 0;
+    left: 0;
   }
 
-  .opener p{
-    font-size: 0.6rem;
-    text-align: left;
+  .opener p.right{
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .opener .large{
+    z-index: 99;
   }
 }

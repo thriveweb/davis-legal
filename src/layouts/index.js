@@ -12,7 +12,10 @@ import Favicon from '../../public/static/img/favicon.ico'
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet title="Davis Legal" />
+    <Helmet
+      title="Davis Legal"
+      link={[{ rel: 'shortcut icon', type: 'image/png', href: `${Favicon}` }]}
+    />
 
     <Menu />
 

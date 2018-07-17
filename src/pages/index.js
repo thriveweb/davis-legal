@@ -6,7 +6,9 @@ import LargeTitle from '../components/LargeTitle'
 import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
 import Button from '../components/Button'
-import FooterImage from '../components/FooterImage'
+import FooterHero from '../components/FooterHero'
+
+import FooterImage from '../../public/static/img/footer-home.jpg'
 
 const IndexPage = () => (
   <div>
@@ -69,8 +71,8 @@ const IndexPage = () => (
 
     </div>
 
-    <FooterImage
-      Image="img/footer-home.jpg"
+    <FooterHero
+      Image={`${FooterImage}`}
     />
 
   </div>

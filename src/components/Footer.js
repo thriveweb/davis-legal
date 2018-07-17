@@ -3,6 +3,9 @@ import Link from 'gatsby-link'
 
 import './Footer.css'
 
+import Logo from '../../public/static/img/logo.svg'
+import FooterLogo from '../../public/static/img/logo-footer.svg'
+
 const Footer = (props) => (
 
   <div>
@@ -10,13 +13,13 @@ const Footer = (props) => (
     <div className="footer">
       <div className="top">
         <div className="logo">
-          <img src="img/logo-footer.svg" alt="" />
+          <img src={`${FooterLogo}`} alt="" />
         </div>
       </div>
 
       <div className="large">
         <div className="column">
-          <img src="img/logo.svg" alt="" />
+          <img src={`${Logo}`} alt="" />
           <p>&copy; 2018 Davis Legal | Site by Thrive</p>
         </div>
 

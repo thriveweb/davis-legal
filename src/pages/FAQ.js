@@ -7,13 +7,16 @@ import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
 import Accordion from '../components/Accordion'
 import More from '../components/More'
-import FooterImage from '../components/FooterImage'
+import FooterHero from '../components/FooterHero'
+
+import FooterImage from '../../public/static/img/footer-faq.jpg'
+import HeroImage from '../../public/static/img/hero-faq.jpg'
 
 const AboutPage = () => (
   <div>
 
     <Hero
-      Image="img/hero-faq.jpg"
+      Image={`${HeroImage}`}
     />
 
     <div className="section">
@@ -67,8 +70,8 @@ const AboutPage = () => (
 
     <More />
 
-    <FooterImage
-      Image="img/footer-about.jpg"
+    <FooterHero
+      Image={`${FooterImage}`}
     />
 
   </div>

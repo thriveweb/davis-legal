@@ -8,13 +8,16 @@ import RightColumn from '../components/RightColumn'
 import Button from '../components/Button'
 import IconList from '../components/IconList'
 import More from '../components/More'
-import FooterImage from '../components/FooterImage'
+import FooterHero from '../components/FooterHero'
+
+import FooterImage from '../../public/static/img/footer-areas.jpg'
+import HeroImage from '../../public/static/img/hero-areas.jpg'
 
 const AreasPage = () => (
   <div>
 
     <Hero
-      Image="img/hero-areas.jpg"
+      Image={`${HeroImage}`}
     />
 
     <div className="section">
@@ -36,25 +39,25 @@ const AreasPage = () => (
 
         <ul className="icons">
           <IconList
-            Image="img/icon-medical.svg"
+            Image="/static/img/icon-medical.svg"
             Title="Legal, Medical & Financial Professional Negligence Litigation"
             Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
           />
 
           <IconList
-            Image="img/icon-safety.svg"
+            Image="/static/img/icon-safety.svg"
             Title="Motor Vehicle, Workplace, Defective Products & Premises Liability"
             Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
           />
 
           <IconList
-            Image="img/icon-trade.svg"
+            Image="/static/img/icon-trade.svg"
             Title="Trade Practices & Consumer Litigation"
             Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
           />
 
           <IconList
-            Image="img/icon-super.svg"
+            Image="/static/img/icon-super.svg"
             Title="Commonwealth Superannuation Litigation"
             Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
           />
@@ -64,25 +67,25 @@ const AreasPage = () => (
       <div className="column right">
           <ul className="icons">
             <IconList
-              Image="img/icon-aviation.svg"
+              Image="/static/img/icon-aviation.svg"
               Title="Civil Aviation Litigation"
               Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
             />
 
             <IconList
-              Image="img/icon-scuba.svg"
+              Image="/static/img/icon-scuba.svg"
               Title="Scuba Diving Litigation"
               Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
             />
 
             <IconList
-              Image="img/icon-inquests.svg"
+              Image="/static/img/icon-inquests.svg"
               Title="Inquests and Commissions of Inquiry"
               Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
             />
 
             <IconList
-              Image="img/icon-ethical.svg"
+              Image="/static/img/icon-ethical.svg"
               Title="Professional & Ethical Standards Disciplinary Proceedings"
               Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
             />
@@ -97,8 +100,8 @@ const AreasPage = () => (
 
     <More />
 
-    <FooterImage
-      Image="img/footer-areas.jpg"
+    <FooterHero
+      Image={`${FooterImage}`}
     />
 
   </div>

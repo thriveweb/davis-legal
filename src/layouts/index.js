@@ -7,6 +7,8 @@ import './index.css'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 
+import Favicon from '../../public/static/img/favicon.ico'
+
 
 const Layout = ({ children, data }) => (
   <div>

@@ -9,13 +9,16 @@ import Timeline from '../components/Timeline'
 import Button from '../components/Button'
 import Accordion from '../components/Accordion'
 import More from '../components/More'
-import FooterImage from '../components/FooterImage'
+import FooterHero from '../components/FooterHero'
+
+import FooterImage from '../../public/static/img/footer-about.jpg'
+import HeroImage from '../../public/static/img/hero-about.jpg'
 
 const AboutPage = () => (
   <div>
 
     <Hero
-      Image="img/hero-about.jpg"
+      Image={`${HeroImage}`}
     />
 
     <div className="section">
@@ -105,8 +108,8 @@ const AboutPage = () => (
 
     <More />
 
-    <FooterImage
-      Image="img/footer-about.jpg"
+    <FooterHero
+      Image={`${FooterImage}`}
     />
 
   </div>

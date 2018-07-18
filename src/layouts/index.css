@@ -57,7 +57,7 @@ h2{
   letter-spacing: 1px;
   padding-bottom: 2rem;
   margin: 0;
-  border-bottom: 1px solid #AAA;
+  border-bottom: 1px solid #FFF;
 }
 
 h3{
@@ -76,7 +76,7 @@ h3:before{
   content: '';
   width: 3rem;
   height: 1px;
-  background: #AAA;
+  background: #FFF;
   display: block;
   margin-left: -4rem;
   margin-top: 0.5rem;
@@ -99,7 +99,7 @@ form textarea{
   font-family: 'Sofia Pro';
   font-size: 0.9rem;
   letter-spacing: 2px;
-  color: #AAA;
+  color: #FFF;
   line-height: 1.6rem;
 }
 
@@ -118,7 +118,7 @@ li:before{
   content: '';
   width: 3rem;
   height: 1px;
-  background: #AAA;
+  background: #FFF;
   display: block;
   margin-left: -4rem;
   margin-top: 0.6rem;

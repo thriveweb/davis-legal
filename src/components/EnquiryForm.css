@@ -4,7 +4,7 @@
 .enquiry-select{
   font-family: 'Sofia Pro';
   font-size: 1rem;
-  color: #AAA;
+  color: #FFF;
   letter-spacing: 1px;
 }
 
@@ -37,7 +37,7 @@
 .enquiry-select{
   -webkit-appearance: none;
   width: 100%;
-  border: 1px solid #AAA;
+  border: 1px solid #FFF;
   border-radius: 0;
   background: rgba(0, 0, 0, 0.3);
   padding: 1rem;

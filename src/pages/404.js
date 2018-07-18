@@ -1,9 +1,23 @@
 import React from 'react'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 const NotFoundPage = () => (
+
   <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+
+    <Helmet>
+      <body className="four04" />
+    </Helmet>
+
+
+    <div className="center">
+
+      <h1>NOT FOUND</h1>
+      <h4>This page doesnt exist, go <Link to="/">home.</Link></h4>
+
+    </div>
+
   </div>
 )
 

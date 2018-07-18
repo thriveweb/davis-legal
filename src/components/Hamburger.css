@@ -84,11 +84,23 @@ span.bm-cross{
   }
 
   .bm-item-list{
+    width: calc(100% - 3rem);
+    margin: auto;
+    margin-top: 6rem;
     margin-right: 0;
   }
 
   .bm-item-list a{
-    text-align: center;
+    text-align: left;
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .bm-item-list{
+    width: calc(100% - 2rem);
+    margin: auto;
+    margin-top: 6rem;
+    margin-right: 0;
   }
 }

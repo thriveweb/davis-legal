@@ -25,7 +25,7 @@
   margin-top: 1.4rem;
   position: absolute;
   height: 1px;
-  background: #FFF;
+  background: #AAA;
 }
 
 .top .logo:before{
@@ -57,7 +57,7 @@
   text-transform: uppercase;
   font-size: 0.7rem;
   margin-bottom: 0.5rem;
-  color: #EEE;
+  color: #AAA;
 }
 
 @media screen and (max-width: 1520px){

@@ -27,7 +27,7 @@
 
 .opener .overlay{
   z-index: 0;
-  background: linear-gradient(transparent 60%, #1F1F1F 95%);
+  background: linear-gradient(transparent 60%, #1D1E20 95%);
 }
 
 @media screen and (max-width: 900px){

@@ -4,7 +4,7 @@
 html,
 body{
   margin: 0;
-  background: #1F1F1F;
+  background: #1D1E20;
   position: relative;
   z-index: -99;
   /* overflow-x: hidden; */
@@ -57,7 +57,7 @@ h2{
   letter-spacing: 1px;
   padding-bottom: 2rem;
   margin: 0;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid #AAA;
 }
 
 h3{
@@ -65,7 +65,7 @@ h3{
   font-family: 'Sofia Pro';
   font-weight: 100;
   font-size: 1rem;
-  color: #FFF;
+  color: #AAA;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding-left: 6rem;
@@ -76,7 +76,7 @@ h3:before{
   content: '';
   width: 3rem;
   height: 1px;
-  background: #FFF;
+  background: #AAA;
   display: block;
   margin-left: -4rem;
   margin-top: 0.5rem;
@@ -99,7 +99,7 @@ form textarea{
   font-family: 'Sofia Pro';
   font-size: 0.9rem;
   letter-spacing: 2px;
-  color: #FFF;
+  color: #AAA;
   line-height: 1.6rem;
 }
 
@@ -118,7 +118,7 @@ li:before{
   content: '';
   width: 3rem;
   height: 1px;
-  background: #FFF;
+  background: #AAA;
   display: block;
   margin-left: -4rem;
   margin-top: 0.6rem;

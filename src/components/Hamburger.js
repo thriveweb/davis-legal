@@ -7,7 +7,7 @@ import './Hamburger.css'
 import { slide as Menu } from 'react-burger-menu'
 
 class Hamburger extends Component {
-    showSettings (event) {
+  showSettings (event) {
     event.preventDefault();
   }
 

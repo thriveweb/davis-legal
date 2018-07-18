@@ -23,7 +23,7 @@
 .event h4:after{
   width: 1px;
   height: 1px;
-  background: #FFF;
+  background: #AAA;
   top: 0.6rem;
   transition: all 0.4s;
 }
@@ -68,8 +68,8 @@
 .event:after{
   width: 10px;
   height: 10px;
-  border: 1px solid #FFF;
-  background: #1F1F1F;
+  border: 1px solid #AAA;
+  background: #1D1E20;
   border-radius: 100%;
   top: 0.3rem;
 }
@@ -125,7 +125,7 @@
     width: 10px;
     height: 10px;
     border: 1px solid #FFF;
-    background: #1F1F1F;
+    background: #1D1E20;
     border-radius: 100%;
     top: 0.3rem;
     left: 0 !important;

@@ -9,8 +9,6 @@ import Button from '../components/Button'
 import Form from '../components/Form'
 import FooterHero from '../components/FooterHero'
 
-import FooterImage from '../../public/static/img/footer-contact.jpg'
-
 const AreasPage = () => (
   <div>
 
@@ -37,17 +35,17 @@ const AreasPage = () => (
 
           <ul className="icons">
             <IconList
-              Image="/static/img/icon-address.svg"
+              Image="/img/icon-address.svg"
               Content="PO BOX 213, West Burleigh QLD 4219 Australia"
             />
 
             <IconList
-              Image="/static/img/icon-phone.svg"
+              Image="/img/icon-phone.svg"
               Content="+61 414 339 494"
             />
 
             <IconList
-              Image="/static/img/icon-mail.svg"
+              Image="/img/icon-mail.svg"
               Content="rdavis@davislegal.com.au"
             />
           </ul>
@@ -63,7 +61,7 @@ const AreasPage = () => (
     </div>
 
     <FooterHero
-      Image={`${FooterImage}`}
+      Image="/img/footer-contact.jpg"
     />
 
   </div>

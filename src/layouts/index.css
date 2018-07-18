@@ -18,22 +18,22 @@ body{
 
 @font-face{
   font-family: 'Sofia Pro';
-  src: url('/static/fonts/Sofia Pro Extra Light.otf');
+  src: url('/fonts/Sofia Pro Extra Light.otf');
 }
 
 @font-face{
   font-family: 'Sofia Pro Medium';
-  src: url('/static/fonts/Sofia Pro Medium.otf');
+  src: url('/fonts/Sofia Pro Medium.otf');
 }
 
 @font-face{
   font-family: 'Cormorant';
-  src: url('/static/fonts/CormorantGaramond-Light.ttf');
+  src: url('/fonts/CormorantGaramond-Light.ttf');
 }
 
 @font-face{
   font-family: 'Eloquent Pro';
-  src: url('/static/fonts/EloquentJFCaptionPro.ttf');
+  src: url('/fonts/EloquentJFCaptionPro.ttf');
 }
 
 h1{

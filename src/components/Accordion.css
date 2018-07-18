@@ -22,7 +22,7 @@
   top: 1.7rem;
   right: 2rem;
   position: absolute;
-  background-image: url(/static/img/arrow-down.svg);
+  background-image: url(/img/arrow-down.svg);
   background-size: contain;
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -31,7 +31,7 @@
 
 .accordion .item.active:after{
   content: '';
-  background-image: url(/static/img/arrow-down.svg);
+  background-image: url(/img/arrow-down.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transform: rotate(-180deg);

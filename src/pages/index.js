@@ -8,8 +8,6 @@ import RightColumn from '../components/RightColumn'
 import Button from '../components/Button'
 import FooterHero from '../components/FooterHero'
 
-import FooterImage from '../../public/static/img/footer-home.jpg'
-
 const IndexPage = () => (
   <div>
 
@@ -40,7 +38,7 @@ const IndexPage = () => (
         <RightColumn
           Content={
             <ul>
-              <img src="/static/img/home-img.jpg" />
+              <img src="/img/home-img.jpg" />
               <li>Inquests and Commissions of Inquiry</li>
               <li>Professional & Ethical Standards Disciplinary Proceedings</li>
             </ul>
@@ -95,7 +93,7 @@ const IndexPage = () => (
     </div>
 
     <FooterHero
-      Image={`${FooterImage}`}
+      Image="/img/footer-home.jpg"
     />
 
   </div>

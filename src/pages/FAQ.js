@@ -9,14 +9,11 @@ import Accordion from '../components/Accordion'
 import More from '../components/More'
 import FooterHero from '../components/FooterHero'
 
-import FooterImage from '../../public/static/img/footer-faq.jpg'
-import HeroImage from '../../public/static/img/hero-faq.jpg'
-
 const AboutPage = () => (
   <div>
 
     <Hero
-      Image={`${HeroImage}`}
+      Image="/img/hero-faq.jpg"
     />
 
     <div className="section">
@@ -82,7 +79,7 @@ const AboutPage = () => (
     <More />
 
     <FooterHero
-      Image={`${FooterImage}`}
+      Image="/img/footer-faq.jpg"
     />
 
   </div>

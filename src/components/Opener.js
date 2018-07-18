@@ -3,8 +3,6 @@ import Link from 'gatsby-link'
 
 import './Opener.css'
 
-import OpenerImage from '../../public/static/img/hero-home.jpg'
-
 const Opener = () => (
 
   <div>
@@ -16,7 +14,7 @@ const Opener = () => (
       </div>
 
       <div className="overlay"></div>
-      <img className="cover" src={`${OpenerImage}`} alt="" />
+      <img className="cover" src="/img/hero-home.jpg" alt="" />
       <div className="clear"></div>
     </div>
 

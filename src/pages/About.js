@@ -11,15 +11,11 @@ import Accordion from '../components/Accordion'
 import More from '../components/More'
 import FooterHero from '../components/FooterHero'
 
-import FooterImage from '../../public/static/img/footer-about.jpg'
-import HeroImage from '../../public/static/img/hero-about.jpg'
-import HeroImage2 from '../../public/static/img/hero-about2.jpg'
-
 const AboutPage = () => (
   <div>
 
     <Hero
-      Image={`${HeroImage}`}
+      Image="/img/hero-about.jpg"
     />
 
     <div className="section">
@@ -71,7 +67,7 @@ const AboutPage = () => (
     </div>
 
     <Hero
-      Image={`${HeroImage2}`}
+      Image="/img/hero-about2.jpg"
     />
 
     <div className="section">
@@ -168,7 +164,7 @@ const AboutPage = () => (
     <More />
 
     <FooterHero
-      Image={`${FooterImage}`}
+      Image="/img/footer-about.jpg"
     />
 
   </div>

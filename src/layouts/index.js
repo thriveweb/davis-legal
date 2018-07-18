@@ -7,14 +7,11 @@ import './index.css'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 
-import Favicon from '../../public/static/img/favicon.ico'
-
 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title="Davis Legal"
-      link={[{ rel: 'shortcut icon', type: 'image/png', href: `${Favicon}` }]}
     />
 
     <Menu />

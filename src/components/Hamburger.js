@@ -14,9 +14,9 @@ class Hamburger extends Component {
   render () {
     return (
       <Menu right>
-        <a id="about" className="menu-item" href="/about/">About Robert Davis</a>
-        <a id="about" className="menu-item" href="/areas/">Practice Areas</a>
-        <a id="contact" className="menu-item" href="/contact/">Contact Robert</a>
+        <Link id="about" className="menu-item" to="/about/">About Robert Davis</Link>
+        <Link id="about" className="menu-item" to="/areas/">Practice Areas</Link>
+        <Link id="contact" className="menu-item" to="/contact/">Contact Robert</Link>
       </Menu>
     );
   }

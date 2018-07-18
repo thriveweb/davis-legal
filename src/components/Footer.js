@@ -31,8 +31,8 @@ const Footer = (props) => (
         </div>
 
         <div className="column map">
-          <Link to="#">rdavis@davislegal.com.au</Link>
-          <Link to="#">+61 414 339 494</Link>
+          <a href="mailto:rdavis@davislegal.com.au">rdavis@davislegal.com.au</a>
+          <a href="tel:+61414339494">+61 414 339 494</a>
         </div>
       </div>
     </div>

@@ -40,11 +40,11 @@ h1{
   font-family: 'Eloquent Pro';
   font-size: 20rem;
   font-weight: 100;
-  line-height: 21rem;
+  line-height: 22rem;
   letter-spacing: -0.5rem;
   color: rgba(0, 0, 0, 0.15);
   margin: 0;
-  height: 17rem;
+  height: 20rem;
 }
 
 h2{
@@ -147,7 +147,6 @@ b{
 .large{
   max-width: 90rem;
   margin: auto;
-  overflow-x: hidden;
   /* border: 1px solid; */
 }
 
@@ -240,7 +239,7 @@ img.cover{
   h1{
     font-size: 15rem;
     line-height: 16rem;
-    height: 13.5rem;
+    height: 15rem;
   }
 
   .section{
@@ -255,8 +254,8 @@ img.cover{
 @media screen and (max-width: 670px){
   h1{
     font-size: 5rem;
-    line-height: 5rem;
-    height: 10.2rem;
+    line-height: 6rem;
+    height: 12rem;
     letter-spacing: 2px;
   }
 

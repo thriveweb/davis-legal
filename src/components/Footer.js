@@ -24,13 +24,13 @@ const Footer = (props) => (
         </div>
 
         <div className="column map">
-          <Link to="/About">about robert davis</Link>
-          <Link to="/Areas">practice areas</Link>
+          <Link to="/about">about robert davis</Link>
+          <Link to="/areas">practice areas</Link>
         </div>
 
         <div className="column map">
-          <Link to="/Contact">contact robert</Link>
-          <Link to="/FAQ">faq</Link>
+          <Link to="/contact">contact robert</Link>
+          <Link to="/faq">faq</Link>
         </div>
 
         <div className="column map">

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 import LargeTitle from '../components/LargeTitle'
 import LeftColumn from '../components/LeftColumn'
@@ -11,6 +12,10 @@ import FooterHero from '../components/FooterHero'
 
 const ContactPage = () => (
   <div>
+
+    <Helmet>
+      <title lang="en">Contact Robert | Davis Legal</title>
+    </Helmet>
 
     <div className="section">
 

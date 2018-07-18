@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
 
 import Hero from '../components/Hero'
 import LargeTitle from '../components/LargeTitle'
@@ -11,6 +12,10 @@ import FooterHero from '../components/FooterHero'
 
 const FAQPage = () => (
   <div>
+
+    <Helmet>
+      <title lang="en">FAQ | Davis Legal</title>
+    </Helmet>
 
     <Hero
       Image="/img/hero-faq.jpg"

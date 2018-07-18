@@ -4,17 +4,10 @@
 
 .title .small{
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
   right: 0;
   left: 0;
   margin: auto;
-}
-
-@media screen and (max-width: 1400px){
-  .large.title{
-    padding: 0 0 0 2rem;
-    overflow: hidden;
-  }
 }
 
 @media screen and (max-width: 670px){

@@ -47,13 +47,13 @@ const AreasPage = () => (
           <IconList
             Image="/img/icon-medical.svg"
             Title="Legal, Medical & Financial Professional Negligence Litigation"
-            Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+            Content="Professionals have special skill, knowledge and training in areas that are in the public interest. They are usually subject to strict moral and ethical codes of practice imposed by associations to which they must belong. Sometimes professional services do not attain the minimum standards of care expected from a reasonable member of that profession, which can result in financial loss, personal injury, or even death. Robert has expertise in this specialist area of law."
           />
 
           <IconList
             Image="/img/icon-safety.svg"
             Title="Motor Vehicle, Workplace, Defective Products & Premises Liability"
-            Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+            Content="Everyone is required to exercise reasonable care for the safety of others who are foreseeably affected by our activities. This general duty of care underpins public safety in all aspects of daily life. Robert has conducted a large number of these cases over his career and has contributed towards the academic literature this area of the law."
           />
 
           <IconList
@@ -75,7 +75,7 @@ const AreasPage = () => (
             <IconList
               Image="/img/icon-aviation.svg"
               Title="Civil Aviation Litigation"
-              Content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+              Content="Aircraft travel is one of the safest modes of transport but when incidents occur they are often serious, even catastrophic. Accidents during air operations raise a number of complex areas of law. Air accidents can involve litigation against air carriers under the Australian and International Civil Aviation (Carriers Liability) regime or claims against third parties (both in Australia and internationally) such as employers, manufacturers, and others. Robert has conducted a number of these cases over his career and has presented to other lawyers on this specialist topic."
             />
 
             <IconList

@@ -34,3 +34,9 @@
     margin-top: 0.1rem;
   }
 }
+
+@media screen and (max-width: 400px){
+  .menu .large{
+    max-width: 100%;
+  }
+}

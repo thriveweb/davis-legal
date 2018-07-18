@@ -7,7 +7,7 @@ body{
   background: #1F1F1F;
   position: relative;
   z-index: -99;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .clear{
@@ -147,6 +147,7 @@ b{
 .large{
   max-width: 90rem;
   margin: auto;
+  overflow-x: hidden;
   /* border: 1px solid; */
 }
 

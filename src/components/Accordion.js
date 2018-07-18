@@ -27,7 +27,7 @@ class Accordion extends Component {
           const active = this.state.activeItem === index
           return (
 
-            <div className={`item ${active ? 'active' : ''}`} onClick={() => this.handleClick(index)}>
+            <div className={`item ${active ? 'active' : ''}`} onClick={() => this.handleClick(index)} key={field.title}>
 
               <h4>{field.title}</h4>
 

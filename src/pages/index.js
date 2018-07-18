@@ -50,7 +50,7 @@ const IndexPage = () => (
 
       <Button
         Text="discover more"
-        Page="areas"
+        Page="/areas/"
       />
 
     </div>
@@ -87,7 +87,7 @@ const IndexPage = () => (
 
       <Button
         Text="discover more"
-        Page="about"
+        Page="/about/"
       />
 
     </div>

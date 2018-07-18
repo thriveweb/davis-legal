@@ -32,7 +32,7 @@ const More = (props) => (
 
       <Button
         Text="contact robert"
-        Page="contact"
+        Page="/contact/"
       />
     </div>
 

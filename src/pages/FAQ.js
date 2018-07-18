@@ -9,7 +9,7 @@ import Accordion from '../components/Accordion'
 import More from '../components/More'
 import FooterHero from '../components/FooterHero'
 
-const AboutPage = () => (
+const FAQPage = () => (
   <div>
 
     <Hero
@@ -85,4 +85,4 @@ const AboutPage = () => (
   </div>
 )
 
-export default AboutPage
+export default FAQPage

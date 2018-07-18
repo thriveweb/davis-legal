@@ -17,24 +17,20 @@
 
 .accordion .item:after{
   content: '';
-  width: 1.2rem;
-  height: 0.8rem;
-  top: 1.7rem;
-  right: 2rem;
   position: absolute;
-  background-image: url(/img/arrow-down.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  transition: all 0.5s;
+  right: 2rem;
+  top: 1.8rem;
+  border-right: 1px solid #AAA;
+  border-bottom: 1px solid #AAA;
+  height: 10px;
+  width: 10px;
+  pointer-events: none;
+  transform: rotate(45deg);
+  transition: all 0.2s;
 }
 
 .accordion .item.active:after{
-  content: '';
-  background-image: url(/img/arrow-down.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: rotate(-180deg);
+  transform: rotate(225deg);
   transition: all 0.2s;
 }
 

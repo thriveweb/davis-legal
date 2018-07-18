@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 
 
 const Layout = ({ children, data }) => (
+
   <div>
     <Helmet
       title="Davis Legal"
@@ -19,8 +20,8 @@ const Layout = ({ children, data }) => (
       {children()}
 
     <Footer />
-
   </div>
+
 )
 
 Layout.propTypes = {

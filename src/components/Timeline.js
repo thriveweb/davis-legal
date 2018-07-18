@@ -42,8 +42,14 @@ const Timeline = (props) => (
       <div className="clear"></div>
     </div>
 
-    <EventNow
+    {/* <EventNow
       Content="Robert accepts briefs for clients who engage him via a Solicitor. He also accepts direct 'briefs to advise' from accounting firms, financial advisers and other similar professional providers."
+    /> */}
+
+    <Event
+      Year="NOW"
+      Content="Robert accepts briefs for clients who engage him via a Solicitor. He also accepts direct 'briefs to advise' from accounting firms, financial advisers and other similar professional providers."
+      EventNow={true}
     />
 
   </div>

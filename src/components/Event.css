@@ -20,12 +20,16 @@
   display: block;
 }
 
-.event:nth-child(odd) h4:after,
-.event:nth-child(even) h4:after{
-  width: 4rem;
+.event h4:after{
+  width: 1px;
   height: 1px;
   background: #AAA;
   top: 0.6rem;
+  transition: all 0.4s;
+}
+
+.event.active h4:after {
+  width: 4rem;
 }
 
 .event:nth-child(odd) h4:after{
@@ -48,8 +52,20 @@
   padding-left: 5rem;
 }
 
-.event:nth-child(odd):after,
-.event:nth-child(even):after{
+.event:after,
+.event h4,
+.event p{
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.event.active:after,
+.event.active h4,
+.event.active p{
+  opacity: 1;
+}
+
+.event:after{
   width: 10px;
   height: 10px;
   border: 1px solid #AAA;
@@ -83,8 +99,13 @@
 }
 
 .event.now h4:after{
-  height: 4rem;
+  height: 1px;
   width: 1px;
+  transition: all 0.4s;
+}
+
+.event.now.active h4:after{
+  height: 4rem;
 }
 
 @media screen and (max-width: 670px){

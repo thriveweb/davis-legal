@@ -4,12 +4,12 @@ import Link from 'gatsby-link'
 import LargeTitle from '../components/LargeTitle'
 import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
-import IconList from '../components/IconList'
 import Button from '../components/Button'
-import Form from '../components/Form'
+import IconList from '../components/IconList'
+import EnquiryForm from '../components/EnquiryForm'
 import FooterHero from '../components/FooterHero'
 
-const AreasPage = () => (
+const ContactPage = () => (
   <div>
 
     <div className="section">
@@ -52,7 +52,7 @@ const AreasPage = () => (
         </div>
 
         <div className="column right">
-          <Form />
+          <EnquiryForm />
         </div>
       </div>
 
@@ -67,4 +67,4 @@ const AreasPage = () => (
   </div>
 )
 
-export default AreasPage
+export default ContactPage

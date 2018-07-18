@@ -1,0 +1,67 @@
+.enquiry,
+.enquiry-label,
+.enquiry-input,
+.enquiry-select{
+  font-family: 'Sofia Pro';
+  font-size: 1rem;
+  color: #AAA;
+  letter-spacing: 1px;
+}
+
+.enquiry-label:focus,
+.enquiry-input:focus,
+.enquiry-select:focus{
+  outline: none;
+}
+
+.enquiry{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.enquiry > * + * {
+  margin-top: 1rem;
+}
+
+.enquiry-label{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.enquiry-input,
+.enquiry-select{
+  -webkit-appearance: none;
+  width: 100%;
+  border: 1px solid #AAA;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+.enquiry-label.has-arrow:after {
+  content: '';
+  position: absolute;
+  right: 1.5rem;
+  top: 1.2rem;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  height: 10px;
+  width: 10px;
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+.enquiry-input::placeholder {
+  text-transform: none;
+}
+
+.enquiry-alert{
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+}

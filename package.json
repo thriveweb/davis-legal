@@ -4,9 +4,11 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "dom-form-serializer": "^1.0.7",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "qs": "^6.5.2",
     "react-burger-menu": "^2.5.2",
     "react-helmet": "^5.2.0"
   },

@@ -3,9 +3,9 @@
 }
 
 .menu{
-  background: linear-gradient(#1F1F1F 30%, transparent 100%);
+  background: linear-gradient(#1F1F1F 25%, transparent);
   position: fixed;
-  padding: 1.5rem 0;
+  padding: 3rem 0 7rem;
   top: 0;
   left: 0;
   right: 0;

@@ -7,7 +7,6 @@ import './Menu.css'
 
 const Menu = (props) => (
 
-  <div>
     <div className="menu">
       <div className="large">
         <div className="left">
@@ -23,8 +22,6 @@ const Menu = (props) => (
         <div className="clear"></div>
       </div>
     </div>
-
-  </div>
 
 )
 

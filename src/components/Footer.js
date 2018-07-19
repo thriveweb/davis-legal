@@ -5,8 +5,6 @@ import './Footer.css'
 
 const Footer = (props) => (
 
-  <div>
-
     <div className="footer">
       <div className="top">
         <div className="logo">
@@ -17,17 +15,17 @@ const Footer = (props) => (
       <div className="large">
         <div className="column">
           <img src="/img/logo.svg" alt="" />
-          <p>&copy; 2018 Davis Legal | Site by <a href="https://thriveweb.com.au/" target="_blank">Thrive</a></p>
+          <p>&copy; 2018 Davis Legal | Site by <a href="https://thriveweb.com.au/" target="_blank"><b>Thrive</b></a></p>
         </div>
 
         <div className="column map">
-          <Link to="/about/">about robert davis</Link>
-          <Link to="/areas/">practice areas</Link>
+          <Link to="/about/">ABOUT ROBERT DAVIS</Link>
+          <Link to="/areas/">PRACTICE AREAS</Link>
         </div>
 
         <div className="column map">
-          <Link to="/contact/">contact robert</Link>
-          <Link to="/faq/">faq</Link>
+          <Link to="/contact/">CONTACT ROBERT</Link>
+          <Link to="/faq/">FAQ</Link>
         </div>
 
         <div className="column map">
@@ -36,8 +34,6 @@ const Footer = (props) => (
         </div>
       </div>
     </div>
-
-  </div>
 
 )
 

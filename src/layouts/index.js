@@ -11,9 +11,9 @@ import Footer from '../components/Footer'
 const Layout = ({ children, data }) => (
 
   <div>
-    <Helmet
-      title="Davis Legal"
-    />
+    <Helmet>
+      <link rel="stylesheet" href="https://use.typekit.net/jzk7ecz.css" />
+    </Helmet>
 
     <Menu />
 

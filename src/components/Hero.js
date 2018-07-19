@@ -1,19 +1,22 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import './Hero.css'
 
-const Hero = (props) => (
+class Hero extends Component {
 
-  <div>
+  render () {
 
-    <div className="hero">
-      <div className="overlay"></div>
-      <img className="cover" src={`${props.Image}`} alt="" />
-    </div>
+    const { footer, center, image } = this.props
 
-  </div>
+    return (
+      <div className={`${'hero'} ${footer ? 'hero-footer' : ''} ${center ? 'hero-center' : ''}`}>
+        <div className="overlay"></div>
+        <img className="cover" src={`${image}`} alt="" />
+      </div>
+    )
 
-)
+  }
+}
 
 export default Hero

@@ -6,18 +6,18 @@ import './LargeTitle.css'
 class LargeTitle extends Component {
 
   render () {
-    return  (
-      <div>
 
-        <div className="large title">
-          <div className="small left">
-            <h3 className={this.props.SmallTitle ? '' : 'hide'}>{this.props.SmallTitle}</h3>
-            <h2 className={this.props.Title ? '' : 'hide'}>{this.props.Title}</h2>
-          </div>
-          <h1>{this.props.LargeTitle}</h1>
+    const { marginTop, smallTitle, title, largeTitle } = this.props
+
+    return (
+      <div className={`${'large title'} ${marginTop ? 'margin-top' : ''}`}>
+        <div className="small left">
+          <h3 className={smallTitle ? '' : 'hide'}>{smallTitle}</h3>
+          <h2 className={title ? '' : 'hide'}>{title}</h2>
         </div>
-
+        <h1>{largeTitle}</h1>
       </div>
+
     )
   }
 }

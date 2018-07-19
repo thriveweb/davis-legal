@@ -40,13 +40,13 @@ class Event extends Component {
   }
 
 
-  render() {
-    const { Year, Content, EventNow } = this.props
+  render () {
+    const { year, content, eventNow } = this.props
     const { eventActive } = this.state
 
-    return <div className={`event ${eventActive ? 'active' : ''} ${EventNow ? 'now' : ''}`} ref={el => this.eventRef = el}>
-      <h4>{Year}</h4>
-      <p>{Content}</p>
+    return <div className={`event ${eventActive ? 'active' : ''} ${eventNow ? 'now' : ''}`} ref={el => this.eventRef = el}>
+      <h4>{year}</h4>
+      <p>{content}</p>
     </div>
   }
 }

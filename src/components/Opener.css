@@ -1,20 +1,20 @@
 .opener{
-  margin-bottom: 5rem;
   position: relative;
 }
 
 .opener,
 .opener img,
 .opener .overlay{
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
 .opener .large{
   position: absolute;
-  /* z-index: 999; */
-  bottom: 3rem;
+  z-index: 999;
+  bottom: 5rem;
   right: 0;
+  left: 0;
   padding-right: 2rem;
 }
 
@@ -27,7 +27,7 @@
 
 .opener .overlay{
   z-index: 0;
-  background: linear-gradient(transparent 60%, #1D1E20 95%);
+  background: linear-gradient(#1D1E20, transparent 35%, #1D1E20);
 }
 
 @media screen and (max-width: 900px){

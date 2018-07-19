@@ -9,16 +9,12 @@
 .hero-footer,
 .hero-footer img,
 .hero-footer .overlay{
-  height: 50rem;
+  height: 70rem;
   width: 100%;
 }
 
 .hero{
   margin-top: -10rem;
-}
-
-.hero .overlay{
-  background: linear-gradient(#1D1E20, transparent, #1D1E20);
 }
 
 .hero,
@@ -31,12 +27,20 @@
   bottom: 0;
 }
 
-.hero-footer .overlay{
-  background: linear-gradient(#1D1E20 10%, transparent);
-}
-
 .hero img,
 .hero-footer img{
   opacity: 0.1;
   filter: grayscale(100%);
+}
+
+.hero .overlay{
+  background: linear-gradient(transparent, #1D1E20);
+}
+
+.hero-center .overlay{
+  background: linear-gradient(#1D1E20, transparent, #1D1E20);
+}
+
+.hero-footer .overlay{
+  background: linear-gradient(#1D1E20 10%, transparent);
 }

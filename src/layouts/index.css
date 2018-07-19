@@ -7,6 +7,7 @@ body{
   background: #1D1E20;
   position: relative;
   z-index: -99;
+  -webkit-font-smoothing: antialiased;
   /* overflow-x: hidden; */
 }
 
@@ -17,44 +18,27 @@ body{
 /* typography */
 
 @font-face{
-  font-family: 'Sofia Pro';
-  src: url('/fonts/Sofia Pro Extra Light.otf');
-}
-
-@font-face{
-  font-family: 'Sofia Pro Medium';
-  src: url('/fonts/Sofia Pro Medium.otf');
-}
-
-@font-face{
-  font-family: 'Cormorant';
-  src: url('/fonts/CormorantGaramond-Light.ttf');
-}
-
-@font-face{
-  font-family: 'Eloquent Pro';
-  src: url('/fonts/EloquentJFCaptionPro.ttf');
+  font-family: 'Garamond';
+  src: url('/fonts/Garamond');
 }
 
 h1{
-  font-family: 'Eloquent Pro';
-  font-size: 20rem;
-  font-weight: 100;
-  line-height: 22rem;
-  letter-spacing: -0.5rem;
-  color: rgba(0, 0, 0, 0.15);
+  font-family: 'eloquent-jf-pro';
+  font-size: 18rem;
+  font-weight: 400;
+  line-height: 24rem;
+  color: rgba(0, 0, 0, 0.12);
   margin: 0;
-  height: 20rem;
+  height: 18rem;
 }
 
 h2{
-  max-width: 26rem;
-  font-family: 'Cormorant';
-  font-size: 1.7rem;
+  width: 50%;
+  font-family: 'Garamond';
+  font-size: 2rem;
   font-weight: 100;
   color: #FFF;
   text-transform: uppercase;
-  letter-spacing: 1px;
   padding-bottom: 2rem;
   margin: 0;
   border-bottom: 1px solid #AAA;
@@ -62,10 +46,10 @@ h2{
 
 h3{
   max-width: 20rem;
-  font-family: 'Sofia Pro';
+  font-family: 'sofia-pro';
   font-weight: 100;
   font-size: 1rem;
-  color: #AAA;
+  color: #FFF;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding-left: 6rem;
@@ -79,13 +63,13 @@ h3:before{
   background: #AAA;
   display: block;
   margin-left: -4rem;
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
   position: absolute;
 }
 
 h4,
 h4 a{
-  font-family: 'Sofia Pro';
+  font-family: 'sofia-pro';
   font-size: 1.2rem;
   color: #FFF;
   letter-spacing: 2px;
@@ -96,10 +80,11 @@ a,
 li,
 form input,
 form textarea{
-  font-family: 'Sofia Pro';
+  font-family: 'sofia-pro';
+  font-weight: 100;
   font-size: 0.9rem;
-  letter-spacing: 2px;
-  color: #AAA;
+  letter-spacing: 1px;
+  color: #CCC;
   line-height: 1.6rem;
 }
 
@@ -121,7 +106,7 @@ li:before{
   background: #AAA;
   display: block;
   margin-left: -4rem;
-  margin-top: 0.6rem;
+  margin-top: 0.8rem;
   position: absolute;
 }
 
@@ -130,8 +115,8 @@ a{
 }
 
 b{
-  letter-spacing: 1px;
-  font-family: 'Sofia Pro Medium';
+  font-weight: 600;
+  font-family: 'sofia-pro';
 }
 
 .hide {
@@ -141,7 +126,7 @@ b{
 /* layout */
 
 .section{
-  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .large{
@@ -191,7 +176,7 @@ img.cover{
 
 .content ul img{
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.4;
   margin-bottom: 2rem;
   margin-top: -6rem;
 }
@@ -260,6 +245,7 @@ img.cover{
   }
 
   h2{
+    width: 100%;
     font-size: 1.3rem;
   }
 

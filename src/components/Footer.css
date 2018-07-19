@@ -38,6 +38,7 @@
 
 .footer{
   margin-top: 10rem;
+  font-size: 0.6rem;
 }
 
 .footer .large{
@@ -52,12 +53,19 @@
   width: auto;
 }
 
+.footer .column img{
+  max-width: 14rem;
+}
+
 .footer .map a{
+  font-family: 'Garamond';
   display: block;
-  text-transform: uppercase;
-  font-size: 0.7rem;
   margin-bottom: 0.5rem;
-  color: #AAA;
+  color: #FFF;
+}
+
+.footer .map:last-child a{
+  font-family: 'sofia-pro';
 }
 
 @media screen and (max-width: 1520px){

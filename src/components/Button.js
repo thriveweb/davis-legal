@@ -1,21 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import './Button.css'
 
-const Button = (props) => (
+class Button extends Component {
 
-  <div>
+  render () {
 
-    <Link to={props.Page}>
-      <button>
-        <p>{props.Text}</p>
-        <div className="circle"></div>
-      </button>
-    </Link>
+    const { page, text } = this.props
 
-  </div>
+    return (
+      <Link to={page}>
+        <button>
+          <p>{text}</p>
+          <div className="circle"></div>
+        </button>
+      </Link>
 
-)
+    )
+  }
+}
 
 export default Button

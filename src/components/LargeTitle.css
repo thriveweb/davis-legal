@@ -1,10 +1,15 @@
 .title{
   position: relative;
+  z-index: 99;
+}
+
+.large.margin-top{
+  margin-top: 12rem;
 }
 
 .title .small{
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
   right: 0;
   left: 0;
   margin: auto;

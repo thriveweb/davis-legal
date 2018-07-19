@@ -124,7 +124,7 @@ class EnquiryForm extends React.Component {
           />
         </label>
 
-        <p>Court and other commitments may sometimes result in a delay in responding to email inquiries. If your inquiry is urgent then it is best to phone. Robert will not accept urgent briefs without prior discussion and agreement.</p>
+        <p>Court and other commitments may sometimes result in a delay in responding to email inquiries. If your inquiry is urgent then it is best to phone. Robert cannot accept urgent briefs without prior discussion and agreement.</p>
 
         <button type="sumbit">
           <p>send now</p>

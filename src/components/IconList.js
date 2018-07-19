@@ -1,20 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import './IconList.css'
 
-const IconList = (props) => (
+class IconList extends Component {
 
-  <div>
+  render () {
 
-    <li>
-      <img src={`${props.Image}`} alt="" />
-      <b>{props.Title}</b>
-      <p>{props.Content}</p>
-    </li>
+    const { image, title, content } = this.props
 
-  </div>
+    return (
+      <li>
+        <img src={`${image}`} alt="" />
+        <b>{title}</b>
+        <p>{content}</p>
+      </li>
+    )
 
-)
+  }
+}
 
 export default IconList

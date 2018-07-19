@@ -5,8 +5,6 @@ import './Opener.css'
 
 const Opener = () => (
 
-  <div>
-
     <div className="opener">
       <div className="large">
         <p className="right">Liability limited by a scheme approved under Professional Standards Legislation.</p>
@@ -17,8 +15,6 @@ const Opener = () => (
       <img className="cover" src="/img/hero-home.jpg" alt="" />
       <div className="clear"></div>
     </div>
-
-  </div>
 
 )
 

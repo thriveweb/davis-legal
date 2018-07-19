@@ -2,13 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+import Hero from '../components/Hero'
 import LargeTitle from '../components/LargeTitle'
 import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
 import Button from '../components/Button'
 import IconList from '../components/IconList'
 import EnquiryForm from '../components/EnquiryForm'
-import FooterHero from '../components/FooterHero'
 
 const ContactPage = () => (
   <div>
@@ -20,14 +20,15 @@ const ContactPage = () => (
     <div className="section">
 
       <LargeTitle
-        SmallTitle="contact robert"
-        Title="get in touch"
-        LargeTitle="Contact"
+        smallTitle="contact robert"
+        title="get in touch"
+        largeTitle="Contact"
+        marginTop={true}
       />
 
       <div className="small content">
         <LeftColumn
-          Content={
+          content={
             <p>
               Get in cantact with Robert via phone or email or fill out the form below to find out more about his work. He looks forward to hearing from you and will get back to you as soon as possible.
             </p>
@@ -40,18 +41,18 @@ const ContactPage = () => (
 
           <ul className="icons">
             <IconList
-              Image="/img/icon-address.svg"
-              Content="PO BOX 213, West Burleigh QLD 4219 Australia"
+              image="/img/icon-address.svg"
+              content="PO BOX 213, West Burleigh QLD 4219 Australia"
             />
 
             <IconList
-              Image="/img/icon-phone.svg"
-              Content="+61 414 339 494"
+              image="/img/icon-phone.svg"
+              content="+61 414 339 494"
             />
 
             <IconList
-              Image="/img/icon-mail.svg"
-              Content="rdavis@davislegal.com.au"
+              image="/img/icon-mail.svg"
+              content="rdavis@davislegal.com.au"
             />
           </ul>
         </div>
@@ -65,8 +66,9 @@ const ContactPage = () => (
 
     </div>
 
-    <FooterHero
-      Image="/img/footer-contact.jpg"
+    <Hero
+      image="/img/footer-contact.jpg"
+      footer={true}
     />
 
   </div>

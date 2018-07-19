@@ -6,6 +6,13 @@
   font-size: 1rem;
   color: #FFF;
   letter-spacing: 1px;
+  line-height: 1.6rem;
+  font-weight: 100;
+}
+
+.enquiry-input,
+.enquiry-select{
+  padding: 1rem;
 }
 
 .enquiry-label:focus,
@@ -40,7 +47,7 @@
   border: 1px solid #AAA;
   border-radius: 0;
   background: rgba(0, 0, 0, 0.3);
-  padding: 1rem;
+  /* padding: 1rem; */
   color: #CCC;
 }
 

@@ -3,7 +3,6 @@ import Link from 'gatsby-link'
 
 import './Accordion.css'
 
-
 class Accordion extends Component {
   state = {
     activeItem: null
@@ -19,7 +18,7 @@ class Accordion extends Component {
 
     if (accordionFields.length <= 0) return null
 
-    return  (
+    return (
 
       <div className="accordion">
 

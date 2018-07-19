@@ -5,6 +5,7 @@
 .accordion .item{
   width: 100%;
   margin: 1rem 0;
+  padding: 1.5rem 2rem;
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid #AAA;
   position: relative;
@@ -12,8 +13,8 @@
 }
 
 .accordion .item h4{
-  padding: 0 4rem 0 2rem;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .accordion .item:after{
@@ -27,24 +28,20 @@
   width: 10px;
   pointer-events: none;
   transform: rotate(45deg);
-  transition: all 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 
 .accordion .item.active:after{
   transform: rotate(225deg);
-  transition: all 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 
 .accordion .item .expand{
-  /* display: none; */
-  overflow: hidden;
-  padding: 0 2rem;
-  transition: all ease-in-out 0.5s;
   max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.9s;
 }
 
 .accordion .item.active .expand{
-  display: block;
   max-height: 1000px;
-  padding-bottom: 2rem;
 }

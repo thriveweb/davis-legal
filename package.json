@@ -6,13 +6,22 @@
   "dependencies": {
     "dom-form-serializer": "^1.0.7",
     "gatsby": "^1.9.247",
+    "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-sharp": "^1.6.48",
+    "gatsby-remark-images": "^1.5.67",
+    "gatsby-remark-relative-images": "^0.1.2",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "gatsby-transformer-sharp": "^1.6.27",
+    "gatsby-transformer-yaml": "^1.5.18",
     "netlify-cms": "^1.9.3",
     "qs": "^6.5.2",
     "react-burger-menu": "^2.5.2",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-markdown": "^3.3.4"
   },
   "keywords": [
     "gatsby"

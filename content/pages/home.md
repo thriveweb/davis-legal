@@ -27,5 +27,6 @@ section1:
     * Professional & Ethical Standards Disciplinary Proceedings
   smallTitle: areas of practice
   title: accepting briefs to advise & appear
+heroImage: /img/uploads/footer-home.jpg
 ---
 

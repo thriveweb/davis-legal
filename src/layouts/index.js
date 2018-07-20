@@ -7,9 +7,7 @@ import './index.css'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 
-
 const Layout = ({ children, data }) => (
-
   <div>
     <Helmet>
       <link rel="stylesheet" href="https://use.typekit.net/jzk7ecz.css" />
@@ -17,11 +15,10 @@ const Layout = ({ children, data }) => (
 
     <Menu />
 
-      {children()}
+    {children()}
 
-    <Footer />
+    <Footer settings={data.settings} />
   </div>
-
 )
 
 Layout.propTypes = {
@@ -29,3 +26,12 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+export const query = graphql`
+  query LayoutQuery {
+    settings: settingsYaml {
+      siteTitle
+      siteUrl
+    }
+  }
+`

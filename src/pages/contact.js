@@ -12,11 +12,13 @@ import EnquiryForm from '../components/EnquiryForm'
 
 const ContactPage = () => (
   <div>
+
     <Helmet>
       <title lang="en">Contact Robert | Davis Legal</title>
     </Helmet>
 
     <div className="section">
+
       <LargeTitle
         smallTitle="contact robert"
         title="get in touch"
@@ -28,23 +30,25 @@ const ContactPage = () => (
         <LeftColumn
           content={
             <p>
-              Get in cantact with Robert via phone or email or fill out the form
-              below to find out more about his work. He looks forward to hearing
-              from you and will get back to you as soon as possible.
+              Get in cantact with Robert via phone or email or fill out the form below to find out more about his work. He looks forward to hearing from you and will get back to you as soon as possible.
             </p>
-          }
+            }
         />
 
-        <div className="clear" />
+        <div className="clear"></div>
 
         <div className="column left">
+
           <ul className="icons">
             <IconList
               image="/img/icon-address.svg"
               content="PO BOX 213, West Burleigh QLD 4219 Australia"
             />
 
-            <IconList image="/img/icon-phone.svg" content="+61 414 339 494" />
+            <IconList
+              image="/img/icon-phone.svg"
+              content="+61 414 339 494"
+            />
 
             <IconList
               image="/img/icon-mail.svg"
@@ -58,10 +62,15 @@ const ContactPage = () => (
         </div>
       </div>
 
-      <div className="clear" />
+      <div className="clear"></div>
+
     </div>
 
-    <Hero image="/img/footer-contact.jpg" footer={true} />
+    <Hero
+      image="/img/footer-contact.jpg"
+      footer={true}
+    />
+
   </div>
 )
 

@@ -8,7 +8,9 @@
 .hero .overlay,
 .hero-footer,
 .hero-footer img,
-.hero-footer .overlay {
+.hero-footer .overlay,
+.hero .Image,
+.hero-footer .Image {
   height: 70rem;
   width: 100%;
 }
@@ -28,7 +30,8 @@
 }
 
 .hero img,
-.hero-footer img {
+.hero-footer img,
+.hero .BackgroundImage {
   opacity: 0.1;
   filter: grayscale(100%);
 }

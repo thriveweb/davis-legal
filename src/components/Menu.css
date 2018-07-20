@@ -1,9 +1,9 @@
-.menu .large {
+.menu .large{
   max-width: calc(100% - 6rem);
 }
 
-.menu {
-  background: linear-gradient(#1f1f1f 25%, transparent);
+.menu{
+  background: linear-gradient(#1F1F1F 25%, transparent);
   position: fixed;
   padding: 3rem 0 7rem;
   top: 0;
@@ -14,33 +14,33 @@
 }
 
 .menu .left,
-.menu .right {
+.menu .right{
   position: relative;
   height: 100%;
 }
 
-.menu .left img {
+.menu .left img{
   height: 1.4rem;
   width: auto;
 }
 
-@media screen and (max-width: 500px) {
-  .menu .left {
+@media screen and (max-width: 500px){
+  .menu .left{
     z-index: 2222;
   }
 
-  .menu .left img {
+  .menu .left img{
     height: 1rem;
     margin-top: 0.1rem;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .menu {
+@media screen and (max-width: 400px){
+  .menu{
     padding: 2rem 0 5rem;
   }
 
-  .menu .large {
+  .menu .large{
     max-width: 100%;
   }
 }

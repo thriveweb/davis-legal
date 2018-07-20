@@ -12,13 +12,17 @@ import More from '../components/More'
 
 const AreasPage = () => (
   <div>
+
     <Helmet>
       <title lang="en">Practice Areas | Davis Legal</title>
     </Helmet>
 
-    <Hero image="/img/hero-areas.jpg" />
+    <Hero
+      image="/img/hero-areas.jpg"
+    />
 
     <div className="section">
+
       <LargeTitle
         smallTitle="areas of practice"
         title="accepting briefs to advise & appear"
@@ -30,44 +34,43 @@ const AreasPage = () => (
         <LeftColumn
           content={
             <p>
-              Robert Davis appears as counsel in Australian State, Territorial
-              and Federal Courts and the High Court of Australia. His main areas
-              of practice include:
+              Robert Davis appears as counsel in Australian State, Territorial and Federal Courts and the High Court of Australia. His main areas of practice include:
             </p>
           }
         />
 
-        <div className="clear" />
+          <div className="clear"></div>
 
         <div className="column left">
-          <ul className="icons">
-            <IconList
-              image="/img/icon-medical.svg"
-              title="Legal, Medical & Financial Professional Negligence Litigation"
-              content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
-            />
 
-            <IconList
-              image="/img/icon-safety.svg"
-              title="Motor Vehicle, Workplace, Defective Products & Premises Liability"
-              content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
-            />
+        <ul className="icons">
+          <IconList
+            image="/img/icon-medical.svg"
+            title="Legal, Medical & Financial Professional Negligence Litigation"
+            content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
 
-            <IconList
-              image="/img/icon-trade.svg"
-              title="Trade Practices & Consumer Litigation"
-              content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
-            />
+          <IconList
+            image="/img/icon-safety.svg"
+            title="Motor Vehicle, Workplace, Defective Products & Premises Liability"
+            content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
 
-            <IconList
-              image="/img/icon-super.svg"
-              title="Commonwealth Superannuation Litigation"
-              content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
-            />
-          </ul>
-        </div>
+          <IconList
+            image="/img/icon-trade.svg"
+            title="Trade Practices & Consumer Litigation"
+            content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
 
-        <div className="column right">
+          <IconList
+            image="/img/icon-super.svg"
+            title="Commonwealth Superannuation Litigation"
+            content="Phasellus vitae velit lorem. Quisque viverra purus sit amet tellus posuere egestas. Nullam eleifend sem scelerisque purus cursus accumsan."
+          />
+        </ul>
+      </div>
+
+      <div className="column right">
           <ul className="icons">
             <IconList
               image="/img/icon-aviation.svg"
@@ -94,14 +97,20 @@ const AreasPage = () => (
             />
           </ul>
         </div>
+
       </div>
 
-      <div className="clear" />
+      <div className="clear"></div>
+
     </div>
 
     <More />
 
-    <Hero image="/img/footer-areas.jpg" footer={true} />
+    <Hero
+      image="/img/footer-areas.jpg"
+      footer={true}
+    />
+
   </div>
 )
 

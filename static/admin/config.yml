@@ -1,7 +1,7 @@
 # See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: netlify-cms # Branch to update (optional; defaults to master)
 
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
 media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
@@ -22,6 +22,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
           - {label: Opener Image, name: openerImage, widget: image}
+          - {label: Opener Image Responsive, name: openerImageRes, widget: image}
           - label: Section 1
             name: section1
             widget: object
@@ -29,8 +30,9 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string}
               - {label: Large Title, name: largeTitle, widget: string}
               - {label: Small Title, name: smallTitle, widget: string}
-              - {label: Column, name: column, widget: markdown, required: false}
-              - {label: Hero Image, name: heroImage, widget: image, required: false}
+              - {label: Left Column, name: leftColumn, widget: markdown, required: false}
+              - {label: Right Column, name: rightColumn, widget: markdown, required: false}
+          - {label: Hero Image, name: heroImage, widget: image, required: false}
 
 
   - name: "settings"

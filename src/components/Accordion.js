@@ -5,12 +5,18 @@ import './Accordion.css'
 
 class Accordion extends Component {
   state = {
-    activeItem: null,
+    activeItems: [],
   }
 
   handleClick = index => {
-    const activeItem = this.state.activeItem === index ? null : index
-    this.setState({ activeItem })
+    let { activeItems } = this.state
+    const activeIndex = activeItems.indexOf(index)
+    if (activeIndex >= 0) {
+      activeItems.splice(activeIndex, 1)
+    } else {
+      activeItems.push(index)
+    }
+    this.setState({ activeItems })
   }
 
   render() {
@@ -21,7 +27,7 @@ class Accordion extends Component {
     return (
       <div className="accordion">
         {accordionFields.map((field, index) => {
-          const active = this.state.activeItem === index
+          const active = this.state.activeItems.indexOf(index) >= 0
           return (
             <div
               className={`item ${active ? 'active' : ''}`}

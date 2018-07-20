@@ -4,7 +4,9 @@ import Link from 'gatsby-link'
 import './IconList.css'
 
 class IconList extends Component {
-  render() {
+
+  render () {
+
     const { image, title, content } = this.props
 
     return (
@@ -14,6 +16,7 @@ class IconList extends Component {
         <p>{content}</p>
       </li>
     )
+
   }
 }
 

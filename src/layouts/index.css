@@ -1,27 +1,28 @@
+
 /* basic */
 
 html,
-body {
+body{
   margin: 0;
-  background: #1d1e20;
+  background: #1D1E20;
   position: relative;
   z-index: -99;
   -webkit-font-smoothing: antialiased;
   /* overflow-x: hidden; */
 }
 
-.clear {
+.clear{
   clear: both;
 }
 
 /* typography */
 
-@font-face {
+@font-face{
   font-family: 'Garamond';
   src: url('/fonts/Garamond');
 }
 
-h1 {
+h1{
   font-family: 'eloquent-jf-pro';
   font-size: 18rem;
   font-weight: 400;
@@ -31,35 +32,35 @@ h1 {
   height: 18rem;
 }
 
-h2 {
+h2{
   width: 50%;
   font-family: 'Garamond';
   font-size: 2rem;
   font-weight: 100;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   padding-bottom: 2rem;
   margin: 0;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #AAA;
 }
 
-h3 {
+h3{
   max-width: 20rem;
   font-family: 'sofia-pro';
   font-weight: 100;
   font-size: 1rem;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding-left: 6rem;
   margin-bottom: 2rem;
 }
 
-h3:before {
+h3:before{
   content: '';
   width: 3rem;
   height: 1px;
-  background: #aaa;
+  background: #AAA;
   display: block;
   margin-left: -4rem;
   margin-top: 0.7rem;
@@ -67,10 +68,10 @@ h3:before {
 }
 
 h4,
-h4 a {
+h4 a{
   font-family: 'sofia-pro';
   font-size: 1.2rem;
-  color: #fff;
+  color: #FFF;
   letter-spacing: 2px;
 }
 
@@ -78,42 +79,42 @@ p,
 a,
 li,
 form input,
-form textarea {
+form textarea{
   font-family: 'sofia-pro';
   font-weight: 100;
   font-size: 0.9rem;
   letter-spacing: 1px;
-  color: #ccc;
+  color: #CCC;
   line-height: 1.6rem;
 }
 
-ul {
+ul{
   margin: 2rem 0 0;
   padding: 0;
   list-style-type: none;
 }
 
-li {
+li{
   padding-left: 6rem;
   margin-bottom: 1rem;
 }
 
-li:before {
+li:before{
   content: '';
   width: 3rem;
   height: 1px;
-  background: #aaa;
+  background: #AAA;
   display: block;
   margin-left: -4rem;
   margin-top: 0.8rem;
   position: absolute;
 }
 
-a {
+a{
   text-decoration: none;
 }
 
-b {
+b{
   font-weight: 600;
   font-family: 'sofia-pro';
 }
@@ -124,56 +125,56 @@ b {
 
 /* layout */
 
-.section {
+.section{
   margin-bottom: 10rem;
 }
 
-.large {
+.large{
   max-width: 90rem;
   margin: auto;
   /* border: 1px solid; */
 }
 
-.small {
+.small{
   max-width: 65rem;
   margin: auto;
   /* border: 1px solid; */
 }
 
-.column {
+.column{
   width: 45%;
 }
 
 /* align */
 
-.left {
+.left{
   float: left;
   display: inline-block;
 }
 
-.right {
+.right{
   float: right;
   display: inline-block;
 }
 
-.center {
+.center{
   margin: auto;
   text-align: center;
 }
 
 /* image */
 
-img.cover {
+img.cover{
   object-fit: cover;
 }
 
 /* content */
 
-.content {
+.content{
   /* margin-top: 1.5rem; */
 }
 
-.content ul img {
+.content ul img{
   width: 100%;
   opacity: 0.4;
   margin-bottom: 2rem;
@@ -182,7 +183,7 @@ img.cover {
 
 /* four04 */
 
-.four04 {
+.four04{
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -192,101 +193,101 @@ img.cover {
 }
 
 .four04 .menu,
-.four04 .footer {
+.four04 .footer{
   display: none;
 }
 
-.four04 h1 {
+.four04 h1{
   font-size: 10rem;
   height: 100%;
   line-height: 11rem;
 }
 
-.four04 h4 {
+.four04 h4{
   margin-top: -6rem;
 }
 
-.four04 .center {
+.four04 .center{
   max-width: 100%;
   max-height: 40rem;
 }
 
 /* responsive */
 
-@media screen and (max-width: 1520px) {
-  .large {
+@media screen and (max-width: 1520px){
+  .large{
     padding: 0 2rem;
   }
 }
 
-@media screen and (max-width: 1050px) {
-  h1 {
+@media screen and (max-width: 1050px){
+  h1{
     font-size: 15rem;
     line-height: 16rem;
     height: 15rem;
   }
 
-  .small {
+  .small{
     padding: 0 2rem;
   }
 }
 
-@media screen and (max-width: 670px) {
-  h1 {
+@media screen and (max-width: 670px){
+  h1{
     font-size: 5rem;
     line-height: 6rem;
     height: 12rem;
     letter-spacing: 2px;
   }
 
-  h2 {
+  h2{
     width: 100%;
     font-size: 1.3rem;
   }
 
-  h3 {
+  h3{
     font-size: 0.8rem;
   }
 
-  ul {
+  ul{
     margin: 2rem 0 0;
   }
 
-  li {
+  li{
     padding-left: 3rem;
   }
 
-  li:before {
+  li:before{
     content: '';
     width: 2rem;
     margin-left: -3rem;
   }
 
-  .section {
+  .section{
     margin-bottom: 5rem;
   }
 
-  .column {
+  .column{
     width: 100%;
     display: block;
   }
 
-  .content ul img {
+  .content ul img{
     display: none;
   }
 
-  .content ul:nth-child(1) {
+  .content ul:nth-child(1){
     margin-top: 0;
   }
 
-  .four04 h1 {
+  .four04 h1{
     font-size: 6rem;
     line-height: 6rem;
   }
 }
 
-@media screen and (max-width: 500px) {
-  .four04 h1 {
+@media screen and (max-width: 500px){
+  .four04 h1{
     font-size: 2rem;
     line-height: auto;
   }

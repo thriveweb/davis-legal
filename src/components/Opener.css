@@ -47,7 +47,7 @@
 }
 
 .opener .overlay {
-  z-index: 0;
+  z-index: 1;
   top: 0;
   background: linear-gradient(#1d1e20, transparent 35%, #1d1e20);
 }

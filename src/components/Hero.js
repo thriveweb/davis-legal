@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
+import BackgroundImage from './BackgroundImage'
+
 import './Hero.css'
 
 class Hero extends Component {
@@ -14,7 +16,7 @@ class Hero extends Component {
         }`}
       >
         <div className="overlay" />
-        <img className="cover" src={`${image}`} alt="" />
+        <BackgroundImage className="cover" src={image} alt="" />
       </div>
     )
   }

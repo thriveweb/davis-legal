@@ -1,9 +1,9 @@
-.timeline {
+.timeline{
   position: relative;
   margin-top: -3rem;
 }
 
-.line {
+.line{
   height: 100%;
   padding-bottom: 4rem;
   width: 1px;
@@ -12,20 +12,20 @@
   top: -4.3rem;
   margin: auto;
   right: 0;
-  background: #aaa;
+  background: #AAA;
 }
 
-.timeline .column {
+.timeline .column{
   width: 48%;
 }
 
-@media screen and (max-width: 670px) {
-  .timeline {
+@media screen and (max-width: 670px){
+  .timeline{
     position: relative;
     margin-top: -12rem;
   }
 
-  .line {
+  .line{
     right: inherit;
     left: 0;
     top: 2.5rem;

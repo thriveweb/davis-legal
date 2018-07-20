@@ -7,60 +7,38 @@ import LargeTitle from '../components/LargeTitle'
 import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
 import Button from '../components/Button'
+import Content from '../components/Content'
 
-const HomePage = ({ section1 }) => (
+// Export Template for use in CMS preview
+export const HomePageTemplate = ({
+  section1,
+  heroImage,
+  openerImage,
+  openerImageRes,
+}) => (
   <div>
-    <Opener />
-
+    <Opener openerImage={openerImage} openerImageRes={openerImageRes} />
     <div className="section">
       <LargeTitle
-        smallTitle={page.section1.smallTitle}
-        title={page.section1.title}
-        largeTitle={page.section1.largeTitle}
+        smallTitle={section1.smallTitle}
+        title={section1.title}
+        largeTitle={section1.largeTitle}
       />
 
       <div className="small content">
-        <LeftColumn
-          content={
-            <div>
-              <p>
-                Robert Davis appears as counsel in Australian State, Territorial
-                and Federal Courts. His main areas of practice include:
-              </p>
+        <LeftColumn>
+          <Content src={section1.leftColumn} />
+        </LeftColumn>
 
-              <ul>
-                <li>
-                  Legal, Medical & Financial Professional Negligence Litigation
-                </li>
-                <li>
-                  Motor Vehicle, Workplace, Defective Products & Premises
-                  Liability
-                </li>
-                <li>Trade Practices & Consumer Litigation</li>
-                <li>Commonwealth Superannuation Litigation</li>
-                <li>Civil Aviation Litigation</li>
-                <li>Scuba Diving Litigation</li>
-              </ul>
-            </div>
-          }
-        />
-
-        <RightColumn
-          content={
-            <ul>
-              <img src="/img/home-img.jpg" />
-              <li>Inquests and Commissions of Inquiry</li>
-              <li>Professional & Ethical Standards Disciplinary Proceedings</li>
-            </ul>
-          }
-        />
+        <RightColumn>
+          <Content src={section1.rightColumn} />
+        </RightColumn>
 
         <div className="clear" />
       </div>
 
       <Button text="discover more" page="/areas/" />
     </div>
-
     <div className="section">
       <LargeTitle
         smallTitle="about robert davis"
@@ -97,11 +75,11 @@ const HomePage = ({ section1 }) => (
 
       <Button text="discover more" page="/about/" />
     </div>
-
-    <Hero image="/img/footer-home.jpg" footer={true} />
+    <Hero image={heroImage} footer={true} />
   </div>
 )
 
+// Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
   <HomePageTemplate {...page} {...page.frontmatter} />
 )
@@ -109,14 +87,28 @@ const HomePage = ({ data: { page } }) => (
 export default HomePage
 
 export const pageQuery = graphql`
-  query HomePageTemplate {
-    page: markdownRemark {
+  ## Query for HomePage data
+  ## Use GraphiQL interface (http://localhost:8000/___graphql)
+  ## $id is processed via gatsby-node.js
+  ## query name must be unique to this file
+  query HomePage($id: String!) {
+    page: markdownRemark(id: { eq: $id }) {
       frontmatter {
         section1 {
           title
           largeTitle
           smallTitle
-          column
+          leftColumn
+          rightColumn
+        }
+        heroImage {
+          ...FluidImage
+        }
+        openerImage {
+          ...NoBlurImage
+        }
+        openerImageRes {
+          ...NoBlurImage
         }
       }
     }

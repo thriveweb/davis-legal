@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Image from './Image'
 import './Opener.css'
 
-const Opener = () => (
+const Opener = ({ openerImage, openerImageRes }) => (
   <div className="opener">
     <div className="large">
       <p className="right">
@@ -14,8 +15,8 @@ const Opener = () => (
     </div>
 
     <div className="overlay" />
-    <img className="cover hide" src="/img/hero-home-res.jpg" alt="" />
-    <img className="cover" src="/img/hero-home.jpg" alt="" />
+    <Image className="cover hide" src={openerImageRes} alt="" />
+    <Image className="cover" src={openerImage} alt="" />
     <div className="clear" />
   </div>
 )

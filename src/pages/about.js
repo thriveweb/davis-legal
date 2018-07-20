@@ -14,7 +14,7 @@ import More from '../components/More'
 const AboutPage = () => (
   <div>
     <Helmet>
-      <title lang="en">About Robert | Davis Legal</title>
+      <title lang="en">About Robert</title>
     </Helmet>
 
     <Hero image="/img/hero-about.jpg" />

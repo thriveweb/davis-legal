@@ -11,12 +11,12 @@ class EnquiryForm extends React.Component {
     action: '',
     successMessage: 'Thanks for your enquiry, we will get back to you soon.',
     errorMessage:
-      'There was a problem sending your enquiry. Please try again or contact Robert via email.',
+      'There was a problem sending your enquiry. Please try again or contact Robert via email.'
   }
 
   state = {
     alert: '',
-    disabled: false,
+    disabled: false
   }
 
   handleSubmit = e => {
@@ -27,7 +27,7 @@ class EnquiryForm extends React.Component {
     const data = serialize(form)
     this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
-      method: 'POST',
+      method: 'POST'
     })
       .then(res => {
         if (res.ok) {
@@ -40,14 +40,14 @@ class EnquiryForm extends React.Component {
         form.reset()
         this.setState({
           alert: this.props.successMessage,
-          disabled: false,
+          disabled: false
         })
       })
       .catch(err => {
         console.error(err)
         this.setState({
           disabled: false,
-          alert: this.props.errorMessage,
+          alert: this.props.errorMessage
         })
       })
   }
@@ -124,16 +124,11 @@ class EnquiryForm extends React.Component {
           />
         </label>
 
-        <p>
-          Court and other commitments may sometimes result in a delay in
-          responding to email inquiries. If your inquiry is urgent then it is
-          best to phone. Robert cannot accept urgent briefs without prior
-          discussion and agreement.
-        </p>
+        <p>Court and other commitments may sometimes result in a delay in responding to email inquiries. If your inquiry is urgent then it is best to phone. Robert cannot accept urgent briefs without prior discussion and agreement.</p>
 
         <button type="sumbit">
           <p>send now</p>
-          <div className="circle" />
+          <div className="circle"></div>
         </button>
       </form>
     )

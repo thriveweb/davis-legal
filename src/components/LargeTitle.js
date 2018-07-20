@@ -4,7 +4,9 @@ import Link from 'gatsby-link'
 import './LargeTitle.css'
 
 class LargeTitle extends Component {
-  render() {
+
+  render () {
+
     const { marginTop, smallTitle, title, largeTitle } = this.props
 
     return (
@@ -15,6 +17,7 @@ class LargeTitle extends Component {
         </div>
         <h1>{largeTitle}</h1>
       </div>
+
     )
   }
 }

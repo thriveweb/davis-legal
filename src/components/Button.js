@@ -4,16 +4,20 @@ import Link from 'gatsby-link'
 import './Button.css'
 
 class Button extends Component {
-  render() {
+
+  render () {
+
     const { page, text } = this.props
 
     return (
-      <button>
-        <Link to={page}>
+      
+    <button>
+      <Link to={page}>
           <p>{text}</p>
-          <div className="circle" />
-        </Link>
-      </button>
+          <div className="circle"></div>
+      </Link>
+    </button>
+
     )
   }
 }

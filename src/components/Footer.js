@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import './Footer.css'
 
-const Footer = props => (
+const Footer = ({ settings }) => (
   <div className="footer">
     <div className="top">
       <div className="logo">
@@ -15,7 +15,7 @@ const Footer = props => (
       <div className="column">
         <img src="/img/logo.svg" alt="" />
         <p>
-          &copy; 2018 Davis Legal | Site by{' '}
+          &copy; 2018 {settings.siteTitle} | Site by{' '}
           <a href="https://thriveweb.com.au/" target="_blank">
             <b>Thrive</b>
           </a>

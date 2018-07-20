@@ -1,40 +1,52 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 
-import './index.css'
+import 'modern-normalize/modern-normalize.css'
 
-import Menu from '../components/Menu'
+import Meta from '../components/Meta'
+import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import GithubCorner from '../components/GithubCorner'
+import './globalStyles.css'
 
-const Layout = ({ children, data }) => (
-  <div>
-    <Helmet
-      defaultTitle={data.settings.siteTitle}
-      titleTemplate={`%s | ${data.settings.siteTitle}`}
-    >
-      <link rel="stylesheet" href="https://use.typekit.net/jzk7ecz.css" />
-    </Helmet>
+export default ({ children, data }) => {
+  const { siteTitle, siteUrl, socialMediaCard, headerScripts } =
+    data.settingsYaml || {}
+  return (
+    <Fragment>
+      <Helmet defaultTitle={siteTitle} titleTemplate={`${siteTitle} | %s`}>
+        {/* Add font link tags here */}
+      </Helmet>
 
-    <Menu />
+      <Meta
+        headerScripts={headerScripts}
+        absoluteImageUrl={
+          socialMediaCard &&
+          socialMediaCard.image &&
+          siteUrl + socialMediaCard.image
+        }
+      />
 
-    {children()}
+      <GithubCorner url="https://github.com/Jinksi/gatsbro" />
 
-    <Footer settings={data.settings} />
-  </div>
-)
+      <Nav />
 
-Layout.propTypes = {
-  children: PropTypes.func,
+      <Fragment>{children()}</Fragment>
+
+      <Footer />
+    </Fragment>
+  )
 }
 
-export default Layout
-
 export const query = graphql`
-  query LayoutQuery {
-    settings: settingsYaml {
+  query IndexLayoutQuery {
+    settingsYaml {
       siteTitle
-      siteUrl
+      siteDescription
+      headerScripts
+      socialMediaCard {
+        image
+      }
     }
   }
 `

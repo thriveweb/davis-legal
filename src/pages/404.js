@@ -1,24 +1,35 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
+import Link from 'gatsby-link'
+import _get from 'lodash/get'
+import AlertTriangle from 'react-feather/dist/icons/alert-triangle'
 
-const NotFoundPage = () => (
-
-  <div>
-
+const NotFoundPage = ({ data }) => (
+  <main>
     <Helmet>
-      <body className="four04" />
+      <title>404 – Page Not Found</title>
     </Helmet>
-
-
-    <div className="center">
-
-      <h1>NOT FOUND</h1>
-      <h4>This page doesnt exist, go <Link to="/">home.</Link></h4>
-
-    </div>
-
-  </div>
+    <section className="section thick">
+      <div className="container skinny taCenter">
+        <p>
+          <AlertTriangle size="5rem" />
+        </p>
+        <h1>404 - Page Not Found</h1>
+        <p>
+          We can't find the page you are looking for!<br />Head back to{' '}
+          <Link to="/">{_get(data, 'globalSettings.siteTitle')}</Link>
+        </p>
+      </div>
+    </section>
+  </main>
 )
 
 export default NotFoundPage
+
+export const query = graphql`
+  query NotFoundPageQuery {
+    globalSettings: settingsYaml {
+      siteTitle
+    }
+  }
+`

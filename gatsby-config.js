@@ -1,6 +1,9 @@
+const postcssPresetEnv = require('postcss-preset-env')
+
 module.exports = {
   siteMetadata: {
-    title: 'Davis Legal',
+    title: 'Gatsbro',
+    siteUrl: 'https://gatsbro.netlify.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -10,16 +13,16 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/img`,
-        name: 'images',
-      },
+        path: `${__dirname}/static/images`,
+        name: 'images'
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
-        name: 'pages',
-      },
+        name: 'pages'
+      }
     },
 
     // images
@@ -37,13 +40,44 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
-              linkImagesToOriginal: false,
-            },
+              linkImagesToOriginal: false
+            }
           },
-        ],
-      },
+          `gatsby-remark-responsive-iframe`
+        ]
+      }
     },
 
-    `gatsby-plugin-netlify-cms`,
-  ],
+    // css (replace with gatsby-plugin-sass for v2)
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [
+          postcssPresetEnv({
+            browsers: '> 0.5%, last 2 versions, ie 11'
+          })
+        ]
+      }
+    },
+
+    {
+      resolve: 'gatsby-plugin-nprogress',
+      options: {
+        // Setting a color is optional.
+        color: 'white',
+        // Disable the loading spinner.
+        showSpinner: false
+      }
+    },
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-netlify-cms',
+      options: {
+        modulePath: `${__dirname}/src/cms/cms.js`,
+        stylesPath: `${__dirname}/src/cms/admin.css`,
+        enableIdentityWidget: true
+      }
+    },
+    'gatsby-plugin-netlify' // make sure to keep it last in the array
+  ]
 }

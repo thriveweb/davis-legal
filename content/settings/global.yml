@@ -1,3 +1,8 @@
-siteTitle: Davis Legal
-siteUrl: 'https://davislegal.netlify.com'
-siteDescription: This is the site description
+siteTitle: Gatsbro
+siteUrl: 'https://gatsbro.netlify.com'
+siteDescription: >-
+  A starter project for creating lightning-fast websites with Gatsby Netlify CMS.
+socialMediaCard:
+  image: /images/uploads/card-og.png
+headerScripts: |-
+  <!-- Add your analytics scripts / verification meta here -->

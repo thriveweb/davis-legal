@@ -5,6 +5,8 @@ import PropTypes from 'prop-types'
 import { extractChildImageSharp } from '../utils'
 import './Image.css'
 
+// Not lazy yet
+
 class Image extends React.Component {
   render() {
     let {
@@ -16,11 +18,12 @@ class Image extends React.Component {
       sizes,
       alt,
       style,
-      imgStyle,
+      imgStyle
     } = this.props
 
     const imageSizes = extractChildImageSharp(src, 'sizes')
     const resolutions = extractChildImageSharp(src, 'resolutions')
+    const imageSrcSet = srcSet || extractChildImageSharp(src, 'srcSet')
     const imageSrc = extractChildImageSharp(src || source)
 
     if (imageSizes || resolutions) {
@@ -41,6 +44,7 @@ class Image extends React.Component {
       <img
         className={`Image ${className}`}
         src={imageSrc}
+        srcSet={imageSrcSet}
         sizes={sizes || '100vw'}
         onClick={onClick}
         alt={alt}
@@ -50,7 +54,7 @@ class Image extends React.Component {
 }
 
 Image.propTypes = {
-  alt: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired
 }
 
 export default Image
@@ -64,25 +68,6 @@ export const query = graphql`
       }
     }
   }
-
-  fragment NoBlurImage on File {
-    publicURL
-    childImageSharp {
-      sizes(quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp_noBase64
-      }
-    }
-  }
-
-  fragment TracedImage on File {
-    publicURL
-    childImageSharp {
-      sizes(quality: 75) {
-        ...GatsbyImageSharpSizes_withWebp_tracedSVG
-      }
-    }
-  }
-
   fragment LargeImage on File {
     publicURL
     childImageSharp {
@@ -91,7 +76,6 @@ export const query = graphql`
       }
     }
   }
-
   fragment MediumImage on File {
     publicURL
     childImageSharp {
@@ -100,7 +84,6 @@ export const query = graphql`
       }
     }
   }
-
   fragment SmallImage on File {
     publicURL
     childImageSharp {
@@ -109,7 +92,6 @@ export const query = graphql`
       }
     }
   }
-
   fragment LargeImageFixed on File {
     publicURL
     childImageSharp {
@@ -118,7 +100,6 @@ export const query = graphql`
       }
     }
   }
-
   fragment MediumImageFixed on File {
     publicURL
     childImageSharp {
@@ -127,7 +108,6 @@ export const query = graphql`
       }
     }
   }
-
   fragment SmallImageFixed on File {
     publicURL
     childImageSharp {

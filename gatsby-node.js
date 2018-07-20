@@ -59,8 +59,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
           context: {
             id,
             previous,
-            next,
-          },
+            next
+          }
         })
       })
     })
@@ -99,14 +99,14 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({
       node,
       name: 'slug',
-      value: slug,
+      value: slug
     })
 
     // Add contentType to node.fields
     createNodeField({
       node,
       name: 'contentType',
-      value: parsedFilePath.dir,
+      value: parsedFilePath.dir
     })
   }
 }

@@ -22,10 +22,10 @@ export default ({ className = '', alt = '', src, size = 'cover' }) => {
           style={{
             position: 'absolute',
             width: 'auto',
-            height: 'auto',
+            height: 'auto'
           }}
           imgStyle={{
-            objectFit: size,
+            objectFit: size
           }}
         />
       )}

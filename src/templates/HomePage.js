@@ -102,6 +102,10 @@ const HomePage = ({ section1 }) => (
   </div>
 )
 
+const HomePage = ({ data: { page } }) => (
+  <HomePageTemplate {...page} {...page.frontmatter} />
+)
+
 export default HomePage
 
 export const pageQuery = graphql`

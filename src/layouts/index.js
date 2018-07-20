@@ -9,7 +9,10 @@ import Footer from '../components/Footer'
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet>
+    <Helmet
+      defaultTitle={data.settings.siteTitle}
+      titleTemplate={`%s | ${data.settings.siteTitle}`}
+    >
       <link rel="stylesheet" href="https://use.typekit.net/jzk7ecz.css" />
     </Helmet>
 

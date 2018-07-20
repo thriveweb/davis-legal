@@ -105,8 +105,8 @@ const HomePage = ({ section1 }) => (
 export default HomePage
 
 export const pageQuery = graphql`
-  query HomePage($id: String!) {
-    page: markdownRemark(id: { eq: $id }) {
+  query HomePage {
+    page: markdownRemark {
       frontmatter {
         section1 {
           title

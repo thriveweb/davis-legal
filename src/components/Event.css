@@ -139,11 +139,16 @@
     content: '';
     position: absolute;
     display: block;
-    width: 4rem;
-    height: 1px;
+    width: 0;
+    height: 1px !important;
     background: #FFF;
     top: 0.6rem;
     left: 0 !important;
     right: inherit;
+  }
+
+  .event.active h4:after,
+  .event.now.active h4:after{
+    width: 4rem;
   }
 }

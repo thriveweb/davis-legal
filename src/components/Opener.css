@@ -9,6 +9,27 @@
   width: 100%;
 }
 
+.opener .cover.hide{
+  display: none;
+}
+
+/* .opener .float{
+  position: absolute;
+  width: 60%;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.opener .float h3{
+  font-size: 1.2rem;
+}
+
+.opener .float h3:before{
+  top: 1.4rem;
+} */
+
 .opener .large{
   position: absolute;
   z-index: 999;
@@ -27,6 +48,7 @@
 
 .opener .overlay{
   z-index: 0;
+  top: 0;
   background: linear-gradient(#1D1E20, transparent 35%, #1D1E20);
 }
 
@@ -36,15 +58,23 @@
   .opener .overlay{
     height: 80vw;
   }
+
+  .opener .cover{
+    display: none;
+  }
+
+  .opener .cover.hide{
+    display: block;
+  }
 }
 
 @media screen and (max-width: 670px){
   .opener{
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
   }
-
+  
   .opener .large{
-    bottom: -4rem;
+    bottom: 0;
     right: 0;
     left: 0;
   }

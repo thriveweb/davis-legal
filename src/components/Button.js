@@ -10,12 +10,13 @@ class Button extends Component {
     const { page, text } = this.props
 
     return (
+      
+    <button>
       <Link to={page}>
-        <button>
           <p>{text}</p>
           <div className="circle"></div>
-        </button>
       </Link>
+    </button>
 
     )
   }

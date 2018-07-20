@@ -36,6 +36,10 @@
 }
 
 @media screen and (max-width: 400px){
+  .menu{
+    padding: 2rem 0 5rem;
+  }
+
   .menu .large{
     max-width: 100%;
   }

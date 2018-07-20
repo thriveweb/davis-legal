@@ -23,6 +23,10 @@
 }
 
 @media screen and (max-width: 670px){
+  .large.margin-top{
+    margin-top: 8rem;
+  }
+
   .title .small{
     top: 1.2rem;
   }

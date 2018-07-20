@@ -8,7 +8,7 @@ import RightColumn from '../components/RightColumn'
 
 const More = (props) => (
 
-  <div className="section more">
+  <div className="more">
     <div className="small title">
       <div className="small left">
         <h2>find out more</h2>

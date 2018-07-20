@@ -1,5 +1,5 @@
-.more .small.content{
-  margin-top: -11rem;
+.more .title{
+  overflow: hidden;
 }
 
 .more .title h2{
@@ -8,8 +8,8 @@
   padding-bottom: 5rem;
 }
 
-.more button{
-  margin-top: 3rem;
+.more .small.content{
+  margin-top: -11rem;
 }
 
 @media screen and (max-width: 670px){

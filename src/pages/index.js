@@ -73,7 +73,7 @@ const IndexPage = () => (
         <LeftColumn
           content={
             <p>
-              Robert began his career in Queensland and New South Wales in 1979 then worked for many years as a Litigation Solicitor accumulating legal experience and ongoing academic qualifications before being called to the Queensland Bar in 2007. With extensive experience and ongoing academic qualifications, Robert began his career in Queensland and New South Wales in 1979.
+              With extensive experience and ongoing academic qualifications, Robert began his career in Queensland and New South Wales in 1979 then worked for many years as a Litigation Solicitor before being called to the Queensland Bar in 2007.
             </p>
           }
         />
@@ -81,7 +81,7 @@ const IndexPage = () => (
         <RightColumn
           content={
             <p>
-              He then worked for many years as a Litigation Solicitor before being called to the Queensland Bar in 2007. Over his career he has been featured in many publications and has served as President of the Queensland Law Society and the Australian Plaintiff Lawyers Association (now the Australian Lawyers Alliance). He has has appeared in many high profile cases in Australia.
+              Over his career he has been featured in many publications and has served as President of the Queensland Law Society and the Australian Plaintiff Lawyers Association (now the Australian Lawyers Alliance). He has has appeared in many high profile cases in Australia.
             </p>
           }
         />

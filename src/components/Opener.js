@@ -12,6 +12,7 @@ const Opener = () => (
       </div>
 
       <div className="overlay"></div>
+      <img className="cover hide" src="/img/hero-home-res.jpg" alt="" />
       <img className="cover" src="/img/hero-home.jpg" alt="" />
       <div className="clear"></div>
     </div>

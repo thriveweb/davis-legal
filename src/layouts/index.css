@@ -171,7 +171,7 @@ img.cover{
 /* content */
 
 .content{
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 
 .content ul img{
@@ -227,10 +227,6 @@ img.cover{
     height: 15rem;
   }
 
-  .section{
-    margin-top: 7rem;
-  }
-
   .small{
     padding: 0 2rem;
   }
@@ -268,7 +264,7 @@ img.cover{
   }
 
   .section{
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .column{

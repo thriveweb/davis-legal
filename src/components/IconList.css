@@ -14,3 +14,13 @@ ul.icons li img{
 ul.icons li:before{
   margin-top: 5.25rem;
 }
+
+@media screen and (max-width: 670px){
+  .column.left ul{
+    margin-top: 2rem;
+  }
+
+  .column.right ul{
+    margin-top: 0 !important;
+  }
+}

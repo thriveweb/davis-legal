@@ -22,7 +22,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
           - {label: Opener Image, name: openerImage, widget: image}
-          - {label: Opener Image Responsive, name: openerImageRes, widget: image}
           - label: Section 1
             name: section1
             widget: object
@@ -30,9 +29,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Title, name: title, widget: string}
               - {label: Large Title, name: largeTitle, widget: string}
               - {label: Small Title, name: smallTitle, widget: string}
-              - {label: Left Column, name: leftColumn, widget: markdown, required: false}
-              - {label: Right Column, name: rightColumn, widget: markdown, required: false}
-          - {label: Hero Image, name: heroImage, widget: image, required: false}
+              - {label: Column, name: column, widget: markdown, required: false}
+              - {label: Hero Image, name: heroImage, widget: image, required: false}
 
 
   - name: "settings"

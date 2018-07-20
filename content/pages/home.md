@@ -2,6 +2,8 @@
 template: HomePage
 slug: ''
 title: Home
+openerImage: /img/uploads/hero-home.jpg
+openerImageRes: /img/uploads/hero-home-res.jpg
 section1:
   largeTitle: Areas
   leftColumn: >-

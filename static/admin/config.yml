@@ -1,0 +1,57 @@
+# See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
+backend:
+  name: git-gateway
+  branch: netlify-cms # Branch to update (optional; defaults to master)
+
+# display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
+media_folder: "static/img/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "pages"
+    label: "Page"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - file: "content/pages/home.md"
+        label: "Home Page"
+        name: "home-page"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: HomePage}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
+          - {label: Title, name: title, widget: string}
+          - {label: Opener Image, name: openerImage, widget: image}
+          - {label: Opener Image Responsive, name: openerImageRes, widget: image}
+          - label: Section 1
+            name: section1
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Large Title, name: largeTitle, widget: string}
+              - {label: Small Title, name: smallTitle, widget: string}
+              - {label: Left Column, name: leftColumn, widget: markdown, required: false}
+              - {label: Right Column, name: rightColumn, widget: markdown, required: false}
+          - {label: Hero Image, name: heroImage, widget: image, required: false}
+
+
+  - name: "settings"
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - file: "content/settings/global.yml"
+        label: "Global Settings"
+        name: "global-settings"
+        fields:
+          - {label: Site Title, name: siteTitle, widget: string}
+          - {label: Site Url, name: siteUrl, widget: string, required: false}
+          - {label: Site Description, name: siteDescription, widget: text, required: false}
+          - label: Social Media Card
+            name: socialMediaCard
+            widget: object
+            required: false
+            fields:
+              - {label: Image, name: image, widget: image, required: false}
+          - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}

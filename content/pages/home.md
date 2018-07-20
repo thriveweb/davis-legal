@@ -20,6 +20,11 @@ section1:
     - Civil Aviation Litigation
 
     - Scuba Diving Litigation
+  rightColumn: |-
+    ![Inquests and Commissions of Inquiry](/img/uploads/home-img.jpg)
+
+    * Inquests and Commissions of Inquiry
+    * Professional & Ethical Standards Disciplinary Proceedings
   smallTitle: areas of practice
   title: accepting briefs to advise & appear
 ---

@@ -1,38 +1,17 @@
-.enquiry,
-.enquiry-label,
-.enquiry-input,
-.enquiry-select{
-  font-family: 'Sofia Pro';
-  font-size: 1rem;
-  color: #FFF;
-  letter-spacing: 1px;
-  line-height: 1.6rem;
-  font-weight: 100;
-}
-
-.enquiry-input,
-.enquiry-select{
-  padding: 1rem;
-}
-
-.enquiry-label:focus,
-.enquiry-input:focus,
-.enquiry-select:focus{
-  outline: none;
-}
-
-.enquiry{
+.EnquiryForm {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  max-width: 500px;
+  margin: 2.5rem 0;
 }
 
-.enquiry > * + * {
-  margin-top: 1rem;
+.EnquiryForm > * + * {
+  margin-top: 2rem;
 }
 
-.enquiry-label{
+.EnquiryForm--Label {
   width: 100%;
   display: flex;
   align-items: center;
@@ -40,37 +19,61 @@
   position: relative;
 }
 
-.enquiry-input,
-.enquiry-select{
-  -webkit-appearance: none;
-  width: 100%;
-  border: 1px solid #AAA;
-  border-radius: 0;
-  background: rgba(0, 0, 0, 0.3);
-  /* padding: 1rem; */
-  color: #CCC;
+.EnquiryForm--Input {
+  font-family: inherit;
+  flex-grow: 1;
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+  border: 1px solid #bababa;
+  padding: 1.5rem 2rem;
+  border-radius: var(--borderRadius);
+  line-height: 1.25em;
+  transition: border-color 0.2s;
+  resize: none;
 }
 
-.enquiry-label.has-arrow:after{
+.EnquiryForm--Select {
+  background: none;
+  appearance: none;
+}
+
+.EnquiryForm--Label.has-arrow:after {
   content: '';
   position: absolute;
-  right: 1.5rem;
-  top: 1.2rem;
-  border-right: 1px solid #AAA;
-  border-bottom: 1px solid #AAA;
+  right: 2.5rem;
+  top: 50%;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
   height: 10px;
   width: 10px;
-  transform: rotate(45deg);
+  transform: translateY(-75%) rotate(45deg);
   pointer-events: none;
 }
 
-.enquiry-input::placeholder{
-  text-transform: none;
-  color: #CCC;
+.EnquiryForm--Input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
 }
 
-.enquiry-alert{
+.EnquiryForm--Input:focus {
+  outline: none;
+  border-color: black;
+}
+
+.EnquiryForm--Input[disabled],
+.EnquiryForm--SubmitButton[disabled] {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: progress;
+}
+
+.EnquiryForm--Input::placeholder {
+  text-transform: none;
+}
+
+.EnquiryForm--Alert {
+  background: var(--lightGrey);
   width: 100%;
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem;
 }

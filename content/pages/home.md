@@ -20,6 +20,11 @@ section1:
     * Civil Aviation Litigation
 
     * Scuba Diving Litigation
+  rightColumn: |-
+    ![]()
+
+    * Inquests and Commissions of Inquiry
+    * Professional & Ethical Standards Disciplinary Proceedings
   subtitle: ddd
   title: Adlsjhffjkshg
 meta:

@@ -4,6 +4,22 @@ slug: ''
 title: Hello World!
 section1:
   largeTitle: Areas
+  leftColumn: >-
+    Robert Davis appears as counsel in Australian State, Territorial and Federal
+    Courts. His main areas of practice include:
+
+
+    * Legal, Medical & Financial Professional Negligence Litigation
+
+    * Motor Vehicle, Workplace, Defective Products & Premises Liability
+
+    * Trade Practices & Consumer Litigation
+
+    * Commonwealth Superannuation Litigation
+
+    * Civil Aviation Litigation
+
+    * Scuba Diving Litigation
   subtitle: ddd
   title: Adlsjhffjkshg
 meta:

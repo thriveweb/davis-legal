@@ -92,6 +92,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Large Title, name: largeTitle, widegt: string, required: false}
               - {label: Title, name: title, widegt: string, required: false}
               - {label: Subtitle, name: subtitle, widegt: string, required: false}
+              - {label: Left Column, name: leftColumn, widget: markdown, required: false}
+              - {label: Right Column, name: rightColumn, widget: markdown, required: false}
           - label: "Meta"
             required: false
             name: "meta"

@@ -9,7 +9,7 @@ class Column extends Component {
       <div
         className={`${'column'} ${left ? 'left' : ''} ${right ? 'right' : ''}`}
       >
-        {children}
+        <p>{children}</p>
       </div>
     )
   }

@@ -20,9 +20,13 @@ export const HomePageTemplate = ({ title, section1 }) => (
       />
 
       <div className="small content">
-        <Column left={true}>{section1.leftColumn}</Column>
+        <Column left={true}>
+          <Content src={section1.leftColumn} />
+        </Column>
 
-        <Column right={true}>{section1.rightColumn}</Column>
+        <Column right={true}>
+          <Content src={section1.rightColumn} />
+        </Column>
 
         <div className="clear" />
       </div>

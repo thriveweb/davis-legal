@@ -1,14 +1,11 @@
 ---
-template: HomePage
-slug: ''
 title: Davis Legal
 section1:
   largeTitle: Areas
-  title: Adlsjhffjkshg
-  subtitle: ddd
+  subtitle: Subtitle
+  title: Title
   leftColumn: >-
-    Robert Davis appears as counsel in Australian State, Territorial and Federal
-    Courts. His main areas of practice include:
+    Robert Davis appears as counsel in Australian State, Territorial and Federal Courts. His main areas of practice include:
 
     - Legal, Medical & Financial Professional Negligence Litigation
 
@@ -22,8 +19,6 @@ section1:
 
     - Scuba Diving Litigation
   rightColumn: |-
-    - Inquests and Commissions of Inquiry
-    - Professional & Ethical Standards Disciplinary Proceedings
-meta:
-  title: ''
+    * Inquests and Commissions of Inquiry
+    * Professional & Ethical Standards Disciplinary Proceedings
 ---

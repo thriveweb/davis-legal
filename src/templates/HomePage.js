@@ -20,18 +20,9 @@ export const HomePageTemplate = ({ title, section1 }) => (
       />
 
       <div className="small content">
-        <Column left={true}>
-          <div>{section1.leftColumn}</div>
-        </Column>
+        <Column left={true}>{section1.leftColumn}</Column>
 
-        <Column right={true}>
-          {section1.rightColumn}
-          <ul>
-            <img src="/images/uploads/home-img.jpg" />
-            <li>Inquests and Commissions of Inquiry</li>
-            <li>Professional & Ethical Standards Disciplinary Proceedings</li>
-          </ul>
-        </Column>
+        <Column right={true}>{section1.rightColumn}</Column>
 
         <div className="clear" />
       </div>

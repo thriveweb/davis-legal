@@ -1,6 +1,4 @@
 ---
-template: HomePage
-slug: ''
 title: Davis Legal
 section1:
   largeTitle: Areas
@@ -21,14 +19,9 @@ section1:
 
     * Scuba Diving Litigation
   rightColumn: |-
-    ![]()
-
     * Inquests and Commissions of Inquiry
     * Professional & Ethical Standards Disciplinary Proceedings
-  subtitle: ddd
-  title: Adlsjhffjkshg
-  leftColumn: sdjgh
-  rightColumn: sghdfkjgh
-meta:
-  title: ''
+  subtitle: Subtitle
+  title: Title
 ---
+

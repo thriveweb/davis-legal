@@ -1,0 +1,46 @@
+.menu .large{
+  max-width: calc(100% - 6rem);
+}
+
+.menu{
+  background: linear-gradient(#1F1F1F 25%, transparent);
+  position: fixed;
+  padding: 3rem 0 7rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 222;
+}
+
+.menu .left,
+.menu .right{
+  position: relative;
+  height: 100%;
+}
+
+.menu .left img{
+  height: 1.4rem;
+  width: auto;
+}
+
+@media screen and (max-width: 500px){
+  .menu .left{
+    z-index: 2222;
+  }
+
+  .menu .left img{
+    height: 1rem;
+    margin-top: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .menu{
+    padding: 2rem 0 5rem;
+  }
+
+  .menu .large{
+    max-width: 100%;
+  }
+}

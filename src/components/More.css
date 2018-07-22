@@ -1,0 +1,19 @@
+.more .title{
+  overflow: hidden;
+}
+
+.more .title h2{
+  border: none;
+  font-size: 2rem;
+  padding-bottom: 5rem;
+}
+
+.more .small.content{
+  margin-top: -11rem;
+}
+
+@media screen and (max-width: 670px){
+  .more .small.content{
+    margin-top: -5rem;
+  }
+}

@@ -1,0 +1,33 @@
+.title{
+  position: relative;
+  z-index: 99;
+}
+
+.large.margin-top{
+  margin-top: 12rem;
+}
+
+.title .small{
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+@media screen and (max-width: 1400px){
+  .large.title{
+    padding: 0 0 0 2rem;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 670px){
+  .large.margin-top{
+    margin-top: 8rem;
+  }
+
+  .title .small{
+    top: 1.2rem;
+  }
+}

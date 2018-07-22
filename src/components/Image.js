@@ -18,7 +18,7 @@ class Image extends React.Component {
       sizes,
       alt,
       style,
-      imgStyle
+      imgStyle,
     } = this.props
 
     const imageSizes = extractChildImageSharp(src, 'sizes')
@@ -54,7 +54,7 @@ class Image extends React.Component {
 }
 
 Image.propTypes = {
-  alt: PropTypes.string.isRequired
+  alt: PropTypes.string.isRequired,
 }
 
 export default Image

@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsbro',
-    siteUrl: 'https://gatsbro.netlify.com'
+    title: '',
+    siteUrl: 'https://davislegal.netlify.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -14,15 +14,15 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static/images`,
-        name: 'images'
-      }
+        name: 'images',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/content`,
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
 
     // images
@@ -40,12 +40,12 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
-              linkImagesToOriginal: false
-            }
+              linkImagesToOriginal: false,
+            },
           },
-          `gatsby-remark-responsive-iframe`
-        ]
-      }
+          `gatsby-remark-responsive-iframe`,
+        ],
+      },
     },
 
     // css (replace with gatsby-plugin-sass for v2)
@@ -54,10 +54,10 @@ module.exports = {
       options: {
         postCssPlugins: [
           postcssPresetEnv({
-            browsers: '> 0.5%, last 2 versions, ie 11'
-          })
-        ]
-      }
+            browsers: '> 0.5%, last 2 versions, ie 11',
+          }),
+        ],
+      },
     },
 
     {
@@ -66,8 +66,8 @@ module.exports = {
         // Setting a color is optional.
         color: 'white',
         // Disable the loading spinner.
-        showSpinner: false
-      }
+        showSpinner: false,
+      },
     },
     'gatsby-plugin-sitemap',
     {
@@ -75,9 +75,9 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/cms/admin.css`,
-        enableIdentityWidget: true
-      }
+        enableIdentityWidget: true,
+      },
     },
-    'gatsby-plugin-netlify' // make sure to keep it last in the array
-  ]
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
+  ],
 }

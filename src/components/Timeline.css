@@ -1,0 +1,35 @@
+.timeline {
+  position: relative;
+  margin-top: -3rem;
+}
+
+.line {
+  height: 115%;
+  padding-bottom: 9rem;
+  width: 1px;
+  position: absolute;
+  left: 0;
+  top: -4.3rem;
+  margin: auto;
+  right: 0;
+  background: #aaa;
+}
+
+.timeline .column {
+  width: 48%;
+}
+
+@media screen and (max-width: 670px) {
+  .timeline {
+    position: relative;
+    margin-top: -12rem;
+  }
+
+  .line {
+    height: 100%;
+    right: inherit;
+    left: 0;
+    top: 2.5rem;
+    padding: 0;
+  }
+}

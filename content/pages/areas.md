@@ -1,0 +1,4 @@
+---
+template: AreasPage
+slug: areas
+---

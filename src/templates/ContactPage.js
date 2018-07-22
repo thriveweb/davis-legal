@@ -1,88 +1,73 @@
 import React from 'react'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
+
 import { MapPin, Smartphone, Mail } from 'react-feather'
 
-import PageHeader from '../components/PageHeader'
-import EnquiryFormSimpleAjax from '../components/EnquiryFormSimpleAjax'
-import Content from '../components/Content'
-import './ContactPage.css'
+import Hero from '../components/Hero'
+import LargeTitle from '../components/LargeTitle'
+import LeftColumn from '../components/LeftColumn'
+import RightColumn from '../components/RightColumn'
+import Button from '../components/Button'
+import IconList from '../components/IconList'
+import EnquiryForm from '../components/EnquiryForm'
 
-// Export Template for use in CMS preview
-export const ContactPageTemplate = ({
-  body,
-  title,
-  subtitle,
-  featuredImage,
-  address,
-  phone,
-  email
-}) => (
-  <main className="Contact">
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
+const ContactPage = () => (
+  <div>
+    <Helmet>
+      <title lang="en">Contact Robert</title>
+    </Helmet>
 
-    <section className="section Contact--Section1">
-      <div className="container Contact--Section1--Container">
-        <div>
-          <Content source={body} />
+    <div className="section">
+      <LargeTitle
+        smallTitle="contact robert"
+        title="get in touch"
+        largeTitle="Contact"
+        marginTop={true}
+      />
 
-          <div className="Contact--Details">
-            {address && (
-              <a
-                className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
-                  address
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MapPin /> {address}
-              </a>
-            )}
-            {phone && (
-              <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                <Smartphone /> {phone}
-              </a>
-            )}
-            {email && (
-              <a className="Contact--Details--Item" href={`mailto:${email}`}>
-                <Mail /> {email}
-              </a>
-            )}
-          </div>
+      <div className="small content">
+        <LeftColumn
+          content={
+            <p>
+              Get in cantact with Robert via phone or email or fill out the form
+              below to find out more about his work. He looks forward to hearing
+              from you and will get back to you as soon as possible.
+            </p>
+          }
+        />
+
+        <div className="clear" />
+
+        <div className="column left">
+          <ul className="icons">
+            <IconList
+              image="/images/icon-address.svg"
+              content="PO BOX 213, West Burleigh QLD 4219 Australia"
+            />
+
+            <IconList
+              image="/images/icon-phone.svg"
+              content="+61 414 339 494"
+            />
+
+            <IconList
+              image="/images/icon-mail.svg"
+              content="rdavis@davislegal.com.au"
+            />
+          </ul>
         </div>
 
-        <div>
-          <EnquiryFormSimpleAjax name="Simple Form Ajax" />
+        <div className="column right">
+          <EnquiryForm />
         </div>
       </div>
-    </section>
-  </main>
-)
 
-const ContactPage = ({ data: { page } }) => (
-  <ContactPageTemplate {...page.frontmatter} body={page.html} />
+      <div className="clear" />
+    </div>
+
+    <Hero image="/images/uploads/footer-contact.jpg" footer={true} />
+  </div>
 )
 
 export default ContactPage
-
-export const pageQuery = graphql`
-  query ContactPage($id: String!) {
-    page: markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-        template
-        subtitle
-        featuredImage {
-          ...FluidImage
-        }
-        address
-        phone
-        email
-      }
-    }
-  }
-`

@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ''
-title: Hello World!
+title: Davis Legal
 section1:
   largeTitle: Areas
   leftColumn: >-

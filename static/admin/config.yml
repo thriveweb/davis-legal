@@ -37,25 +37,6 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
 
-      - file: "content/pages/blog.md"
-        label: "Blog Page"
-        name: "blog-page"
-        fields:
-          - {label: Template, name: template, widget: hidden, default: BlogIndex}
-          - {label: Slug, name: slug, widget: hidden, default: 'blog'}
-          - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - label: "Meta"
-            required: false
-            name: "meta"
-            widget: "object"
-            fields:
-              - {label: Title, name: title, widget: string, required: false}
-              - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
-              - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
-              - {label: Noindex, name: noindex, widget: boolean, required: false}
-
       - file: "content/pages/about.md"
         label: "About Page"
         name: "about-page"
@@ -82,11 +63,13 @@ collections: # A list of collections the CMS should be able to edit
               - label: "Event"
                 name: "event"
                 widget: "list"
+                fields:
                   - {label: Year, name: year, widegt: string, required: false}
                   - {label: Content, name: content, widegt: string, required: false}
               - label: "Event Now"
                 name: "eventNow"
                 widget: "object"
+                fields:
                   - {label: Title, name: title, widegt: string, required: false}
                   - {label: Content, name: content, widegt: string, required: false}
           - label: "Section 2"

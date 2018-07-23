@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import './Accordion.css'
+import Content from '../components/Content'
 
 class Accordion extends Component {
   state = {
@@ -37,7 +38,7 @@ class Accordion extends Component {
             >
               <h4>{field.title}</h4>
               <div className="expand">
-                <p>{field.content}</p>
+                <Content src={field.content} />
               </div>
             </div>
           )

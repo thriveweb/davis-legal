@@ -102,6 +102,12 @@ class Form extends React.Component {
             required
           />
         </label>
+        <p>
+          Court and other commitments may sometimes result in a delay in
+          responding to email inquiries. If your inquiry is urgent then it is
+          best to phone. Robert can not accept urgent briefs without prior
+          discussion and agreement.
+        </p>
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />
         <button type="submit" className="button">

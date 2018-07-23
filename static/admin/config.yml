@@ -75,7 +75,7 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Content, name: content, widegt: string, required: false}
 
           - label: "Careers Section"
-            name: "careers"
+            name: "career"
             widget: "object"
             fields:
               - {label: Large Title, name: largeTitle, widegt: string, required: false}
@@ -83,6 +83,18 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Subtitle, name: subtitle, widegt: string, required: false}
               - {label: Left Column, name: leftColumn, widget: markdown, required: false}
               - {label: Right Column, name: rightColumn, widget: markdown, required: false}
+
+          - label: "Work Section"
+            name: "work"
+            widget: "object"
+            fields:
+              - label: "Accordion"
+                name: accordion
+                widget: "list"
+                fields:
+                  - {label: Title, name: title, widget: string, required: false}
+                  - {label: Content, name: content widget: string, required: false}
+
           - label: "Meta"
             required: false
             name: "meta"
@@ -92,6 +104,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+
 
       - file: "content/pages/home.md"
         label: "Home Page"

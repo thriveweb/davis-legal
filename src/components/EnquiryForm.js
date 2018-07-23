@@ -98,16 +98,10 @@ class Form extends React.Component {
             className="input textarea"
             placeholder="Comments"
             name="message"
-            rows="10"
+            rows="5"
             required
           />
         </label>
-        {/* <input
-          type="text"
-          name={honeypot}
-          className="input-honey"
-          placeholder="Leave blank if you are a human"
-        /> */}
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />
         <button type="submit" className="button">

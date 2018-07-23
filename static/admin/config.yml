@@ -29,6 +29,8 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Large Title, name: largeTitle, widget: string,}
               - {label: Title, name: title, widget: string}
               - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Left Column, name: leftColumn, widget: string}
+              - {label: Right Column, name: rightColumn, widget: string}
           - label: "Contact Info"
             name: "contactInfo"
             widget: object
@@ -45,6 +47,36 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Description, name: description, widget: text, required: false, pattern: [".{,300}", "Must not exceed 300 characters"]}
               - {label: Canonical Link, name: canonicalLink, widget: string, required: false}
               - {label: Noindex, name: noindex, widget: boolean, required: false}
+
+      - file: "content/pages/areas.md"
+        label: "Areas Page"
+        name: "areas-page"
+        fields:
+          - {label: Template, name: template, widget: hidden, default: ContactPage}
+          - {label: Slug, name: slug, widget: hidden, default: 'contact'}
+          - {label: Title, name: title, widget: string}
+          - {label: Hero Image, name: heroImage, widget: image}
+          - {label: Footer Image, name: footerImage, widget: image}
+          - label: "Intro"
+            name: "intro"
+            widget: object
+            fields:
+              - {label: Large Title, name: largeTitle, widget: string,}
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Left Column, name: leftColumn, widget: string}
+              - {label: Right Column, name: rightColumn, widget: string}
+          - label: "Icon List"
+            name: "iconList"
+            widget: object
+            fields:
+              - label: "Left Column"
+                name: "left"
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: string}
 
       - file: "content/pages/about.md"
         label: "About Page"

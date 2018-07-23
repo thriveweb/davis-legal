@@ -68,6 +68,14 @@ export const query = graphql`
       }
     }
   }
+  fragment NoBlurImage on File {
+    publicURL
+    childImageSharp {
+      sizes(quality: 75) {
+        ...GatsbyImageSharpSizes_withWebp_noBase64
+      }
+    }
+  }
   fragment LargeImage on File {
     publicURL
     childImageSharp {

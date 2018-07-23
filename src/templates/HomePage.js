@@ -6,11 +6,17 @@ import Opener from '../components/Opener'
 import Hero from '../components/Hero'
 import LargeTitle from '../components/LargeTitle'
 import Column from '../components/Column'
+import Content from '../components/Content'
 import Button from '../components/Button'
 
-export const HomePageTemplate = ({ title, section1 }) => (
+export const HomePageTemplate = ({
+  title,
+  openerImage,
+  section1,
+  section2,
+}) => (
   <div>
-    <Opener />
+    <Opener openerImage={openerImage} />
 
     <div className="section">
       <LargeTitle
@@ -36,32 +42,22 @@ export const HomePageTemplate = ({ title, section1 }) => (
 
     <div className="section">
       <LargeTitle
-        smallTitle="about robert davis"
-        title="over 35 years of legal experience"
-        largeTitle="About"
+        smallTitle={section2.subtitle}
+        title={section2.title}
+        largeTitle={section2.largeTitle}
       />
 
       <div className="small content">
         <Column left={true}>
-          <p>
-            With extensive experience and ongoing academic qualifications,
-            Robert began his career in Queensland and New South Wales in 1979
-            then worked for many years as a Litigation Solicitor before being
-            called to the Queensland Bar in 2007.
-          </p>
+          <Content src={section2.leftColumn} />
         </Column>
 
-        <Column left={true}>
-          <p>
-            Over his career he has been featured in many publications and has
-            served as President of the Queensland Law Society and the Australian
-            Plaintiff Lawyers Association (now the Australian Lawyers Alliance).
-            He has has appeared in many high profile cases in Australia.
-          </p>
+        <Column right={true}>
+          <Content src={section2.rightColumn} />
         </Column>
+
+        <div className="clear" />
       </div>
-
-      <div className="clear" />
 
       <Button text="discover more" page="/about/" />
     </div>
@@ -80,7 +76,17 @@ export const pageQuery = graphql`
   query HomePage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       frontmatter {
+        openerImage {
+          ...NoBlurImage
+        }
         section1 {
+          largeTitle
+          subtitle
+          title
+          leftColumn
+          rightColumn
+        }
+        section2 {
           largeTitle
           subtitle
           title

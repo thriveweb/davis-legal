@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Davis Legal
-openerImage:
+openerImage: /images/uploads/hero-areas.jpg
 section1:
   largeTitle: Areas
   leftColumn: >-
@@ -27,13 +27,18 @@ section1:
     * Professional & Ethical Standards Disciplinary Proceedings
   subtitle: Practice Areas
   title: Accepting briefs to adive and appear
-
 section2:
   largeTitle: About
   leftColumn: >-
-    With extensive experience and ongoing academic qualifications, Robert began his career in Queensland and New South Wales in 1979 then worked for many years as a Litigation Solicitor before being called to the Queensland Bar in 2007.
-  rightColumn: |-
-    Over his career he has been featured in many publications and has served as President of the Queensland Law Society and the Australian Plaintiff Lawyers Association (now the Australian Lawyers Alliance). He has has appeared in many high profile cases in Australia.
+    With extensive experience and ongoing academic qualifications, Robert began
+    his career in Queensland and New South Wales in 1979 then worked for many
+    years as a Litigation Solicitor before being called to the Queensland Bar in
+    2007.
+  rightColumn: >-
+    Over his career he has been featured in many publications and has served as
+    President of the Queensland Law Society and the Australian Plaintiff Lawyers
+    Association (now the Australian Lawyers Alliance). He has has appeared in
+    many high profile cases in Australia.
   subtitle: About Robert Davis
   title: Over 35 years of legal experience
 ---

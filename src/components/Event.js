@@ -9,9 +9,7 @@ class Event extends Component {
 
     this.eventRef = null
 
-    this.state = {
-
-    }
+    this.state = {}
   }
 
   componentDidMount = () => {
@@ -28,26 +26,32 @@ class Event extends Component {
     const windowHeight = window.innerHeight
     const scrollOffset = window.pageYOffset
 
-    if(!eventActive && elPosition - (windowHeight - 200) < 0) {
+    if (!eventActive && elPosition - (windowHeight - 200) < 0) {
       this.setState({
-        eventActive: true
+        eventActive: true,
       })
-    } else if(eventActive && elPosition - (windowHeight - 200) > 0) {
+    } else if (eventActive && elPosition - (windowHeight - 200) > 0) {
       this.setState({
-        eventActive: false
+        eventActive: false,
       })
     }
   }
 
-
-  render () {
+  render() {
     const { year, content, eventNow } = this.props
     const { eventActive } = this.state
 
-    return <div className={`event ${eventActive ? 'active' : ''} ${eventNow ? 'now' : ''}`} ref={el => this.eventRef = el}>
-      <h4>{year}</h4>
-      <p>{content}</p>
-    </div>
+    return (
+      <div
+        className={`event ${eventActive ? 'active' : ''} ${
+          eventNow ? 'now' : ''
+        }`}
+        ref={el => (this.eventRef = el)}
+      >
+        <h4>{year}</h4>
+        <p>{content}</p>
+      </div>
+    )
   }
 }
 export default Event

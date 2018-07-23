@@ -81,6 +81,9 @@ export const pageQuery = graphql`
         openerImage {
           ...NoBlurImage
         }
+        footerImage {
+          ...NoBlurImage
+        }
         section1 {
           largeTitle
           subtitle
@@ -94,9 +97,6 @@ export const pageQuery = graphql`
           title
           leftColumn
           rightColumn
-        }
-        footerImage {
-          ...NoBlurImage
         }
       }
     }

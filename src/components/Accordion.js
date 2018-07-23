@@ -20,13 +20,14 @@ class Accordion extends Component {
   }
 
   render() {
-    const { accordionFields = [] } = this.props
+    const { accordion = [] } = this.props
 
-    if (accordionFields.length <= 0) return null
+    if (accordion.length <= 0) return null
 
     return (
       <div className="accordion">
-        {accordionFields.map((field, index) => {
+        {console.log(accordion)}
+        {accordion.map((field, index) => {
           const active = this.state.activeItems.indexOf(index) >= 0
           return (
             <div
@@ -35,7 +36,6 @@ class Accordion extends Component {
               key={field.title}
             >
               <h4>{field.title}</h4>
-
               <div className="expand">
                 <p>{field.content}</p>
               </div>

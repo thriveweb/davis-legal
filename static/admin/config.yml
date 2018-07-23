@@ -75,6 +75,20 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Subtitle, name: subtitle, widegt: string, required: false}
               - {label: Left Column, name: leftColumn, widget: markdown, required: false}
               - {label: Right Column, name: rightColumn, widget: markdown, required: false}
+          - label: "Timeline"
+            name: "timeline"
+            widget: "object"
+            fields:
+              - label: "Event"
+                name: "event"
+                widget: "list"
+                  - {label: Year, name: year, widegt: string, required: false}
+                  - {label: Content, name: content, widegt: string, required: false}
+              - label: "Event Now"
+                name: "eventNow"
+                widget: "object"
+                  - {label: Title, name: title, widegt: string, required: false}
+                  - {label: Content, name: content, widegt: string, required: false}
           - label: "Section 2"
             name: "section2"
             widget: "object"

@@ -70,17 +70,17 @@ class Form extends React.Component {
           <input
             className="input"
             type="text"
-            placeholder="Name"
-            name="name"
+            placeholder="Solicitor's Reference"
+            name="reference"
             required
           />
         </label>
         <label className="label">
           <input
             className="input"
-            type="email"
-            placeholder="Email"
-            name="emailAddress"
+            type="text"
+            placeholder="Solicitor's Firm Name"
+            name="firmName"
             required
           />
         </label>

@@ -40,9 +40,6 @@ export const query = graphql`
       siteTitle
       siteDescription
       headerScripts
-      socialMediaCard {
-        image
-      }
     }
   }
 `

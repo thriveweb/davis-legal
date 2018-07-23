@@ -38,7 +38,7 @@ accordion:
       Some barristers are willing to accept direct briefs from the public. This usually occurs with barristers conducting criminal work in lower courts. Many (probably most) barristers will only accept client briefs via a solicitor's firm. Litigation work is often very complex and labour intensive. Barristers must work as sole traders so they lack the human and other resources that a solicitors firm can devote to pre-trial paperwork. Robert only accepts briefs via a solicitor.
   - title: How do I employ a barrister?
     content: >-
-    If you are a member of the public and wish to directly engage a barrister then you should phone around to find someone who is suitable. If you already have a solicitor then he or she will advise you about which barristers are best suited to your circumstances. You can carry out your own research into the barristers suggested, but your solicitor is often the best source of information in this regard.
+      If you are a member of the public and wish to directly engage a barrister then you should phone around to find someone who is suitable. If you already have a solicitor then he or she will advise you about which barristers are best suited to your circumstances. You can carry out your own research into the barristers suggested, but your solicitor is often the best source of information in this regard.
 footerImage: /images/uploads/footer-faq.jpg
 
 ---

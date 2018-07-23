@@ -6,8 +6,8 @@ import { MapPin, Smartphone, Mail } from 'react-feather'
 
 import Hero from '../components/Hero'
 import LargeTitle from '../components/LargeTitle'
-import LeftColumn from '../components/LeftColumn'
-import RightColumn from '../components/RightColumn'
+import Column from '../components/Column'
+import Content from '../components/Content'
 import Image from '../components/Image'
 import Button from '../components/Button'
 import IconList from '../components/IconList'
@@ -21,41 +21,39 @@ export const ContactPageTemplate = ({ footerImage, intro, contactInfo }) => (
 
     <div className="section">
       <LargeTitle
-        smallTitle="contact robert"
-        title="get in touch"
-        largeTitle="Contact"
+        smallTitle={intro.subtitle}
+        title={intro.title}
+        largeTitle={intro.largeTitle}
         marginTop={true}
       />
 
       <div className="small content">
-        <LeftColumn
-          content={
-            <p>
-              Get in cantact with Robert via phone or email or fill out the form
-              below to find out more about his work. He looks forward to hearing
-              from you and will get back to you as soon as possible.
-            </p>
-          }
-        />
+        <Column left={true}>
+          <Content src={intro.leftColumn} />
+        </Column>
+
+        <Column right={true}>
+          <Content src={intro.rightColumn} />
+        </Column>
 
         <div className="clear" />
 
         <div className="column left">
           <ul className="icons">
             <li>
-              <Image src="/images/icon-phone.svg" alt="" />
+              <Image src="/images/uploads/icon-phone.svg" alt="" />
               <a href={`tel:${contactInfo.phone}`}>
                 <p>{contactInfo.phone}</p>
               </a>
             </li>
             <li>
-              <Image src="/images/icon-mail.svg" alt="" />
+              <Image src="/images/uploads/icon-mail.svg" alt="" />
               <a href={`mailto:${contactInfo.email}`}>
                 <p>{contactInfo.email}</p>
               </a>
             </li>
             <li>
-              <Image src="/images/icon-address.svg" alt="" />
+              <Image src="/images/uploads/icon-address.svg" alt="" />
               <p>{contactInfo.address}</p>
             </li>
           </ul>
@@ -90,6 +88,8 @@ export const pageQuery = graphql`
           largeTitle
           title
           subtitle
+          leftColumn
+          rightColumn
         }
         contactInfo {
           phone

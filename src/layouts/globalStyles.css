@@ -44,7 +44,7 @@ h2 {
 }
 
 h3 {
-  max-width: 20rem;
+  max-width: 30rem;
   font-family: 'sofia-pro';
   font-weight: 100;
   font-size: 1rem;
@@ -173,11 +173,11 @@ img.cover {
   /* margin-top: 1.5rem; */
 }
 
-.content ul img {
+.content img {
   width: 100%;
   opacity: 0.4;
   margin-bottom: 2rem;
-  margin-top: -6rem;
+  margin-top: -5rem;
 }
 
 /* four04 */

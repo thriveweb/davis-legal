@@ -10,27 +10,23 @@ import Accordion from '../components/Accordion'
 import More from '../components/More'
 
 export const FAQPageTemplate = ({
-  title,
   heroImage,
-  centerImage,
-  about,
-  timeline,
-  career,
-  work,
   footerImage,
+  intro,
+  accordion,
 }) => (
   <div>
     <Helmet>
       <title lang="en">FAQ</title>
     </Helmet>
 
-    <Hero image="/images/uploads/hero-faq.jpg" />
+    <Hero image={heroImage} />
 
     <div className="section">
       <LargeTitle
-        smallTitle="frequently asked questions"
-        title="all you need to know"
-        largeTitle="FAQ"
+        smallTitle={intro.subtitle}
+        title={intro.title}
+        largeTitle={intro.largeTitle}
         marginTop={true}
       />
 
@@ -51,8 +47,12 @@ export const FAQPageTemplate = ({
 
     <More />
 
-    <Hero image="/images/uploads/footer-faq.jpg" footer={true} />
+    <Hero image={footerImage} footer={true} />
   </div>
+)
+
+const FAQPage = ({ data: { page } }) => (
+  <FAQPageTemplate {...page} {...page.frontmatter} body={page.html} />
 )
 
 export default FAQPage
@@ -69,8 +69,8 @@ export const pageQuery = graphql`
         }
         intro {
           largeTitle
-          subtitle
           title
+          subtitle
           leftColumn
           rightColumn
         }

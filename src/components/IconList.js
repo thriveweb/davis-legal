@@ -2,21 +2,25 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 import './IconList.css'
+import Image from '../components/Image'
 
 class IconList extends Component {
-
-  render () {
-
-    const { image, title, content } = this.props
+  render() {
+    const { iconList = [] } = this.props
 
     return (
-      <li>
-        <img src={`${image}`} alt="" />
-        <b>{title}</b>
-        <p>{content}</p>
-      </li>
+      <ul className="icons">
+        {iconList.map((list, index) => {
+          return (
+            <li>
+              <Image src={list.icon} alt={list.title} />
+              <b>{list.title}</b>
+              <p>{list.content}</p>
+            </li>
+          )
+        })}
+      </ul>
     )
-
   }
 }
 

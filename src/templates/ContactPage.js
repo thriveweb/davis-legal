@@ -8,11 +8,12 @@ import Hero from '../components/Hero'
 import LargeTitle from '../components/LargeTitle'
 import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
+import Image from '../components/Image'
 import Button from '../components/Button'
 import IconList from '../components/IconList'
 import EnquiryForm from '../components/EnquiryForm'
 
-const ContactPage = () => (
+export const ContactPageTemplate = ({ footerImage, intro, contactInfo }) => (
   <div>
     <Helmet>
       <title lang="en">Contact Robert</title>
@@ -41,20 +42,22 @@ const ContactPage = () => (
 
         <div className="column left">
           <ul className="icons">
-            <IconList
-              image="/images/icon-address.svg"
-              content="PO BOX 213, West Burleigh QLD 4219 Australia"
-            />
-
-            <IconList
-              image="/images/icon-phone.svg"
-              content="+61 414 339 494"
-            />
-
-            <IconList
-              image="/images/icon-mail.svg"
-              content="rdavis@davislegal.com.au"
-            />
+            <li>
+              <Image src="/images/icon-phone.svg" alt="" />
+              <a href={`tel:${contactInfo.phone}`}>
+                <p>{contactInfo.phone}</p>
+              </a>
+            </li>
+            <li>
+              <Image src="/images/icon-mail.svg" alt="" />
+              <a href={`mailto:${contactInfo.email}`}>
+                <p>{contactInfo.email}</p>
+              </a>
+            </li>
+            <li>
+              <Image src="/images/icon-address.svg" alt="" />
+              <p>{contactInfo.address}</p>
+            </li>
           </ul>
         </div>
 
@@ -66,8 +69,34 @@ const ContactPage = () => (
       <div className="clear" />
     </div>
 
-    <Hero image="/images/uploads/footer-contact.jpg" footer={true} />
+    <Hero image={footerImage} footer={true} />
   </div>
 )
 
+const ContactPage = ({ data: { page } }) => (
+  <ContactPageTemplate {...page} {...page.frontmatter} body={page.html} />
+)
+
 export default ContactPage
+
+export const pageQuery = graphql`
+  query ContactPage($id: String!) {
+    page: markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        footerImage {
+          ...NoBlurImage
+        }
+        intro {
+          largeTitle
+          title
+          subtitle
+        }
+        contactInfo {
+          phone
+          email
+          address
+        }
+      }
+    }
+  }
+`

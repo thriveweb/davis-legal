@@ -1,8 +1,12 @@
-ul.icons li{
+.right ul.icons {
+  margin-top: -5rem;
+}
+
+ul.icons li {
   margin-bottom: 4rem;
 }
 
-ul.icons li img{
+ul.icons li img {
   margin-top: 0;
   width: 2.5rem;
   height: 2.5rem;
@@ -11,16 +15,16 @@ ul.icons li img{
   display: block;
 }
 
-ul.icons li:before{
+ul.icons li:before {
   margin-top: 5.25rem;
 }
 
-@media screen and (max-width: 670px){
-  .column.left ul{
+@media screen and (max-width: 670px) {
+  .left ul.icons {
     margin-top: 2rem;
   }
 
-  .column.right ul{
-    margin-top: 0 !important;
+  .right ul.icons {
+    margin-top: 0;
   }
 }

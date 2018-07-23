@@ -84,25 +84,19 @@ class Form extends React.Component {
             required
           />
         </label>
-        <label className="label has-arrow">
-          <select
-            className="input select"
-            name="type"
-            defaultValue="Type of Enquiry"
+        <label className="label">
+          <input
+            className="input"
+            type="text"
+            placeholder="I need help with..."
+            name="help"
             required
-          >
-            <option disabled hidden>
-              Type of Enquiry
-            </option>
-            <option>Need to know more</option>
-            <option>Found a bug</option>
-            <option>Want to say hello</option>
-          </select>
+          />
         </label>
         <label className="label">
           <textarea
             className="input textarea"
-            placeholder="Message"
+            placeholder="Comments"
             name="message"
             rows="10"
             required

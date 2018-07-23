@@ -3,9 +3,9 @@ form.enquiry {
 }
 
 .enquiry,
-.enquiry-label,
-.enquiry-input,
-.enquiry-select {
+.label,
+.input,
+.select {
   font-family: 'Sofia Pro';
   font-size: 1rem;
   color: #fff;
@@ -14,14 +14,14 @@ form.enquiry {
   font-weight: 100;
 }
 
-.enquiry-input,
-.enquiry-select {
+.input,
+.select {
   padding: 1rem;
 }
 
-.enquiry-label:focus,
-.enquiry-input:focus,
-.enquiry-select:focus {
+.label:focus,
+.input:focus,
+.select:focus {
   outline: none;
 }
 
@@ -36,7 +36,7 @@ form.enquiry {
   margin-top: 1rem;
 }
 
-.enquiry-label {
+.label {
   width: 100%;
   display: flex;
   align-items: center;
@@ -44,8 +44,8 @@ form.enquiry {
   position: relative;
 }
 
-.enquiry-input,
-.enquiry-select {
+.input,
+.select {
   -webkit-appearance: none;
   width: 100%;
   border: 1px solid #aaa;
@@ -55,7 +55,7 @@ form.enquiry {
   color: #ccc;
 }
 
-.enquiry-label.has-arrow:after {
+.label.has-arrow:after {
   content: '';
   position: absolute;
   right: 1.5rem;
@@ -68,12 +68,12 @@ form.enquiry {
   pointer-events: none;
 }
 
-.enquiry-input::placeholder {
+.input::placeholder {
   text-transform: none;
   color: #ccc;
 }
 
-.enquiry-alert {
+.alert {
   width: 100%;
   text-align: center;
   padding: 2rem 0;

@@ -4,14 +4,15 @@ import { serialize } from 'dom-form-serializer'
 
 import './EnquiryForm.css'
 
-class EnquiryForm extends React.Component {
+class Form extends React.Component {
   static defaultProps = {
     name: 'Simple Form Ajax',
     subject: '', // optional subject of the notification email
     action: '',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon.',
+    honeypot: 'email',
+    successMessage: 'Thanks for your enquiry, we will get back to you soon',
     errorMessage:
-      'There was a problem sending your enquiry. Please try again or contact Robert via email.',
+      'There is a problem, your message has not been sent, please try contacting us via email',
   }
 
   state = {
@@ -53,7 +54,7 @@ class EnquiryForm extends React.Component {
   }
 
   render() {
-    const { name, subject, action } = this.props
+    const { name, subject, action, honeypot } = this.props
 
     return (
       <form
@@ -62,76 +63,61 @@ class EnquiryForm extends React.Component {
         action={action}
         onSubmit={this.handleSubmit}
         data-netlify=""
-        data-netlify-honeypot="_gotcha"
+        data-netlify-honeypot={honeypot}
       >
-        {this.state.alert && (
-          <div className="enquiry-alert">{this.state.alert}</div>
-        )}
-
-        <label className="enquiry-label">
+        {this.state.alert && <div className="alert">{this.state.alert}</div>}
+        <label className="label">
           <input
-            className="enquiry-input"
+            className="input"
             type="text"
-            placeholder="Solicitor's Reference"
-            name="referenece"
-            required
-          />
-        </label>
-
-        <label className="enquiry-label">
-          <input
-            className="enquiry-input"
-            type="text"
-            placeholder="Solicitor's Firm Name"
+            placeholder="Name"
             name="name"
             required
           />
         </label>
-
-        <label className="enquiry-label">
+        <label className="label">
           <input
-            className="enquiry-input"
+            className="input"
             type="email"
-            placeholder="Email Address"
-            name="email"
+            placeholder="Email"
+            name="emailAddress"
             required
           />
         </label>
-
-        <label className="enquiry-label has-arrow">
+        <label className="label has-arrow">
           <select
-            className="enquiry-input enquiry-select"
+            className="input select"
             name="type"
-            defaultValue="I need help with..."
+            defaultValue="Type of Enquiry"
             required
           >
             <option disabled hidden>
-              I need help with...
+              Type of Enquiry
             </option>
-            <option>First Option</option>
-            <option>Second Option</option>
-            <option>Third Option</option>
+            <option>Need to know more</option>
+            <option>Found a bug</option>
+            <option>Want to say hello</option>
           </select>
         </label>
-
-        <label className="enquiry-label">
+        <label className="label">
           <textarea
-            className="enquiry-input enquiry-textarea"
-            placeholder="Comments"
-            name="comments"
-            rows="5"
+            className="input textarea"
+            placeholder="Message"
+            name="message"
+            rows="10"
             required
           />
         </label>
+        {!!subject && <input type="hidden" name="subject" value={subject} />}
+        <input type="hidden" name="form-name" value={name} />
+        {/* <input
+          className="Button submit"
+          type="submit"
+          value="Enquire"
+          disabled={this.state.disabled}
+        /> */}
 
-        <p>
-          Court and other commitments may sometimes result in a delay in
-          responding to email inquiries. If your inquiry is urgent then it is
-          best to phone. Robert cannot accept urgent briefs without prior
-          discussion and agreement.
-        </p>
-
-        <button className="button" type="sumbit">
+        <button type="submit" className="button">
           <p>send now</p>
           <div className="circle" />
         </button>
@@ -140,4 +126,4 @@ class EnquiryForm extends React.Component {
   }
 }
 
-export default EnquiryForm
+export default Form

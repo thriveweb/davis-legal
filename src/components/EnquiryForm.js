@@ -70,7 +70,16 @@ class Form extends React.Component {
           <input
             className="input"
             type="text"
-            placeholder="Name"
+            placeholder="Solicitor's Reference"
+            name="reference"
+            required
+          />
+        </label>
+        <label className="label">
+          <input
+            className="input"
+            type="text"
+            placeholder="Solicitor's Firm Name"
             name="name"
             required
           />
@@ -79,8 +88,8 @@ class Form extends React.Component {
           <input
             className="input"
             type="email"
-            placeholder="Email"
-            name="emailAddress"
+            placeholder="Email Address"
+            name="email"
             required
           />
         </label>
@@ -91,31 +100,23 @@ class Form extends React.Component {
             defaultValue="Type of Enquiry"
             required
           >
-            <option disabled hidden>
-              Type of Enquiry
-            </option>
-            <option>Need to know more</option>
-            <option>Found a bug</option>
-            <option>Want to say hello</option>
+            <option hidden>I need help with...</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
           </select>
         </label>
         <label className="label">
           <textarea
             className="input textarea"
-            placeholder="Message"
-            name="message"
-            rows="10"
+            placeholder="Comments"
+            name="comments"
+            rows="5"
             required
           />
         </label>
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />
-        {/* <input
-          className="Button submit"
-          type="submit"
-          value="Enquire"
-          disabled={this.state.disabled}
-        /> */}
 
         <button type="submit" className="button">
           <p>send now</p>

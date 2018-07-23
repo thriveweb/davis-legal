@@ -77,6 +77,13 @@ collections: # A list of collections the CMS should be able to edit
                   - {label: Icon, name: icon, widget: image}
                   - {label: Title, name: title, widget: string}
                   - {label: Content, name: content, widget: string}
+              - label: "Right Column"
+                name: "right"
+                widget: list
+                fields:
+                  - {label: Icon, name: icon, widget: image}
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: string}
 
       - file: "content/pages/about.md"
         label: "About Page"

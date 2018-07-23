@@ -27,7 +27,6 @@ class Accordion extends Component {
 
     return (
       <div className="accordion">
-        {console.log(accordion)}
         {accordion.map((field, index) => {
           const active = this.state.activeItems.indexOf(index) >= 0
           return (

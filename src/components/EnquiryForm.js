@@ -2,7 +2,7 @@ import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
-import './EnquiryForm.css'
+import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
@@ -70,16 +70,7 @@ class Form extends React.Component {
           <input
             className="input"
             type="text"
-            placeholder="Solicitor's Reference"
-            name="reference"
-            required
-          />
-        </label>
-        <label className="label">
-          <input
-            className="input"
-            type="text"
-            placeholder="Solicitor's Firm Name"
+            placeholder="Name"
             name="name"
             required
           />
@@ -87,9 +78,9 @@ class Form extends React.Component {
         <label className="label">
           <input
             className="input"
-            type="emailAddress"
-            placeholder="Email Address"
-            name="email"
+            type="email"
+            placeholder="Email"
+            name="emailAddress"
             required
           />
         </label>
@@ -100,24 +91,31 @@ class Form extends React.Component {
             defaultValue="Type of Enquiry"
             required
           >
-            <option hidden>I need help with...</option>
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
+            <option disabled hidden>
+              Type of Enquiry
+            </option>
+            <option>Need to know more</option>
+            <option>Found a bug</option>
+            <option>Want to say hello</option>
           </select>
         </label>
         <label className="label">
           <textarea
             className="input textarea"
-            placeholder="Comments"
-            name="comments"
-            rows="5"
+            placeholder="Message"
+            name="message"
+            rows="10"
             required
           />
         </label>
+        {/* <input
+          type="text"
+          name={honeypot}
+          className="input-honey"
+          placeholder="Leave blank if you are a human"
+        /> */}
         {!!subject && <input type="hidden" name="subject" value={subject} />}
         <input type="hidden" name="form-name" value={name} />
-
         <button type="submit" className="button">
           <p>send now</p>
           <div className="circle" />

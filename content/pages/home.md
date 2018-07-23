@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Davis Legal
-openerImage: 
+openerImage:
 section1:
   largeTitle: Areas
   leftColumn: >-

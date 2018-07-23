@@ -7,6 +7,7 @@ import Hero from '../components/Hero'
 import LargeTitle from '../components/LargeTitle'
 import Column from '../components/Column'
 import Content from '../components/Content'
+import Image from '../components/Image'
 import Button from '../components/Button'
 
 export const HomePageTemplate = ({

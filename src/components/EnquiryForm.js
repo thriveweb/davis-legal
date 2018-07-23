@@ -2,7 +2,7 @@ import React from 'react'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
 
-import './Form.css'
+import './EnquiryForm.css'
 
 class Form extends React.Component {
   static defaultProps = {

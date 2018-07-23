@@ -1,15 +1,15 @@
-.opener{
+.opener {
   position: relative;
 }
 
 .opener,
 .opener img,
-.opener .overlay{
+.opener .overlay {
   height: 100%;
   width: 100%;
 }
 
-.opener .cover.hide{
+.opener .cover.hide {
   display: none;
 }
 
@@ -30,7 +30,7 @@
   top: 1.4rem;
 } */
 
-.opener .large{
+.opener .large {
   position: absolute;
   z-index: 999;
   bottom: 5rem;
@@ -39,55 +39,55 @@
   padding-right: 2rem;
 }
 
-.opener p{
+.opener p {
   width: 25rem;
   opacity: 0.2;
   bottom: 4rem;
   text-align: right;
 }
 
-.opener .overlay{
-  z-index: 0;
+.opener .overlay {
+  z-index: 9;
   top: 0;
-  background: linear-gradient(#1D1E20, transparent 35%, #1D1E20);
+  background: linear-gradient(#1d1e20, transparent 35%, #1d1e20);
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   .opener,
   .opener img,
-  .opener .overlay{
+  .opener .overlay {
     height: 80vw;
   }
 
-  .opener .cover{
+  .opener .cover {
     display: none;
   }
 
-  .opener .cover.hide{
+  .opener .cover.hide {
     display: block;
   }
 }
 
-@media screen and (max-width: 670px){
-  .opener{
+@media screen and (max-width: 670px) {
+  .opener {
     margin-bottom: 4rem;
   }
-  
-  .opener .large{
+
+  .opener .large {
     bottom: 0;
     right: 0;
     left: 0;
   }
 
-  .opener p.right{
+  .opener p.right {
     font-size: 0.8rem;
     text-align: center;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 500px){
-  .opener .large{
+@media screen and (max-width: 500px) {
+  .opener .large {
     z-index: 99;
   }
 }

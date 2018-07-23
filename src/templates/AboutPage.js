@@ -4,62 +4,46 @@ import Helmet from 'react-helmet'
 
 import Hero from '../components/Hero'
 import LargeTitle from '../components/LargeTitle'
+import Column from '../components/Column'
 import LeftColumn from '../components/LeftColumn'
 import RightColumn from '../components/RightColumn'
+import Content from '../components/Content'
+import Image from '../components/Image'
 import Button from '../components/Button'
 import Timeline from '../components/Timeline'
 import Accordion from '../components/Accordion'
 import More from '../components/More'
 
-const AboutPage = () => (
+export const AboutPageTemplate = ({
+  title,
+  heroImage,
+  centerImage,
+  section1,
+  section2,
+  footerImage,
+}) => (
   <div>
     <Helmet>
       <title lang="en">About Robert</title>
     </Helmet>
 
-    <Hero image="/images/uploads/hero-about.jpg" />
+    <Hero image={heroImage} />
 
     <div className="section">
       <LargeTitle
-        smallTitle="about robert davis"
-        title="academic qualifications"
-        largeTitle="About"
-        marginTop={true}
+        smallTitle={section1.subtitle}
+        title={section1.title}
+        largeTitle={section1.largeTitle}
       />
 
       <div className="small content">
-        <LeftColumn
-          content={
-            <ul>
-              <li>Law Studies - Queensland SAB (December 1978)</li>
-              <li>
-                Bachelor of Social Science (major studies in psychology and
-                human biology) - UNE (April 1989)
-              </li>
-              <li>Master of Laws - Bond University (September 1991)</li>
-              <li>Certificate - Australian Advocacy Institute (August 1994)</li>
-            </ul>
-          }
-        />
+        <Column left={true}>
+          <Content src={section1.leftColumn} />
+        </Column>
 
-        <RightColumn
-          content={
-            <ul>
-              <li>
-                Second Master of Laws (Corporate and Commercial Law) - Bond
-                (February 1999)
-              </li>
-              <li>
-                Mediation Certificate - Bond University Dispute Resolution
-                Centre (December 2001)
-              </li>
-              <li>
-                Bar Association of Queensland Bar Practice Course - QUT
-                (February 2007)
-              </li>
-            </ul>
-          }
-        />
+        <Column right={true}>
+          <Content src={section1.rightColumn} />
+        </Column>
 
         <div className="clear" />
       </div>
@@ -75,72 +59,26 @@ const AboutPage = () => (
       <div className="clear" />
     </div>
 
-    <Hero image="/images/uploads/hero-about2.jpg" center={true} />
+    <Hero image={centerImage} center={true} />
 
     <div className="section">
       <LargeTitle
-        smallTitle="about his career"
-        title="past professional roles"
-        largeTitle="Career"
+        smallTitle={section2.subtitle}
+        title={section2.title}
+        largeTitle={section2.largeTitle}
       />
 
       <div className="small content">
-        <LeftColumn
-          content={
-            <ul>
-              <li>Chair, Law Australia Group of law firms</li>
-              <li>Visiting Assistant Professor (Law), Bond University</li>
-              <li>
-                Member of the Board of Governors, Association of Trial Lawyers
-                of America
-              </li>
-              <li>
-                Board Member, Australian Plaintiff Lawyers Association Inc
-                (APLA)
-              </li>
-              <li>
-                Member, Queensland Law Society Accident Compensation Committee
-              </li>
-              <li>Queensland Law Society Professional Standards Committee.</li>
-              <li>Queensland President, APLA</li>
-              <li>Advisory Board, Griffith University Innocence Project</li>
-              <li>Vice President, Queensland Law Society</li>
-            </ul>
-          }
-        />
+        <Column left={true}>
+          <Content src={section2.leftColumn} />
+        </Column>
 
-        <RightColumn
-          content={
-            <ul>
-              <li>
-                Twice elected National President, APLA (now the Australian
-                Lawyers Alliance)
-              </li>
-              <li>Council Member, Queensland Law Society</li>
-              <li>
-                Member, first Personal Injury Specialist Accreditation Committee
-                of the Queensland Law Society
-              </li>
-              <li>Director, College of Law Queensland Pty Ltd</li>
-              <li>
-                Adjunct Professor, Centre for Tourism and Risk Management at the
-                University of Queensland
-              </li>
-              <li>
-                Chair, Queensland Law Society Alternative Dispute Resolution
-                Section
-              </li>
-              <li>Member, Queensland Law Society Audit Committee</li>
-              <li>Director, Lexon Insurance Pty Ltd</li>
-              <li>President, Queensland Law Society</li>
-            </ul>
-          }
-        />
+        <Column right={true}>
+          <Content src={section2.rightColumn} />
+        </Column>
 
         <div className="clear" />
       </div>
-
-      <div className="clear" />
     </div>
 
     <div className="section">
@@ -468,8 +406,44 @@ const AboutPage = () => (
 
     <More />
 
-    <Hero image="/images/uploads/footer-about.jpg" footer={true} />
+    <Hero image={footerImage} />
   </div>
 )
 
+const AboutPage = ({ data: { page } }) => (
+  <AboutPageTemplate {...page} {...page.frontmatter} body={page.html} />
+)
+
 export default AboutPage
+
+export const pageQuery = graphql`
+  query AboutPage($id: String!) {
+    page: markdownRemark(id: { eq: $id }) {
+      frontmatter {
+        heroImage {
+          ...NoBlurImage
+        }
+        centerImage {
+          ...NoBlurImage
+        }
+        section1 {
+          largeTitle
+          subtitle
+          title
+          leftColumn
+          rightColumn
+        }
+        section2 {
+          largeTitle
+          subtitle
+          title
+          leftColumn
+          rightColumn
+        }
+        footerImage {
+          ...NoBlurImage
+        }
+      }
+    }
+  }
+`

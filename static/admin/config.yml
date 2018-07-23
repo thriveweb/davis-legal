@@ -60,14 +60,30 @@ collections: # A list of collections the CMS should be able to edit
         label: "About Page"
         name: "about-page"
         fields:
-          - {label: Template, name: template, widget: hidden, default: AboutPage}
-          - {label: Slug, name: slug, widget: hidden, default: 'about'}
+          - {label: Template, name: template, widget: hidden, default: HomePage}
+          - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
-          - {label: Featured Image, name: featuredImage, widget: image}
-          - {label: Subtitle, name: subtitle, widget: markdown}
-          - {label: Section 1, name: section1, widget: markdown}
-          - {label: Section 2, name: section2, widget: markdown}
-          - {label: Test Image, name: testImage, widget: image}
+          - {label: Hero Image, name: heroImage, widget: image}
+          - {label: Center Image, name: centerImage, widget: image}
+          - {label: Footer Image, name: footerImage, widget: image}
+          - label: "Section 1"
+            name: "section1"
+            widget: "object"
+            fields:
+              - {label: Large Title, name: largeTitle, widegt: string, required: false}
+              - {label: Title, name: title, widegt: string, required: false}
+              - {label: Subtitle, name: subtitle, widegt: string, required: false}
+              - {label: Left Column, name: leftColumn, widget: markdown, required: false}
+              - {label: Right Column, name: rightColumn, widget: markdown, required: false}
+          - label: "Section 2"
+            name: "section2"
+            widget: "object"
+            fields:
+              - {label: Large Title, name: largeTitle, widegt: string, required: false}
+              - {label: Title, name: title, widegt: string, required: false}
+              - {label: Subtitle, name: subtitle, widegt: string, required: false}
+              - {label: Left Column, name: leftColumn, widget: markdown, required: false}
+              - {label: Right Column, name: rightColumn, widget: markdown, required: false}
           - label: "Meta"
             required: false
             name: "meta"
@@ -86,6 +102,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: ''}
           - {label: Title, name: title, widget: string}
           - {label: Opener Image, name: openerImage, widget: image}
+          - {label: Footer Image, name: footerImage, widget: image}
           - label: "Section 1"
             name: "section1"
             widget: "object"

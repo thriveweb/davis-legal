@@ -15,6 +15,7 @@ export const HomePageTemplate = ({
   openerImage,
   section1,
   section2,
+  footerImage,
 }) => (
   <div>
     <Opener openerImage={openerImage} />
@@ -63,7 +64,7 @@ export const HomePageTemplate = ({
       <Button text="discover more" page="/about/" />
     </div>
 
-    <Hero image="/images/uploads/footer-home.jpg" footer={true} />
+    <Hero image={footerImage} footer={true} />
   </div>
 )
 
@@ -93,6 +94,9 @@ export const pageQuery = graphql`
           title
           leftColumn
           rightColumn
+        }
+        footerImage {
+          ...NoBlurImage
         }
       }
     }

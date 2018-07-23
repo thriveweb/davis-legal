@@ -15,12 +15,7 @@ const Opener = ({ openerImage }) => (
     </div>
 
     <div className="overlay" />
-    <img
-      className="cover hide"
-      src="/images/uploads/hero-home-res.jpg"
-      alt=""
-    />
-    <img className="cover" src={openerImage} alt="" />
+    <Image className="cover" src={openerImage} alt="" />
     <div className="clear" />
   </div>
 )

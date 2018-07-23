@@ -22,14 +22,14 @@
 @media screen and (max-width: 670px) {
   .timeline {
     position: relative;
-    margin-top: -12rem;
+    margin-top: -9rem;
   }
 
   .line {
     height: 100%;
     right: inherit;
     left: 0;
-    top: 2.5rem;
+    top: 0.5rem;
     padding: 0;
   }
 }

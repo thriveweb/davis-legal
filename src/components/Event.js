@@ -47,6 +47,7 @@ class Event extends Component {
           eventNow ? 'now' : ''
         }`}
         ref={el => (this.eventRef = el)}
+        key={year}
       >
         <h4>{year}</h4>
         <p>{content}</p>

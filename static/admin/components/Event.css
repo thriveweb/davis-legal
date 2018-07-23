@@ -1,26 +1,9 @@
-.timeline .event:nth-child(3) {
-  position: absolute;
-  top: 0;
-}
-
-.timeline .event:nth-child(2):after {
-  display: none !important;
-}
-
-.timeline .event:nth-child(3),
-.timeline .event:nth-child(2) {
-  margin-top: -5rem;
-}
-
-.timeline .event:nth-child(n + 5) {
-  margin-top: -4rem;
-}
-
 .event {
   position: relative;
   margin-bottom: 2rem;
   width: calc(50% - 0.1rem);
   clear: both;
+  margin-top: -5rem;
   /* border: 1px solid white; */
 }
 
@@ -126,24 +109,6 @@
 }
 
 @media screen and (max-width: 670px) {
-  .timeline .event:nth-child(3) {
-    position: relative;
-  }
-
-  .timeline .event:nth-child(2):after {
-    display: block !important;
-  }
-
-  .timeline .event:nth-child(1) {
-    margin-top: 3rem;
-  }
-
-  .timeline .event:nth-child(3),
-  .timeline .event:nth-child(2),
-  .timeline .event:nth-child(n + 5) {
-    margin-top: 0;
-  }
-
   .event:nth-child(odd),
   .event:nth-child(even) {
     float: right;
@@ -167,10 +132,6 @@
     right: inherit;
     position: absolute;
     display: block;
-  }
-
-  .event.now {
-    margin: 0;
   }
 
   .event h4:after,

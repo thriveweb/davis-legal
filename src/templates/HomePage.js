@@ -13,8 +13,8 @@ import Button from '../components/Button'
 export const HomePageTemplate = ({
   title,
   openerImage,
-  section1,
-  section2,
+  about,
+  areas,
   footerImage,
 }) => (
   <div>
@@ -22,18 +22,18 @@ export const HomePageTemplate = ({
 
     <div className="section">
       <LargeTitle
-        smallTitle={section1.subtitle}
-        title={section1.title}
-        largeTitle={section1.largeTitle}
+        smallTitle={about.subtitle}
+        title={about.title}
+        largeTitle={about.largeTitle}
       />
 
       <div className="small content">
         <Column left={true}>
-          <Content src={section1.leftColumn} />
+          <Content src={about.leftColumn} />
         </Column>
 
         <Column right={true}>
-          <Content src={section1.rightColumn} />
+          <Content src={about.rightColumn} />
         </Column>
 
         <div className="clear" />
@@ -44,18 +44,18 @@ export const HomePageTemplate = ({
 
     <div className="section">
       <LargeTitle
-        smallTitle={section2.subtitle}
-        title={section2.title}
-        largeTitle={section2.largeTitle}
+        smallTitle={areas.subtitle}
+        title={areas.title}
+        largeTitle={areas.largeTitle}
       />
 
       <div className="small content">
         <Column left={true}>
-          <Content src={section2.leftColumn} />
+          <Content src={areas.leftColumn} />
         </Column>
 
         <Column right={true}>
-          <Content src={section2.rightColumn} />
+          <Content src={areas.rightColumn} />
         </Column>
 
         <div className="clear" />
@@ -84,14 +84,14 @@ export const pageQuery = graphql`
         footerImage {
           ...NoBlurImage
         }
-        section1 {
+        about {
           largeTitle
           subtitle
           title
           leftColumn
           rightColumn
         }
-        section2 {
+        areas {
           largeTitle
           subtitle
           title

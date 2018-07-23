@@ -3,7 +3,7 @@ template: HomePage
 slug: ''
 title: Davis Legal
 openerImage: /images/uploads/hero-home.jpg
-section1:
+about:
   largeTitle: Areas
   subtitle: Practice Areas
   title: Accepting briefs to adive and appear
@@ -28,7 +28,7 @@ section1:
     * Inquests and Commissions of Inquiry
     * Professional & Ethical Standards Disciplinary Proceedings
 
-section2:
+areas:
   largeTitle: About
   subtitle: About Robert Davis
   title: Over 35 years of legal experience

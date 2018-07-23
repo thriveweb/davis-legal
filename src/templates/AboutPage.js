@@ -22,6 +22,7 @@ export const AboutPageTemplate = ({
   timeline,
   career,
   work,
+  more,
   footerImage,
 }) => (
   <div>
@@ -104,7 +105,13 @@ export const AboutPageTemplate = ({
       <div className="clear" />
     </div>
 
-    <More />
+    <More
+      largeTitle={more.largeTitle}
+      title={more.title}
+      content={more.content}
+      buttonText={more.buttonText}
+      buttonLink={more.buttonLink}
+    />
 
     <Hero image={footerImage} footer={true} />
   </div>
@@ -163,6 +170,13 @@ export const pageQuery = graphql`
             title
             content
           }
+        }
+        more {
+          largeTitle
+          title
+          content
+          buttonText
+          buttonLink
         }
       }
     }

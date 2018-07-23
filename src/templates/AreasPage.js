@@ -16,6 +16,7 @@ export const AreasPageTemplate = ({
   footerImage,
   intro,
   iconList,
+  more,
 }) => (
   <div>
     <Helmet>
@@ -55,7 +56,13 @@ export const AreasPageTemplate = ({
       </div>
     </div>
 
-    <More />
+    <More
+      largeTitle={more.largeTitle}
+      title={more.title}
+      content={more.content}
+      buttonText={more.buttonText}
+      buttonLink={more.buttonLink}
+    />
 
     <Hero image={footerImage} footer={true} />
   </div>
@@ -99,6 +106,13 @@ export const pageQuery = graphql`
             title
             content
           }
+        }
+        more {
+          largeTitle
+          title
+          content
+          buttonText
+          buttonLink
         }
       }
     }

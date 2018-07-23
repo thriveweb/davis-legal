@@ -26,9 +26,9 @@ centerImage: /images/uploads/hero-about2.jpg
 timeline:
   event:
     - year: '1979'
-      content: Robert became Litigation Partner in a large Gold Coast Law Firm practising in both Queensland and New South Wales. He progressed to Senior Litigation Partner and in 1990 became the Managing Partner. He remained at this firm until 2000.
-    - year: '1979'
       content: In February 1979 Robert was admitted as a Solicitor of the Supreme Court of Queensland and in June 1979 also became a Solicitor of the Supreme Court of New South Wales.
+    - year: '1979'
+      content: Robert became Litigation Partner in a large Gold Coast Law Firm practising in both Queensland and New South Wales. He progressed to Senior Litigation Partner and in 1990 became the Managing Partner. He remained at this firm until 2000.
     - year: '2000'
       content: Robert commenced sole practice as a Litigation Lawyer and Legal Consultant while also serving as National President of the Australian Lawyers Association.
     - year: '2003'
@@ -209,7 +209,12 @@ work:
         - Essentials of Trial Advocacy, Queensland CPD Conference, Stamford Plaza, Brisbane, 19 March 2013.
 
         - Compensation for Aviation Injuries - 2017 Australian Lawyers Alliance National Conference, Convention Centre, Darwin, Northern Territory, 20 October 2017.
-
+more:
+  largeTitle: More
+  title: find out more
+  content: Robert's costs vary depending on the the amount of work required. Cost estimates can be supplied once a brief is received. In appropriate cases Robert is willing to work on a deferred payment or conditional basis. Further details are available upon request.
+  buttonText: contact robert
+  buttonLink: /contact/
 
 footerImage: /images/uploads/footer-about.jpg
 ---

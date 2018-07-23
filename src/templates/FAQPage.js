@@ -14,6 +14,7 @@ export const FAQPageTemplate = ({
   footerImage,
   intro,
   accordion,
+  more,
 }) => (
   <div>
     <Helmet>
@@ -45,7 +46,13 @@ export const FAQPageTemplate = ({
       </div>
     </div>
 
-    <More />
+    <More
+      largeTitle={more.largeTitle}
+      title={more.title}
+      content={more.content}
+      buttonText={more.buttonText}
+      buttonLink={more.buttonLink}
+    />
 
     <Hero image={footerImage} footer={true} />
   </div>
@@ -77,6 +84,13 @@ export const pageQuery = graphql`
         accordion {
           title
           content
+        }
+        more {
+          largeTitle
+          title
+          content
+          buttonText
+          buttonLink
         }
       }
     }

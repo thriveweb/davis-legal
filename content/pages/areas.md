@@ -35,6 +35,11 @@ iconList:
     - icon: /images/uploads/icon-ethical.svg
       title: Professional & Ethical Standards Disciplinary Proceedings
       content: Robert has served on ethical and professional standards committees of legal organisations and in that capacity has gained significant experience in investigations into and claims about professional misconduct and unprofessional conduct. Robert occasionally represents lawyers facing complaints about potential breaches of ethical and legal obligations.
-
+more:
+  largeTitle: More
+  title: find out more
+  content: Robert's costs vary depending on the the amount of work required. Cost estimates can be supplied once a brief is received. In appropriate cases Robert is willing to work on a deferred payment or conditional basis. Further details are available upon request.
+  buttonText: contact robert
+  buttonLink: /contact/   
 footerImage: /images/uploads/footer-areas.jpg
 ---

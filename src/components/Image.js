@@ -71,7 +71,7 @@ export const query = graphql`
   fragment NoBlurImage on File {
     publicURL
     childImageSharp {
-      sizes(quality: 100) {
+      sizes(maxWidth: 2400, quality: 75) {
         ...GatsbyImageSharpSizes_withWebp_noBase64
       }
     }

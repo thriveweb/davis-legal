@@ -7,6 +7,8 @@ centerImage: /images/uploads/hero-about2.jpg
 footerImage: /images/uploads/footer-about.jpg
 about:
   largeTitle: About
+  subtitle: About Robert Davis
+  title: Academic qualifications
   leftColumn: >-
     * Law Studies - Queensland SAB (December 1978)
 
@@ -26,15 +28,13 @@ about:
 
 
     - Bar Association of Queensland Bar Practice Course - QUT (February 2007)
-  subtitle: About Robert Davis
-  title: Academic qualifications
 timeline:
   event:
     - content: >-
         In February 1979 Robert was admitted as a Solicitor of the Supreme Court
         of Queensland and in June 1979 also became a Solicitor of the Supreme
-        Court of New South Wales.
-      year: '1979'
+        Court of New South Wales
+        year: '1979'
     - content: >-
         Robert became Litigation Partner in a large Gold Coast Law Firm
         practising in both Queensland and New South Wales. He progressed to
@@ -63,6 +63,8 @@ timeline:
     title: NOW
 career:
   largeTitle: Career
+  subtitle: About his career
+  title: Past professional roles
   leftColumn: >-
     * Chair, Consumer Law Committee, General Practice Section, The Law Council
     of Australia
@@ -103,9 +105,12 @@ career:
     - Director, Lexon Insurance Pty Ltd
 
     - President, Queensland Law Society
-  subtitle: About his career
-  title: Past professional roles
 work:
+  largeTitle: Work
+  title: Publications
+  subtitle: Roberts work
+  leftColumn: Publications authored, books contributed towards and conference presentations made, include
+  rightColumn: ''
   accordion:
     - content: >-
         - The Effect of The Decision of The Full Court of The Federal Court of
@@ -293,8 +298,10 @@ work:
         - Compensation for Aviation Injuries - 2017 Australian Lawyers Alliance
         National Conference, Convention Centre, Darwin, Northern Territory, 20
         October 2017.
-      title: Presentations & Submissions
+      title: Publications
 more:
+  largeTitle: More
+  title: find out more
   buttonLink: /contact/
   buttonText: contact robert
   content: >-
@@ -302,6 +309,4 @@ more:
     estimates can be supplied once a brief is received. In appropriate cases
     Robert is willing to work on a deferred payment or conditional basis.
     Further details are available upon request.
-  largeTitle: More
-  title: find out more
 ---

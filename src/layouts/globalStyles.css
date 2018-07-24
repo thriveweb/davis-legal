@@ -16,6 +16,11 @@ body {
 
 /* typography */
 
+@font-face {
+  font-family: 'Garamond';
+  src: url('/fonts/Garamond');
+}
+
 h1 {
   font-family: 'eloquent-jf-pro';
   font-size: 18rem;
@@ -28,6 +33,7 @@ h1 {
 
 h2 {
   width: 50%;
+  font-family: 'Garamond';
   font-size: 2rem;
   font-weight: 100;
   color: #fff;

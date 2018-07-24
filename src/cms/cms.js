@@ -9,6 +9,7 @@ import { FAQPageTemplate } from '../templates/FAQPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 
 CMS.registerPreviewStyle('/styles.css')
+CMS.registerPreviewStyle('https://use.typekit.net/jzk7ecz.css')
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />

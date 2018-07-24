@@ -305,4 +305,3 @@ more:
   largeTitle: More
   title: find out more
 ---
-

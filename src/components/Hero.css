@@ -27,7 +27,7 @@
   bottom: 0;
 }
 
-.hero .Image img,
+.hero .BackgroundImage img,
 .hero-footer .Image img {
   opacity: 0.1 !important;
   filter: grayscale(100%);

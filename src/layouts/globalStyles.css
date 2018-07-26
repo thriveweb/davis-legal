@@ -271,10 +271,6 @@ img.cover {
     display: block;
   }
 
-  .content ul img {
-    display: none;
-  }
-
   .content ul:nth-child(1) {
     margin-top: 0;
   }

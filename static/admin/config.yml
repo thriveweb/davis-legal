@@ -202,4 +202,4 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Site Url, name: siteUrl, widget: string, required: false}
           - {label: Site Description, name: siteDescription, widget: text, required: false}
           - {label: Header Meta / Scripts, name: headerScripts, widget: text, required: false}
-          - {label: Enable Service Worker Pre-Cache, name: enableServiceWorker, widget: boolean, required: false}
+          - {label: OpenGraph Card, name: openGraphCard, widget: image, required: false}

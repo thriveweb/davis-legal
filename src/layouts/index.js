@@ -17,6 +17,7 @@ export default ({ children, data }) => {
     siteUrl,
     socialMediaCard,
     headerScripts,
+    openGraphCard,
   } =
     data.settingsYaml || {}
   return (
@@ -40,6 +41,7 @@ export const query = graphql`
       siteTitle
       siteDescription
       headerScripts
+      openGraphCard
     }
   }
 `

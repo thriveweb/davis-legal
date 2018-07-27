@@ -15,12 +15,10 @@ const Meta = props => {
     twitterCreatorAccount,
     headerScripts,
     noindex,
-    canonicalLink
+    canonicalLink,
     // overwrite { title, description } if in fields or fields.meta
   } = {
     ...props,
-    ...onlyTruthyValues(_get(props, 'fields')),
-    ...onlyTruthyValues(_get(props, 'fields.meta'))
   }
 
   // write headerScripts
@@ -44,12 +42,6 @@ const Meta = props => {
       )}
       {absoluteImageUrl && (
         <meta property="og:image" content={absoluteImageUrl} />
-      )}
-      {twitterSiteAccount && (
-        <meta name="twitter:site" content={twitterSiteAccount} />
-      )}
-      {twitterCreatorAccount && (
-        <meta name="twitter:creator" content={twitterCreatorAccount} />
       )}
       {noindex && <meta name="robots" content="noindex" />}
       {canonicalLink && <link rel="canonical" href={canonicalLink} />}

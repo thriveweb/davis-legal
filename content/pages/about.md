@@ -105,6 +105,11 @@ career:
   subtitle: About his career
   title: Past professional roles
 work:
+  largeTitle: Work
+  title: Publications
+  subtitle: Robert's Work
+  leftColumn: Publications authored, books contributed towards and conference presentations made, include
+  rightColumn: ''
   accordion:
     - content: >-
         - The Effect of The Decision of The Full Court of The Federal Court of
@@ -304,4 +309,3 @@ more:
   largeTitle: More
   title: find out more
 ---
-

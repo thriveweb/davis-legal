@@ -140,6 +140,11 @@ collections: # A list of collections the CMS should be able to edit
             name: "work"
             widget: "object"
             fields:
+              - {label: Large Title, name: largeTitle, widegt: string, required: false}
+              - {label: Title, name: title, widegt: string, required: false}
+              - {label: Subtitle, name: subtitle, widegt: string, required: false}
+              - {label: Left Column, name: leftColumn, widget: markdown, required: false}
+              - {label: Right Column, name: rightColumn, widget: markdown, required: false}
               - label: "Accordion"
                 name: accordion
                 widget: "list"

@@ -26,7 +26,10 @@ export default ({ children, data }) => {
         <link rel="stylesheet" href="https://use.typekit.net/jzk7ecz.css" />
       </Helmet>
 
-      <Meta absoluteImageUrl={siteUrl + openGraphCard} />
+      <Meta
+        absoluteImageUrl={siteUrl + openGraphCard}
+        description={siteDescription}
+      />
 
       <Menu />
 

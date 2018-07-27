@@ -4,4 +4,4 @@ siteDescription: >-
   Robert Davis is a barrister with over 30 years legal experince, appearing as
   counsel in Australian State, Territorial and Federal Courts
 headerScripts: ''
-enableServiceWorker: true
+openGraphCard: /images/uploads/card-og.jpg

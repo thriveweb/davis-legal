@@ -34,6 +34,7 @@ timeline:
         In February 1979 Robert was admitted as a Solicitor of the Supreme Court
         of Queensland and in June 1979 also became a Solicitor of the Supreme
         Court of New South Wales year: '1979'
+      year: '1979'
     - content: >-
         Robert became Litigation Partner in a large Gold Coast Law Firm
         practising in both Queensland and New South Wales. He progressed to
@@ -105,11 +106,6 @@ career:
   subtitle: About his career
   title: Past professional roles
 work:
-  largeTitle: Work
-  title: Publications
-  subtitle: Robert's Work
-  leftColumn: Publications authored, books contributed towards and conference presentations made, include
-  rightColumn: ''
   accordion:
     - content: >-
         - The Effect of The Decision of The Full Court of The Federal Court of
@@ -298,6 +294,13 @@ work:
         National Conference, Convention Centre, Darwin, Northern Territory, 20
         October 2017.
       title: Presentations
+  largeTitle: Work
+  leftColumn: >-
+    Publications authored, books contributed towards and conference
+    presentations made, include
+  rightColumn: ''
+  subtitle: Robert's Work
+  title: Publications
 more:
   buttonLink: /contact/
   buttonText: contact robert
@@ -309,3 +312,4 @@ more:
   largeTitle: More
   title: find out more
 ---
+

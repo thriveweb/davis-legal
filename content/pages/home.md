@@ -38,8 +38,8 @@ areas:
   rightColumn: >-
     Over his career he has been featured in many publications and has served as
     President of the Queensland Law Society and the Australian Plaintiff Lawyers
-    Association (now the Australian Lawyers Alliance). He has has appeared in
-    many high profile cases in Australia.
+    Association (now the Australian Lawyers Alliance). He has appeared in many
+    high profile cases in Australia.
   subtitle: About Robert Davis
   title: Over 35 years of legal experience
 ---

@@ -33,7 +33,7 @@ timeline:
     - content: >-
         In February 1979 Robert was admitted as a Solicitor of the Supreme Court
         of Queensland and in June 1979 also became a Solicitor of the Supreme
-        Court of New South Wales year.
+        Court of New South Wales.
       year: '1979'
     - content: >-
         Robert became Litigation Partner in a large Gold Coast Law Firm

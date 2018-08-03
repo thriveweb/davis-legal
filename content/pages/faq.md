@@ -15,7 +15,7 @@ intro:
 
 
     Please allow appropriate time for delivery of all hard-copy mail
-    communications.  
+    communications.
 
 
     Robert will confer with clients in the offices of their solicitor and when
@@ -49,59 +49,101 @@ intro:
   title: All you need to know
 accordion:
   - content: >-
-      A barrister is a legal practitioner who elects to practice as a specialist
-      advocate in courts. Barristers must undertake special training before they
-      can become members of their Bar Association. The word barrister refers to
-      someone who has been “called to the bar” and who then becomes a
-      “barrister-at-law".
+      A barrister is a specially qualified lawyer who elects to practice as a
+      specialist advocate in courts. 
+
+
+      Australian Barristers must undertake special training before they can
+      become members of a Bar Association and act as barristers. 
+
+
+      The word barrister refers to someone who has been “called to the bar” and
+      who then becomes a “barrister-at-law".
     title: What is a barrister?
   - content: >-
-      Solicitors and barristers are both legal professionals who are permitted
-      to appear in courts. Most solicitors spend their careers performing
-      transactional work for clients, such as property transfers, drawing wills,
-      preparing contracts, etc.
+      Solicitors and barristers are both qualified legal professionals
+      (lawyers).  
 
-      Litigation solicitors mostly prepare cases and then brief a barrister to
-      appear at court on their client's behalf. Solicitors also brief barristers
-      to advise their clients on specialist areas of legal knowledge. Solicitors
-      often work in law firms and may choose to only represent special
-      categories of client.
 
-      In contrast, barristers are required to work only as sole traders and are
-      ethically bound (subject to agreement being reached as to their costs) to
-      accept briefs on behalf of any client.
+      Most solicitors will spend their careers performing transactional work for
+      clients, such as property transfers, drawing wills, preparing contracts,
+      etc. While some solicitors regularly appear in lower courts, they will
+      usually employ barristers to represent their clients in higher courts or
+      in more complex cases. 
+
+
+      Solicitors mostly prepare cases for their clients and then brief a
+      barrister to appear at court on their client's behalf. Solicitors also
+      regularly brief barristers to advise their clients on specialist areas of
+      legal knowledge. 
+
+
+      Solicitors often work in law firms and may choose to only represent only
+      special categories of client. 
+
+
+      Some solicitors work mainly for corporate entities (such as insurers,
+      manufacturers, employers, or government authorities etc). Others will work
+      mainly for members of the general public. Most suburban solicitors will
+      fall within the latter category.
+
+
+      In contrast to solicitors, barristers are ethically required (subject to
+      agreement being reached as to their costs) to work on behalf of any
+      client.
     title: How does a barrister differ from a solicitor?
   - content: >-
       Barristers costs will vary depending on the nature of the work required,
-      their special expertise, and their seniority. Barristers charge costs that
-      are either based on the time spent or, on occasion, a fixed cost on brief.
+      their special expertise, and their seniority. 
 
-      Barristers are required to disclose their costs before commencing work. If
-      urgent work is required before a cost disclosure can be made, then the
-      barrister must make a disclosure at the earliest opportunity. A barrister
-      is (usually) not to perform any work for a client unless a cost agreement
-      has first been reached.
 
-      Barristers are sometimes willing to work on a deferred payment basis.
-      Other barristers may be willing to work on a conditional basis - that is -
+      Barristers charge costs that are either based on the time spent or, on
+      occasion, a fixed cost on brief. Barristers are required to disclose their
+      costs before commencing work. 
+
+
+      If urgent work is required before a cost disclosure can be made, then the
+      barrister must make a disclosure at the earliest opportunity. 
+
+
+      A barrister is (usually) not to perform any work for a client unless a
+      cost agreement has first been reached. 
+
+
+      Many barristers are willing to work on a deferred payment basis. Some
+      barristers are also willing to work on a conditional basis - that is -
       where payment depends wholly or partly upon success in the case.
     title: How do barristers charge?
   - content: >-
-      Some barristers are willing to accept direct briefs from the public. This
-      usually occurs with barristers conducting criminal work in lower courts.
+      Some barristers are willing to accept direct briefs from the public. 
+
+
+      This usually occurs with barristers conducting criminal work in lower
+      courts. 
+
+
       Many (probably most) barristers will only accept client briefs via a
-      solicitor's firm. Litigation work is often very complex and labour
-      intensive. Barristers must work as sole traders so they lack the human and
-      other resources that a solicitors firm can devote to pre-trial paperwork.
+      solicitor's firm - because pre-trial litigation work is often very labour
+      intensive and is therefore best performed by a solicitor. 
+
+
+      Barristers must work as sole traders so they lack the human and other
+      resources that a solicitors firm can devote to pre-trial paperwork. 
+
+
       Robert only accepts briefs via a solicitor.
     title: Do I also need a solicitor?
   - content: >-
       If you are a member of the public and wish to directly engage a barrister
-      then you should phone around to find someone who is suitable. If you
-      already have a solicitor then he or she will advise you about which
-      barristers are best suited to your circumstances. You can carry out your
-      own research into the barristers suggested, but your solicitor is often
-      the best source of information in this regard.
+      then you should phone around to find someone who is suitable. 
+
+
+      If you already have a solicitor then he or she will advise you about which
+      barristers are best suited to your circumstances. 
+
+
+      You can carry out your own research into the barristers suggested, but
+      your solicitor is often the best source of information in this regard.
     title: How do I employ a barrister?
 more:
   buttonLink: /contact/

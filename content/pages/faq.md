@@ -5,32 +5,31 @@ title: FAQ
 heroImage: /images/uploads/hero-faq.jpg
 footerImage: /images/uploads/footer-faq.jpg
 intro:
-  intro:
-    largeTitle: FAQ
-    leftColumn: >-
-      Robert accepts briefs to appear in courts all Australian states and
-      territories. He accepts briefs both paper and electronic format.
-      Electronic briefs may be delivered either by email or on USB or other
-      media via his PO Box. PDF format is preferred. Paper briefs are to be
-      addressed to his Post Office box. Please allow appropriate time for
-      delivery of all hard-copy mail communications.  Robert will confer with
-      clients in the offices of their solicitor and when he works interstate
-      does so on a fly-in-fly-out basis. Robert only accepts briefs for clients
-      via their solicitor
-    rightColumn: >-
-      He does not accept briefs direct from the public. This is because
-      pre-trial litigation work is complex, labour intensive, and requires the
-      the attention of an experienced solicitor. No work will be commenced by
-      Robert (unless urgent) until appropriate agreement is reached about the
-      terms of his retainer. Cost estimates are available upon request.  In
-      appropriate cases Robert is willing work on a deferred or conditional
-      basis. It is often necessary to review the brief before any cost estimate
-      can be made. In large, complex or urgent matters he may require some
-      payment for perusal of the brief before considering alternate cost
-      arrangements. Before sending a brief you should phone Robert to discuss
-      the matter and confirm his availability.
-    subtitle: Frequently Asked Questions
-    title: All you need to know
+  largeTitle: FAQ
+  leftColumn: >-
+    Robert accepts briefs to appear in courts all Australian states and
+    territories. He accepts briefs both paper and electronic format.
+    Electronic briefs may be delivered either by email or on USB or other
+    media via his PO Box. PDF format is preferred. Paper briefs are to be
+    addressed to his Post Office box. Please allow appropriate time for
+    delivery of all hard-copy mail communications.  Robert will confer with
+    clients in the offices of their solicitor and when he works interstate
+    does so on a fly-in-fly-out basis. Robert only accepts briefs for clients
+    via their solicitor
+  rightColumn: >-
+    He does not accept briefs direct from the public. This is because
+    pre-trial litigation work is complex, labour intensive, and requires the
+    the attention of an experienced solicitor. No work will be commenced by
+    Robert (unless urgent) until appropriate agreement is reached about the
+    terms of his retainer. Cost estimates are available upon request.  In
+    appropriate cases Robert is willing work on a deferred or conditional
+    basis. It is often necessary to review the brief before any cost estimate
+    can be made. In large, complex or urgent matters he may require some
+    payment for perusal of the brief before considering alternate cost
+    arrangements. Before sending a brief you should phone Robert to discuss
+    the matter and confirm his availability.
+  subtitle: Frequently Asked Questions
+  title: All you need to know
 accordion:
   - content: >-
       A barrister is a legal practitioner who elects to practice as a specialist
@@ -88,4 +87,3 @@ accordion:
       the best source of information in this regard.
     title: How do I employ a barrister?
 ---
-

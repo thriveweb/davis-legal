@@ -51,15 +51,11 @@ collections: # A list of collections the CMS should be able to edit
             name: "intro"
             widget: object
             fields:
-              - label: "Intro"
-                name: "intro"
-                widget: object
-                fields:
-                  - {label: Large Title, name: largeTitle, widget: string,}
-                  - {label: Title, name: title, widget: string}
-                  - {label: Subtitle, name: subtitle, widget: string}
-                  - {label: Left Column, name: leftColumn, widget: string}
-                  - {label: Right Column, name: rightColumn, widget: string}
+              - {label: Large Title, name: largeTitle, widget: string,}
+              - {label: Title, name: title, widget: string}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Left Column, name: leftColumn, widget: markdown}
+              - {label: Right Column, name: rightColumn, widget: markdown}
           - label: "Accordion"
             name: "accordion"
             widget: list
@@ -79,7 +75,7 @@ collections: # A list of collections the CMS should be able to edit
 
           - label: "Intro"
             name: "intro"
-            widget: object
+            widget: "object"
             fields:
               - {label: Large Title, name: largeTitle, widget: string,}
               - {label: Title, name: title, widget: string}

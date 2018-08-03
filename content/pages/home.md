@@ -3,10 +3,9 @@ template: HomePage
 slug: ''
 title: Davis Legal
 openerImage: /images/uploads/hero-home.jpg
+footerImage: /images/uploads/footer-home.jpg
 about:
   largeTitle: Areas
-  subtitle: Practice Areas
-  title: Accepting briefs to adive and appear
   leftColumn: >-
     Robert Davis appears as counsel in Australian State, Territorial and Federal
     Courts. His main areas of practice include:
@@ -27,11 +26,10 @@ about:
 
     * Inquests and Commissions of Inquiry
     * Professional & Ethical Standards Disciplinary Proceedings
-
+  subtitle: Practice Areas
+  title: Accepting briefs to advise and appear
 areas:
   largeTitle: About
-  subtitle: About Robert Davis
-  title: Over 35 years of legal experience
   leftColumn: >-
     With extensive experience and ongoing academic qualifications, Robert began
     his career in Queensland and New South Wales in 1979 then worked for many
@@ -40,8 +38,9 @@ areas:
   rightColumn: >-
     Over his career he has been featured in many publications and has served as
     President of the Queensland Law Society and the Australian Plaintiff Lawyers
-    Association (now the Australian Lawyers Alliance). He has has appeared in
-    many high profile cases in Australia.
-
-footerImage: /images/uploads/footer-home.jpg
+    Association (now the Australian Lawyers Alliance). He has appeared in many
+    high profile cases in Australia.
+  subtitle: About Robert Davis
+  title: Over 35 years of legal experience
 ---
+

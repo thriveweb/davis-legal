@@ -86,14 +86,14 @@ accordion:
       own research into the barristers suggested, but your solicitor is often
       the best source of information in this regard.
     title: How do I employ a barrister?
-  more:
-    buttonLink: /contact/
-    buttonText: contact robert
-    content: >-
-      Robert's costs vary depending on the the amount of work required. Cost
-      estimates can be supplied once a brief is received. In appropriate cases
-      Robert is willing to work on a deferred payment or conditional basis.
-      Further details are available upon request.
-    largeTitle: More
-    title: find out more
+more:
+  buttonLink: /contact/
+  buttonText: contact robert
+  content: >-
+    Robert's costs vary depending on the the amount of work required. Cost
+    estimates can be supplied once a brief is received. In appropriate cases
+    Robert is willing to work on a deferred payment or conditional basis.
+    Further details are available upon request.
+  largeTitle: More
+  title: find out more
 ---

@@ -13,11 +13,8 @@ intro:
 
     Electronic briefs may be delivered either by email or on USB or other media
     via his PO Box. PDF format is preferred. Paper briefs are to be addressed to
-    his Post Office box. 
-
-
-    Please allow appropriate time for delivery of all hard-copy mail
-    communications.
+    his Post Office box. Please allow appropriate time for delivery of all
+    hard-copy mail communications.
 
 
     Robert will confer with clients in the offices of their solicitor and when
@@ -25,12 +22,10 @@ intro:
 
 
     Robert only accepts briefs for clients via their solicitor. He does not
-    accept briefs direct from the public.
+    accept briefs direct from the public. This is because pre-trial litigation
+    work is complex, labour intensive, and requires the the attention of an
+    experienced solicitor.
   rightColumn: >-
-    This is because pre-trial litigation work is complex, labour intensive, and
-    requires the the attention of an experienced solicitor.
-
-
     No work will be commenced by Robert (unless urgent) until appropriate
     agreement is reached about the terms of his retainer. 
 

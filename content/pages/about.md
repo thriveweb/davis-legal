@@ -75,7 +75,7 @@ career:
 
     * Member, Queensland Law Society Accident Compensation Committee
 
-    * Queensland Law Society Professional Standards Committee.
+    * Queensland Law Society Professional Standards Committee
 
     * Queensland President, APLA
 

@@ -8,10 +8,12 @@ intro:
   largeTitle: FAQ
   leftColumn: >-
     Robert accepts briefs to appear in courts all Australian states and
-    territories. He accepts briefs both paper and electronic format. Electronic
-    briefs may be delivered either by email or on USB or other media via his PO
-    Box. PDF format is preferred. Paper briefs are to be addressed to his Post
-    Office box. 
+    territories. He accepts briefs both paper and electronic format. 
+
+
+    Electronic briefs may be delivered either by email or on USB or other media
+    via his PO Box. PDF format is preferred. Paper briefs are to be addressed to
+    his Post Office box. 
 
 
     Please allow appropriate time for delivery of all hard-copy mail
@@ -23,20 +25,19 @@ intro:
 
 
     Robert only accepts briefs for clients via their solicitor. He does not
-    accept briefs direct from the public. This is because pre-trial litigation
-    work is complex, labour intensive, and requires the the attention of an
-    experienced solicitor.
+    accept briefs direct from the public.
   rightColumn: >-
+    This is because pre-trial litigation work is complex, labour intensive, and
+    requires the the attention of an experienced solicitor.
+
+
     No work will be commenced by Robert (unless urgent) until appropriate
     agreement is reached about the terms of his retainer. 
 
 
-    Cost estimates are available upon request.  
-
-
-    In appropriate cases Robert is willing work on a deferred or conditional
-    basis. It is often necessary to review the brief before any cost estimate
-    can be made. 
+    Cost estimates are available upon request.  In appropriate cases Robert is
+    willing work on a deferred or conditional basis. It is often necessary to
+    review the brief before any cost estimate can be made. 
 
 
     In large, complex or urgent matters he may require some payment for perusal

@@ -22,8 +22,10 @@ intro:
 
 
     Robert only accepts briefs for clients via their solicitor. He does not
-    accept briefs direct from the public. This is because pre-trial litigation
-    work is complex, labour intensive.
+    accept briefs direct from the public. 
+
+
+    This is because pre-trial litigation work is complex, labour intensive.
   rightColumn: >-
     It is usually more cost effective when complex pre-trial litigation work is
     performed by an experienced solicitor.

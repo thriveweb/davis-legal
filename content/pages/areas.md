@@ -15,11 +15,10 @@ intro:
 iconList:
   left:
     - content: >-
-        Actions against professionals often involves special legal knowledge and
-        complex factual circumstances. Robert has considerable experience in
-        this specialist area of the law and regularly represents clients in
-        actions involving legal, medical, financial and other types of
-        professional negligence.
+        Actions against professionals often involve special legal knowledge and
+        complex evidence. Robert has considerable experience in this specialist
+        area of the law and regularly represents clients in actions involving
+        legal, medical, financial and other types of professional negligence.
       icon: /images/uploads/icon-medical.svg
       title: 'Legal, Medical & Financial Professional Negligence Litigation'
     - content: >-

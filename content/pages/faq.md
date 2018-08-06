@@ -28,9 +28,9 @@ intro:
     This is because pre-trial litigation work is complex and often quite labour
     intensive.
   rightColumn: >-
-    It is usually more cost effective if much of the pre-trial litigation work
-    to be performed by an experienced solicitor - with input from the barrister
-    if necessary. 
+    It is usually more cost effective if parts of the pre-trial litigation work
+    is performed by an experienced solicitor - with input from the barrister if
+    necessary. 
 
 
     No work will be commenced by Robert (unless urgent) until appropriate

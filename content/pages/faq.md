@@ -7,8 +7,8 @@ footerImage: /images/uploads/footer-faq.jpg
 intro:
   largeTitle: FAQ
   leftColumn: >-
-    Robert accepts briefs to appear in courts all Australian states and
-    territories. He accepts briefs both paper and electronic format. 
+    Robert accepts briefs to appear in courts in all Australian States and
+    Territories. He accepts briefs both paper and electronic format. 
 
 
     Electronic briefs may be delivered either by email or on USB or other media

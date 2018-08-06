@@ -33,11 +33,10 @@ iconList:
       icon: /images/uploads/icon-trade.svg
       title: Trade Practices & Consumer Litigation
     - content: >-
-        Robert has represented a large number of former employees of
-        Commonwealth Departments and Authorities and has appeared in many of the
-        major cases on this subject, commencing with the seminal decision in
-        Cornwell v Commonwealth of Australia [2007] HCA 16; 229 CLR 519; 81 ALJR
-        933; 234 ALR 148.
+        Robert has represented many former employees of Commonwealth Departments
+        and Authorities and has appeared in many major cases on this subject,
+        commencing with the seminal decision in Cornwell v Commonwealth of
+        Australia [2007] HCA 16; 229 CLR 519; 81 ALJR 933; 234 ALR 148.
       icon: /images/uploads/icon-super.svg
       title: Commonwealth Superannuation Litigation
   right:
@@ -57,7 +56,7 @@ iconList:
     - content: >-
         Robert has conducted a number of cases in this technical area and has
         published and presented papers on this subject to legal and medical
-        audiences.
+        audiences throughout the South Pacific region.
       icon: /images/uploads/icon-scuba.svg
       title: Scuba Diving Litigation
     - content: >-

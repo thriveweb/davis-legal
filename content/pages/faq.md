@@ -13,8 +13,11 @@ intro:
 
     Electronic briefs may be delivered either by email or on USB or other media
     via his PO Box. PDF format is preferred. Paper briefs are to be addressed to
-    his Post Office box. Please allow appropriate time for delivery of all
-    hard-copy mail communications.
+    his Post Office box. 
+
+
+    Please allow appropriate time for delivery of all hard-copy mail
+    communications.
 
 
     Robert will confer with clients in the offices of their solicitor and, when

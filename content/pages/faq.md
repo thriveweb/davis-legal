@@ -50,12 +50,13 @@ intro:
   title: All you need to know
 accordion:
   - content: >-
-      A barrister is a specially qualified lawyer who elects to practice as a
-      specialist advocate in courts. 
+      A barrister is a qualified lawyer who elects to practice as a specialist
+      advocate in courts. 
 
 
-      Australian Barristers must undertake special training before they can
-      become members of a Bar Association and act as barristers. 
+      Australian Barristers must undertake further post-admission training
+      before they can become members of a Bar Association and act as
+      barristers. 
 
 
       The word barrister refers to someone who has been “called to the bar” and
@@ -90,8 +91,9 @@ accordion:
 
 
       In contrast to solicitors, barristers are ethically required (subject to
-      agreement being reached as to their costs) to work on behalf of any
-      client.
+      agreement being reached as to their costs) to use their skill and training
+      as advocates on behalf of _any_ client. This is called the "cab rank
+      rule".
     title: How does a barrister differ from a solicitor?
   - content: >-
       Barristers costs will vary depending on the nature of the work required,
@@ -99,8 +101,8 @@ accordion:
 
 
       Barristers charge costs that are either based on the time spent or, on
-      occasion, a fixed cost on brief. Barristers are required to disclose their
-      costs before commencing work. 
+      occasion, a fixed cost on brief. Barristers (like all lawyers) are
+      required to disclose their costs before commencing work. 
 
 
       If urgent work is required before a cost disclosure can be made, then the
@@ -120,16 +122,23 @@ accordion:
 
 
       This usually occurs with barristers conducting criminal work in lower
-      courts. 
+      courts. Family law barristers will also often accept direct briefs.
 
 
-      Many (probably most) barristers will only accept client briefs via a
-      solicitor's firm - because pre-trial litigation work is often very labour
-      intensive and is therefore best performed by a solicitor. 
+      Barristers who conduct complex cases usually will not accept direct briefs
+      from the public. 
 
 
-      Barristers must work as sole traders so they lack the human and other
-      resources that a solicitors firm can devote to pre-trial paperwork. 
+      Large and complex cases require a lot of pre-trial preparation. 
+
+
+      This preparatory work is usually best performed by experienced solicitors
+      who may, cost effectively, also delegate some aspects of the preparation
+      to more junior legal employees. 
+
+
+      Because barristers must work as sole traders they lack the human and other
+      resources that a solicitor's firm can devote to pre-trial paperwork. 
 
 
       Robert only accepts briefs via a solicitor.
@@ -145,6 +154,9 @@ accordion:
 
       You can carry out your own research into the barristers suggested, but
       your solicitor is often the best source of information in this regard.
+
+
+      Each Bar Association publishes a list of their members on the internet.
     title: How do I employ a barrister?
 more:
   buttonLink: /contact/

@@ -56,7 +56,7 @@ accordion:
       advocate in courts. 
 
 
-      Australian Barristers must undertake further post-admission training
+      Australian barristers must undertake further post-admission training
       before they can become members of a Bar Association and act as
       barristers. 
 
@@ -127,8 +127,8 @@ accordion:
       courts. Family law barristers will also often accept direct briefs.
 
 
-      Barristers who conduct complex cases usually will not accept direct briefs
-      from the public. 
+      Barristers who conduct larger and more complex cases will only rarely
+      accept direct briefs from the public. 
 
 
       Large and complex cases require a lot of pre-trial preparation. 

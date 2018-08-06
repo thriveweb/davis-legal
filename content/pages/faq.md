@@ -82,8 +82,8 @@ accordion:
       legal knowledge. 
 
 
-      Solicitors often work in law firms and may choose to only represent only
-      special categories of client. 
+      Solicitors often work in law firms and may choose to only represent
+      special types of client. 
 
 
       Some solicitors work mainly for corporate entities (such as insurers,

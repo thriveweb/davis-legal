@@ -8,7 +8,7 @@ intro:
   largeTitle: Areas
   leftColumn: >-
     Robert Davis appears as counsel in Australian State, Territorial and Federal
-    Courts and the High Court of Australia. His main areas of practice include
+    Courts and the High Court of Australia. His main areas of practice include:
   rightColumn: ''
   subtitle: Areas of practice
   title: Accepting briefs to advise and appear

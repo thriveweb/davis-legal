@@ -297,7 +297,7 @@ work:
   largeTitle: Work
   leftColumn: >-
     Publications authored, books contributed towards and conference
-    presentations made, include
+    presentations made, include:
   rightColumn: ''
   subtitle: Robert's Work
   title: Publications

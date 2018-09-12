@@ -13,10 +13,16 @@ import Button from '../components/Button'
 import IconList from '../components/IconList'
 import EnquiryForm from '../components/EnquiryForm'
 
-export const ContactPageTemplate = ({ footerImage, intro, contactInfo }) => (
+export const ContactPageTemplate = ({
+  footerImage,
+  intro,
+  contactInfo,
+  meta,
+}) => (
   <div>
     <Helmet>
-      <title lang="en">Contact Robert</title>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
     </Helmet>
 
     <div className="section">
@@ -95,6 +101,10 @@ export const pageQuery = graphql`
           phone
           email
           address
+        }
+        meta {
+          title
+          description
         }
       }
     }

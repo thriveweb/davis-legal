@@ -22,6 +22,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Slug, name: slug, widget: hidden, default: 'contact'}
           - {label: Title, name: title, widget: string}
           - {label: Footer Image, name: footerImage, widget: image}
+
           - label: "Intro"
             name: "intro"
             widget: object
@@ -31,6 +32,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Subtitle, name: subtitle, widget: string}
               - {label: Left Column, name: leftColumn, widget: string}
               - {label: Right Column, name: rightColumn, widget: string}
+
           - label: "Contact Info"
             name: "contactInfo"
             widget: object
@@ -38,6 +40,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Phone, name: phone, widget: string}
               - {label: Email, name: email, widget: string}
               - {label: Address, name: address, widget: string}
+
+          - label: "Meta"
+            name: "meta"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string}    
+
       - file: "content/pages/faq.md"
         label: "FAQ Page"
         name: "faq-page"
@@ -47,6 +57,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Hero Image, name: heroImage, widget: image}
           - {label: Footer Image, name: footerImage, widget: image}
+
           - label: "Intro"
             name: "intro"
             widget: object
@@ -56,12 +67,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Subtitle, name: subtitle, widget: string}
               - {label: Left Column, name: leftColumn, widget: markdown}
               - {label: Right Column, name: rightColumn, widget: markdown}
+
           - label: "Accordion"
             name: "accordion"
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
               - {label: Content, name: content, widget: markdown}
+
           - label: "More"
             name: "more"
             widget: object
@@ -71,6 +84,13 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Content, name: content, widget: string}
               - {label: Button Text, name: buttonText, widget: string}
               - {label: Button Link, name: buttonLink, widget: string}
+
+          - label: "Meta"
+            name: "meta"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string}
 
       - file: "content/pages/areas.md"
         label: "Areas Page"
@@ -120,6 +140,13 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Content, name: content, widget: string}
               - {label: Button Text, name: buttonText, widget: string}
               - {label: Button Link, name: buttonLink, widget: string}
+
+          - label: "Meta"
+            name: "meta"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string}
 
       - file: "content/pages/about.md"
         label: "About Page"
@@ -232,6 +259,13 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Subtitle, name: subtitle, widegt: string, required: false}
               - {label: Left Column, name: leftColumn, widget: markdown, required: false}
               - {label: Right Column, name: rightColumn, widget: markdown, required: false}
+
+          - label: "Meta"
+            name: "meta"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string}
 
 
   - name: "settings"

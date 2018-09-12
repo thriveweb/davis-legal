@@ -16,8 +16,14 @@ export const HomePageTemplate = ({
   about,
   areas,
   footerImage,
+  meta,
 }) => (
   <div>
+    <Helmet>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
+    </Helmet>
+
     <Opener openerImage={openerImage} />
 
     <div className="section">
@@ -97,6 +103,10 @@ export const pageQuery = graphql`
           title
           leftColumn
           rightColumn
+        }
+        meta {
+          title
+          description
         }
       }
     }

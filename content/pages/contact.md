@@ -1,7 +1,9 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Robert
+meta:
+  title: Contact Robert
+  description: Robert Davis has over 35 years of legal experience and has appeared in many high profile cases in Australia.
 footerImage: /images/footer-contact.jpg
 intro:
   largeTitle: Contact
@@ -21,4 +23,3 @@ contactInfo:
   email: rdavis@davislegal.com.au
   phone: +61 414 339 494
 ---
-

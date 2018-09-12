@@ -15,10 +15,12 @@ export const FAQPageTemplate = ({
   intro,
   accordion,
   more,
+  meta,
 }) => (
   <div>
     <Helmet>
-      <title lang="en">FAQ</title>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
     </Helmet>
 
     <Hero image={heroImage} />
@@ -91,6 +93,10 @@ export const pageQuery = graphql`
           content
           buttonText
           buttonLink
+        }
+        meta {
+          title
+          description
         }
       }
     }

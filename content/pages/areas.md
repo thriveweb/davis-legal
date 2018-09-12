@@ -1,7 +1,9 @@
 ---
 template: AreasPage
 slug: areas
-title: Practice Areas
+meta:
+  title: Practice Areas
+  description: Robert Davis appears as counsel in Australian State, Territorial and Federal Courts and the High Court of Australia.
 heroImage: /images/uploads/hero-areas.jpg
 footerImage: /images/uploads/footer-areas.jpg
 intro:
@@ -76,4 +78,3 @@ more:
   largeTitle: More
   title: find out more
 ---
-

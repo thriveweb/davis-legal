@@ -24,10 +24,12 @@ export const AboutPageTemplate = ({
   work,
   more,
   footerImage,
+  meta,
 }) => (
   <div>
     <Helmet>
-      <title lang="en">About Robert</title>
+      <title>{meta.title}</title>
+      <meta name="description" content={meta.description} />
     </Helmet>
 
     <Hero image={heroImage} />
@@ -177,6 +179,10 @@ export const pageQuery = graphql`
           content
           buttonText
           buttonLink
+        }
+        meta {
+          title
+          description
         }
       }
     }

@@ -195,6 +195,14 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Button Text, name: buttonText, widget: string}
               - {label: Button Link, name: buttonLink, widget: string}
 
+          - label: "Meta"
+            name: "meta"
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Description, name: description, widget: string}
+
+
       - file: "content/pages/home.md"
         label: "Home Page"
         name: "home-page"

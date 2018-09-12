@@ -1,7 +1,9 @@
 ---
 template: AboutPage
 slug: about
-title: About Robert Davis
+meta:
+  title: About Davis Legal
+  description: Robert Davis accepts briefs for accounting firms, financial advisers and other similar professional providers.
 heroImage: /images/uploads/hero-about.jpg
 centerImage: /images/uploads/hero-about2.jpg
 footerImage: /images/uploads/footer-about.jpg
@@ -312,4 +314,3 @@ more:
   largeTitle: More
   title: find out more
 ---
-

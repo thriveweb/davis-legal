@@ -63,8 +63,8 @@ class Form extends React.Component {
         action={action}
         onSubmit={this.handleSubmit}
         data-netlify=''
-        data-netlify-honeypot='email'
-        encType='multipart/form-data'
+        netlify-honeypot="bot-field"
+        encType="multipart/form-data"
       >
         {this.state.alert && <div className="alert">{this.state.alert}</div>}
         <label className="label">
@@ -112,6 +112,10 @@ class Form extends React.Component {
             required
           />
         </label>
+
+        <p class="hide">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
         <p>
           Court and other commitments may sometimes result in a delay in
           responding to email inquiries. If your inquiry is urgent then it is

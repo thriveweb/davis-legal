@@ -62,8 +62,9 @@ class Form extends React.Component {
         name={name}
         action={action}
         onSubmit={this.handleSubmit}
-        data-netlify=""
-        data-netlify-honeypot={honeypot}
+        data-netlify=''
+        data-netlify-honeypot='email'
+        encType='multipart/form-data'
       >
         {this.state.alert && <div className="alert">{this.state.alert}</div>}
         <label className="label">

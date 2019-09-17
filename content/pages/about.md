@@ -26,36 +26,36 @@ about:
 
 
     - Bar Association of Queensland Bar Practice Course - QUT (February 2007)
-  subtitle: About Robert Davis
+  subtitle: About Robert (Rob) Davis
   title: Academic qualifications
 timeline:
   event:
     - content: >-
-        In February 1979 Robert was admitted as a Solicitor of the Supreme Court
-        of Queensland and in June 1979 also became a Solicitor of the Supreme
-        Court of New South Wales.
+        In February 1979 Rob was admitted as a Solicitor of the Supreme Court of
+        Queensland and in June 1979 also became a Solicitor of the Supreme Court
+        of New South Wales.
       year: '1979'
     - content: >-
-        Robert became Litigation Partner in a large Gold Coast Law Firm
-        practising in both Queensland and New South Wales. He progressed to
-        Senior Litigation Partner and in 1990 became the Managing Partner. He
-        remained at this firm until 2000.
+        Rob became Litigation Partner in a large Gold Coast Law Firm practising
+        in both Queensland and New South Wales. He progressed to Senior
+        Litigation Partner and in 1990 became the Managing Partner. He remained
+        at this firm until 2000.
       year: '1979'
-    - content: Robert admitted as a Barrister & Solicitor in Victoria in May 1980.
+    - content: Rob was admitted as a Barrister & Solicitor in Victoria in May 1980.
       year: '1980'
     - content: >-
-        Robert commenced sole practice as a Litigation Lawyer and Legal
-        Consultant while also serving as National President of the Australian
-        Lawyers Association.
+        Rob commenced sole practice as a Litigation Lawyer and Legal Consultant
+        while also serving as National President of the Australian Lawyers
+        Association.
       year: '2000'
     - content: >-
-        Robert was enrolled as a Barrister & Solicitor in the Supreme Court of
-        the Australian Capital Territory and has since conducted many major
-        cases in that court.
+        Rob was enrolled as a Barrister & Solicitor in the Supreme Court of the
+        Australian Capital Territory and has since conducted many major cases in
+        that court.
       year: '2003'
     - content: >-
-        Robert was the President of the Queensland Law Society, before joining
-        the Queensland Bar in July.
+        Rob was the President of the Queensland Law Society, before joining the
+        Queensland Bar in July.
       year: '2006'
   eventNow:
     content: >-
@@ -311,7 +311,7 @@ more:
   buttonLink: /contact/
   buttonText: contact robert
   content: >-
-    Robert's costs vary depending on the the amount of work required. Cost
+    Rob's costs vary depending on the the amount of work required. Cost
     estimates can be supplied once a brief is received. In appropriate cases
     Robert is willing to work on a deferred payment or conditional basis.
     Further details are available upon request.
@@ -319,8 +319,8 @@ more:
   title: find out more
 meta:
   description: >-
-    Robert Davis accepts briefs for accounting firms, financial advisers and
-    other similar professional providers.
+    Rob Davis accepts briefs for accounting firms, financial advisers and other
+    similar professional providers.
   title: About Davis Legal
 ---
 

@@ -1,15 +1,13 @@
 ---
 template: FAQPage
 slug: faq
-meta:
-  title: FAQ
-  description: Robert Davis is a qualified lawyer who elects to practice as a specialist advocate in courts.
+title: FAQ
 heroImage: /images/uploads/hero-faq.jpg
 footerImage: /images/uploads/footer-faq.jpg
 intro:
   largeTitle: FAQ
   leftColumn: >-
-    Robert accepts briefs to appear in courts in all Australian States and
+    Rob accepts briefs to appear in courts in all Australian States and
     Territories. He accepts briefs in both paper and electronic format.
 
 
@@ -22,12 +20,12 @@ intro:
     communications.
 
 
-    Robert will confer with clients in the offices of their solicitor and, when
-    he works interstate, does so on a fly-in-fly-out basis.
+    Rob will confer with clients in the offices of their solicitor and, when he
+    works interstate, does so on a fly-in-fly-out basis.
 
 
-    Robert only accepts briefs for clients via their solicitor. He does not
-    accept briefs direct from the public.
+    Rob only accepts briefs for clients via their solicitor. He does not accept
+    briefs direct from the public.
 
 
     This is because pre-trial litigation work is complex and often quite labour
@@ -38,11 +36,11 @@ intro:
     necessary.
 
 
-    No work will be commenced by Robert (unless urgent) until appropriate
-    agreement is reached about the terms of his retainer.
+    No work will be commenced by Rob (unless urgent) until appropriate agreement
+    is reached about the terms of his retainer.
 
 
-    Cost estimates are available upon request.  In appropriate cases Robert is
+    Cost estimates are available upon request.  In appropriate cases Rob is
     willing work on a deferred or conditional basis. It is often necessary to
     review the brief before any cost estimate can be made.
 
@@ -51,7 +49,7 @@ intro:
     of the brief before considering alternate cost arrangements.
 
 
-    Before sending a brief you should phone Robert to discuss the matter and
+    Before sending a brief you should phone Rob to discuss the matter and
     confirm his availability.
   subtitle: Frequently Asked Questions
   title: All you need to know
@@ -62,8 +60,7 @@ accordion:
 
 
       Australian barristers must undertake further post-admission training
-      before they can become members of a Bar Association and act as
-      barristers.
+      before they can become members of a Bar Association and act as barristers.
 
 
       The word barrister refers to someone who has been “called to the bar” and
@@ -167,12 +164,18 @@ accordion:
     title: How do I employ a barrister?
 more:
   buttonLink: /contact/
-  buttonText: contact robert
+  buttonText: contact rob
   content: >-
-    Robert's costs vary depending on the the amount of work required. Cost
+    Rob's costs vary depending on the the amount of work required. Cost
     estimates can be supplied once a brief is received. In appropriate cases
     Robert is willing to work on a deferred payment or conditional basis.
     Further details are available upon request.
   largeTitle: More
   title: find out more
+meta:
+  description: >-
+    Robert Davis is a qualified lawyer who elects to practice as a specialist
+    advocate in courts.
+  title: FAQ
 ---
+

@@ -1,9 +1,7 @@
 ---
 template: HomePage
 slug: ''
-meta:
-  title: Davis Legal 
-  description: Over his career he has been featured in many publications and has served as President of the Queensland Law Society.
+title: home
 openerImage: /images/uploads/hero-home.jpg
 footerImage: /images/uploads/footer-home.jpg
 about:
@@ -43,5 +41,11 @@ areas:
     Association (now the Australian Lawyers Alliance). He has appeared in many
     high profile cases in Australia.
   subtitle: About Robert Davis
-  title: Over 35 years of legal experience
+  title: 40 years of legal experience
+meta:
+  description: >-
+    Over his career he has been featured in many publications and has served as
+    President of the Queensland Law Society.
+  title: Davis Legal
 ---
+

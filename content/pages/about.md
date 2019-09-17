@@ -59,7 +59,7 @@ timeline:
       year: '2006'
   eventNow:
     content: >-
-      Robert accepts briefs for clients who engage him via a Solicitor. He also
+      Rob accepts briefs for clients who engage him via a Solicitor. He also
       accepts direct 'briefs to advise' from accounting firms, financial
       advisers and other similar professional providers.
     title: NOW

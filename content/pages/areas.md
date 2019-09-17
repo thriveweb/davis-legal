@@ -1,41 +1,40 @@
 ---
 template: AreasPage
 slug: areas
-meta:
-  title: Practice Areas
-  description: Robert Davis appears as counsel in Australian State, Territorial and Federal Courts and the High Court of Australia.
+title: Areas
 heroImage: /images/uploads/hero-areas.jpg
 footerImage: /images/uploads/footer-areas.jpg
 intro:
   largeTitle: Areas
   leftColumn: >-
-    Robert Davis appears as counsel in Australian State, Territorial and Federal
-    Courts and the High Court of Australia. His main areas of practice include:
+    Robert (Rob) Davis appears as counsel in Australian State, Territorial and
+    Federal Courts and the High Court of Australia. His main areas of practice
+    include:
   rightColumn: ''
   subtitle: Areas of practice
   title: Accepting briefs to advise and appear
 iconList:
   left:
     - content: >-
-        Robert has experience in this specialist area of the law and regularly
+        Rob has experience in this specialist area of the law and regularly
         represents clients in actions involving legal, medical, financial and
         other types of professional negligence.
       icon: /images/uploads/icon-medical.svg
       title: 'Legal, Medical & Financial Professional Negligence Litigation'
     - content: >-
-        Robert has a special interest in aviation law, has conducted many claims
+        Rob has a special interest in aviation law, has conducted many claims
         for passengers injured in aviation accidents throughout Australia, and
         has lectured to other lawyers on this special topic.
       icon: /images/uploads/icon-aviation.svg
       title: Civil Aviation Litigation
     - content: >-
-        Robert has undertaken post graduate studies in defective product
-        liability law, has published in and presented papers on this topic, and
-        has conducted many claims under the Consumer Law.
+        Rob has undertaken post graduate studies in defective product liability
+        law, has published in and presented papers on this topic, and has
+        conducted many claims under the Consumer Law.
       icon: /images/uploads/icon-trade.svg
       title: Trade Practices & Consumer Litigation
     - content: >-
-        Robert has represented many former employees of Commonwealth Departments
+        Rob has represented many former employees of Commonwealth Departments
         and Authorities and has appeared in many major cases on this subject,
         commencing with the seminal decision in Cornwell v Commonwealth of
         Australia [2007] HCA 16; 229 CLR 519; 81 ALJR 933; 234 ALR 148.
@@ -69,12 +68,18 @@ iconList:
       title: Professional & Ethical Standards Disciplinary Proceedings
 more:
   buttonLink: /contact/
-  buttonText: contact robert
+  buttonText: contact Rob
   content: >-
-    Robert's costs vary depending on the the amount of work required. Cost
+    Rob's costs vary depending on the the amount of work required. Cost
     estimates can be supplied once a brief is received. In appropriate cases
     Robert is willing to work on a deferred payment or conditional basis.
     Further details are available upon request.
   largeTitle: More
   title: find out more
+meta:
+  description: >-
+    Robert (Rob) Davis appears as counsel in Australian State, Territorial and
+    Federal Courts and the High Court of Australia.
+  title: Practice Areas
 ---
+

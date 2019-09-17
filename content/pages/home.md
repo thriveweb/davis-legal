@@ -7,20 +7,21 @@ footerImage: /images/uploads/footer-home.jpg
 about:
   largeTitle: Areas
   leftColumn: >-
-    Robert Davis appears as counsel in Australian State, Territorial and Federal
+    Rob Davis appears as counsel in Australian State, Territorial and Federal
     Courts. His main areas of practice include:
 
-    - Legal, Medical & Financial Professional Negligence Litigation
 
-    - Motor Vehicle, Workplace, Defective Products & Premises Liability
+    * Legal, Medical & Financial Professional Negligence Litigation
 
-    - Trade Practices & Consumer Litigation
+    * Motor Vehicle, Workplace, Defective Products & Premises Liability
 
-    - Commonwealth Superannuation Litigation
+    * Trade Practices & Consumer Litigation
 
-    - Civil Aviation Litigation
+    * Commonwealth Superannuation Litigation
 
-    - Scuba Diving Litigation
+    * Civil Aviation Litigation
+
+    * Scuba Diving Litigation
   rightColumn: |-
     ![Inquests and Commissions of Inquiry](/images/uploads/home-img.jpg)
 
@@ -31,16 +32,15 @@ about:
 areas:
   largeTitle: About
   leftColumn: >-
-    With extensive experience and ongoing academic qualifications, Robert began
-    his career in Queensland and New South Wales in 1979 then worked for many
-    years as a Litigation Solicitor before being called to the Queensland Bar in
-    2007.
+    With extensive experience and ongoing academic qualifications, Rob began his
+    career in Queensland and New South Wales in 1979 then worked for many years
+    as a Litigation Solicitor before being called to the Queensland Bar in 2007.
   rightColumn: >-
     Over his career he has been featured in many publications and has served as
     President of the Queensland Law Society and the Australian Plaintiff Lawyers
     Association (now the Australian Lawyers Alliance). He has appeared in many
     high profile cases in Australia.
-  subtitle: About Robert Davis
+  subtitle: About Robert (Rob) Davis
   title: 40 years of legal experience
 meta:
   description: >-

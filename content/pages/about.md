@@ -1,9 +1,7 @@
 ---
 template: AboutPage
 slug: about
-meta:
-  title: About Davis Legal
-  description: Robert Davis accepts briefs for accounting firms, financial advisers and other similar professional providers.
+title: About
 heroImage: /images/uploads/hero-about.jpg
 centerImage: /images/uploads/hero-about2.jpg
 footerImage: /images/uploads/footer-about.jpg
@@ -188,113 +186,117 @@ work:
         - Wilks et al (eds), Tourism in Turbulent Times (Elsivar Books, 2005).
       title: Books
     - content: >-
-        - Product Liability, The Past, The Present & The Future, (1993) Qld Law
+        * Product Liability, The Past, The Present & The Future, (1993) Qld Law
         Society Legal Symposium Materials.
 
-        - The Legal Liability for Alcohol Intoxication Related Injuries, (1996)
+        * The Legal Liability for Alcohol Intoxication Related Injuries, (1996)
         APLA Annual Conference Papers, October.
 
-        - Surveys Into Issues Relating to The Safety of School Bus Travel for
+        * Surveys Into Issues Relating to The Safety of School Bus Travel for
         School Children, Paper Presented to The Injury Coalition, Mater
         Hospital, Brisbane, (4th August 1995).
 
-        - Class Actions: Do They Have a Future, Paper Presented at the
+        * Class Actions: Do They Have a Future, Paper Presented at the
         Australian Legal Convention, Hyatt on Collins, Melbourne, (17th
         September 1997).
 
-        - School Bus Safety in Australia, Paper Presented to Accident
+        * School Bus Safety in Australia, Paper Presented to Accident
         Investigation & Reconstruction, Insurance & the Law Conference, Travel
         Lodge Hotel, Brisbane, October 1997.
 
-        - Injury to International Visitors, International Visitors & Road Safety
+        * Injury to International Visitors, International Visitors & Road Safety
         Summit, Queensland Parliament, 14th May 1999.
 
-        - Liability of Schools for Injuries occurring Outside the School Gate,
+        * Liability of Schools for Injuries occurring Outside the School Gate,
         Paper presented to School Law Conference 1998, February 1998.
 
-        - The Legal Liability of Schools & Bus Operators for School Bus Related
+        * The Legal Liability of Schools & Bus Operators for School Bus Related
         Injury to Children, Paper Presented to APLA Annual Conference, Hamilton
         Island, North Queensland, (16th October 1998).
 
-        - Strict Product Liability: How to Protect Your Company From Claims &
+        * Strict Product Liability: How to Protect Your Company From Claims &
         Damages, Paper presented to Trade Practices & Competition Summit, ANA
         Hotel, Surfers Paradise, (17th September 1998).
 
-        - Student Death Occurring at School or while The Child is Under The
+        * Student Death Occurring at School or while The Child is Under The
         Control of School Staff: Advice to Schools & Teachers on What To Expect
         & How to Cope With The Legal Process, Paper Presented to School Law
         Conference 1999 (27th April 1999).
 
-        - SCUBA Liability from Legal Perspective, Safer Limits 2000 Conference,
+        * SCUBA Liability from Legal Perspective, Safer Limits 2000 Conference,
         Wesley Hospital Auditorium, Toowong, Qld (6 September 2000).
 
-        - Medical Negligence Litigation from a Plaintiff Lawyer’s Perspective,
+        * Medical Negligence Litigation from a Plaintiff Lawyer’s Perspective,
         2000 Medico- Legal Society Conference, Sheraton Hotel, Main Beach (5th
         August 2000).
 
-        - Causes for Public Liability Premium Increases, APLA National
+        * Causes for Public Liability Premium Increases, APLA National
         Conference, Coolum Hyatt Resort, October 2001.
 
-        - Civil Litigation & How to Handle It, University of Queensland Business
+        * Civil Litigation & How to Handle It, University of Queensland Business
         School Seminar on Risk Management in Marine Tourism Seminar, Radisson
         Resort, Gold Coast, 11 Nov 2001.
 
-        - What do you do about Insurance for Non-profit Organisations? Panel
+        * What do you do about Insurance for Non-profit Organisations? Panel
         Presentation, Queensland University of Technology Centre for
         Philanthropy and Non-profit Studies Conference, QUT, 14 Feb 2002.
 
-        - Law, Compensation & Insurance Premiums, Volunteering NSE Seminar,
+        * Law, Compensation & Insurance Premiums, Volunteering NSE Seminar,
         Parliamentary Auditorium, NSW Parliament, April 2002.
 
-        - A Plaintiff Lawyer’s Perception of Compensation for Personal Injuries,
+        * A Plaintiff Lawyer’s Perception of Compensation for Personal Injuries,
         Personal Injury law & Practice Seminar, T.C. Beirne School of Law,
         University of Queensland, 18 May 2002.
 
-        - Public Liability Issues & Advertising Standards, Qld Law Society
+        * Public Liability Issues & Advertising Standards, Qld Law Society
         Personal Injuries Specialist Accreditation Conference 2002, Sheraton
         Mirage Main Beach Gold Coast, 31 May 2002 and 1 June 2002.
 
-        - How will Proposed Legislative Changes in regard to Public Liability
+        * How will Proposed Legislative Changes in regard to Public Liability
         Impact Citizens?, IIR Public Liability Insurance Conference, Avillion
         Hotel, Sydney, 26-28 August 2002.
 
-        - Tort Reform, Tenth APLA National Conference, Hotel Grand Chancellor,
+        * Tort Reform, Tenth APLA National Conference, Hotel Grand Chancellor,
         Hobart, 15- 19 Oct 2002.
 
-        - Compensation Systems Design – The Injured Person’s Perspective, Panel
+        * Compensation Systems Design – The Injured Person’s Perspective, Panel
         Session Debate at the Australian Institute of Actuaries Biannual
         Conference, Adelaide Hilton, 28 Oct 2002.
 
-        - Product Liability - Personal Injury & Death - Where the Law Stands,
+        * Product Liability - Personal Injury & Death - Where the Law Stands,
         Asia Pacific Forum on Tropical Health Innovations, Cairns, North
         Queensland, 4 November 8-10 July 2004.
 
-        - Legal Supports for Tourism, Fiji Law Society 50th Anniversary
+        * Legal Supports for Tourism, Fiji Law Society 50th Anniversary
         Convention, Shangri-la Fijian Resort, Sigatoka, Fiji, 27 May, 2006.
 
-        - Litigating Across Borders: Untangling the Procedural & Substantive
+        * Litigating Across Borders: Untangling the Procedural & Substantive
         Mess for Clients Injured while Travelling or Working Interstate, 2013
         Australian Lawyers Alliance National Conference, Grand Chancellor Hotel,
         Hobart, Tasmania, 13 October 2007.
 
-        - Just Where is the Clapham Omnibus Going? - A Queensland Perspective,
+        * Just Where is the Clapham Omnibus Going? - A Queensland Perspective,
         Australian Lawyers Alliance Conference, Melbourne, August 2006.
 
-        - The Essentials of Advocacy, Queensland Law Society Gold Coast Regional
+        * The Essentials of Advocacy, Queensland Law Society Gold Coast Regional
         Symposium, Holiday Inn, Surfers paradise, 12 April 2008.
 
-        - The Essentials of Advocacy, Thompson Reuters Queensland Legal Seminar,
+        * The Essentials of Advocacy, Thompson Reuters Queensland Legal Seminar,
         Brisbane, 2 September 2010.
 
-        - Trial Advocacy, Thompson Reuters Brisbane CPD Conference, Marriott
+        * Trial Advocacy, Thompson Reuters Brisbane CPD Conference, Marriott
         Hotel, Brisbane, 23 March 2012.
 
-        - Essentials of Trial Advocacy, Queensland CPD Conference, Stamford
+        * Essentials of Trial Advocacy, Queensland CPD Conference, Stamford
         Plaza, Brisbane, 19 March 2013.
 
-        - Compensation for Aviation Injuries - 2017 Australian Lawyers Alliance
+        * Compensation for Aviation Injuries - 2017 Australian Lawyers Alliance
         National Conference, Convention Centre, Darwin, Northern Territory, 20
         October 2017.
+
+        * Preparing Witnesses for Trial - 2019 Australian Lawyers Alliance
+        National Conference, Sheraton Port Douglas, North Qld, 24 October 2019
+        (pending).
       title: Presentations
   largeTitle: Work
   leftColumn: >-
@@ -313,4 +315,10 @@ more:
     Further details are available upon request.
   largeTitle: More
   title: find out more
+meta:
+  description: >-
+    Robert Davis accepts briefs for accounting firms, financial advisers and
+    other similar professional providers.
+  title: About Davis Legal
 ---
+

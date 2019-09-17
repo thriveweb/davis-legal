@@ -41,6 +41,8 @@ timeline:
         Senior Litigation Partner and in 1990 became the Managing Partner. He
         remained at this firm until 2000.
       year: '1979'
+    - content: Robert admitted as a Barrister & Solicitor in Victoria on in May 1980.
+      year: '1980'
     - content: >-
         Robert commenced sole practice as a Litigation Lawyer and Legal
         Consultant while also serving as National President of the Australian
@@ -55,8 +57,6 @@ timeline:
         Robert was the President of the Queensland Law Society, before joining
         the Queensland Bar in July.
       year: '2006'
-    - content: Robert admitted as a Barrister & Solicitor in Victoria on in May 1980.
-      year: '1980'
   eventNow:
     content: >-
       Robert accepts briefs for clients who engage him via a Solicitor. He also

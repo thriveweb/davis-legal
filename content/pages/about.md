@@ -41,7 +41,7 @@ timeline:
         Senior Litigation Partner and in 1990 became the Managing Partner. He
         remained at this firm until 2000.
       year: '1979'
-    - content: Robert admitted as a Barrister & Solicitor in Victoria on in May 1980.
+    - content: Robert admitted as a Barrister & Solicitor in Victoria in May 1980.
       year: '1980'
     - content: >-
         Robert commenced sole practice as a Litigation Lawyer and Legal

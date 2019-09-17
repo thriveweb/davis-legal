@@ -55,6 +55,8 @@ timeline:
         Robert was the President of the Queensland Law Society, before joining
         the Queensland Bar in July.
       year: '2006'
+    - content: Robert admitted as a Barrister & Solicitor in Victoria on in May 1980.
+      year: '1980'
   eventNow:
     content: >-
       Robert accepts briefs for clients who engage him via a Solicitor. He also

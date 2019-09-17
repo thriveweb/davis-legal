@@ -305,11 +305,11 @@ work:
     Publications authored, books contributed towards and conference
     presentations made, include:
   rightColumn: ''
-  subtitle: Robert's Work
+  subtitle: Rob’s Work
   title: Publications
 more:
   buttonLink: /contact/
-  buttonText: contact robert
+  buttonText: contact Rob
   content: >-
     Rob's costs vary depending on the the amount of work required. Cost
     estimates can be supplied once a brief is received. In appropriate cases

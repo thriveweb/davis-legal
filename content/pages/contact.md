@@ -22,8 +22,8 @@ contactInfo:
   phone: +61 414 339 494
 meta:
   description: >-
-    Robert Davis has over 35 years of legal experience and has appeared in many
-    high profile cases in Australia.
-  title: Contact Robert
+    Rob Davis has 40 years of legal experience and has appeared in many high
+    profile cases in Australia.
+  title: Contact Rob
 ---
 

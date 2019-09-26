@@ -176,11 +176,12 @@ accordion:
       application.
     title: Are discussions with barristers confidential?
   - content: >-
-      Rob is concerned about the impacts of his business on the environment.
+      Rob beleives that we should all take personal responsibility for, and
+      action to mitigate, the impact of our activity on the environment.
 
 
-      He strives to minimise the impact of his professional business activity as
-      follows:
+      For this reason he strives to minimise negative environmental impacts from
+      his professional activity as follows:
 
 
       * 100% of the energy needs of rob's chambers are provided by solar energy

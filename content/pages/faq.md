@@ -163,17 +163,32 @@ accordion:
       Each Bar Association publishes a list of their members on the internet.
     title: How do I employ a barrister?
   - content: >-
-      Confidential information exchanged between a client and barrister, for the
-      purpose of giving or receiving legal advice, is priviliged from disclosure
-      under the laws of legal professional privilige.
+      Information exchanged between a client and barrister is privileged from
+      disclosure under the laws of legal professional privilege if it is
+      provided:
+
+
+      * for the purpose of giving or receiving legal advice; or 
+
+      * for the dominant purpose of representing the client in existing or
+      anticipated legal proceedings.
+
+
+      These laws are designed to encourage a full disclosure of information by
+      the client to the barrister, which is a necessary precondition if
+      barristers are to properly advise and represent their clients.
+
+
+      Legal professional privilige is an important common law right that belongs
+      to the client. 
 
 
       This means that it cannot be disclosed to any person without the client's
       consent.
 
 
-      Some legal exceptions apply to this rule, but they are rare and narrow in
-      application.
+      Some legal exceptions apply to this rule, but they are rare and usually
+      narrow in application.
     title: Are discussions with barristers confidential?
   - content: >-
       Rob beleives that we should all take personal responsibility for, and

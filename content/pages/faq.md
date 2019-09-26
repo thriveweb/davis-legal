@@ -162,6 +162,44 @@ accordion:
 
       Each Bar Association publishes a list of their members on the internet.
     title: How do I employ a barrister?
+  - content: >-
+      Confidential information exchanged between a client and barrister, for the
+      purpose of giving or receiving legal advice, is priviliged from disclosure
+      under the laws of legal professional privilige.
+
+
+      This means that it cannot be disclosed to any person without the client's
+      consent.
+
+
+      Some legal exceptions apply to this rule, but they are rare and narrow in
+      application.
+    title: Confidential information
+  - content: >-
+      Rob is concerned about the environment.
+
+
+      He strives to minimise the impact of his professional business activity as
+      follows:
+
+
+      * 100% of the energy needs of rob's chambers are provided by solar energy
+      and a solar battery storage system.
+
+      * 100% of the water consumed at Rob's chambers are harvested on site.
+
+      * carbon offsets are purchased for all necessary air travel.
+
+      * paper and other suitable waste is recycled.
+
+
+      Please consider the environment when briefing Rob and attempt, wherever
+      possible, to supply briefs in digital form.
+
+
+      If paper briefs are supplied then please use double sided printing (where
+      possible) and minimise the use of packaging that cannot be recycled.
+    title: Environmental protection and carbon neutrality
 more:
   buttonLink: /contact/
   buttonText: contact rob

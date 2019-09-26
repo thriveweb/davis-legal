@@ -138,12 +138,12 @@ accordion:
       barristers are to properly advise and represent their clients.
 
 
-      Legal professional privilige is an important common law right that belongs
+      Legal professional privilege is an important common law right that belongs
       to the client. 
 
 
-      This means that it cannot be disclosed to any person without the client's
-      consent.
+      This means that privileged information cannot be disclosed to any person
+      without the client's consent.
 
 
       Some legal exceptions apply to this rule, but they are rare and usually
@@ -199,7 +199,7 @@ accordion:
       his professional activity as follows:
 
 
-      * 100% of the energy needs of rob's chambers are provided by solar energy
+      * 100% of the energy needs of Rob's chambers are provided by solar energy
       and a solar battery storage system.
 
       * 100% of the water consumed at Rob's chambers are harvested on site.

@@ -174,9 +174,9 @@ accordion:
 
       Some legal exceptions apply to this rule, but they are rare and narrow in
       application.
-    title: Confidential information
+    title: Are discussions with barristers confidential?
   - content: >-
-      Rob is concerned about the environment.
+      Rob is concerned about the impacts of his business on the environment.
 
 
       He strives to minimise the impact of his professional business activity as
@@ -193,13 +193,14 @@ accordion:
       * paper and other suitable waste is recycled.
 
 
-      Please consider the environment when briefing Rob and attempt, wherever
-      possible, to supply briefs in digital form.
+      He asks that you please consider the environment when briefing Rob, and
+      attempt wherever possible, to supply briefs in digital form.
 
 
-      If paper briefs are supplied then please use double sided printing (where
-      possible) and minimise the use of packaging that cannot be recycled.
-    title: Environmental protection and carbon neutrality
+      If paper briefs are to be supplied then please use double sided printing
+      (where possible) and minimise the use of packaging that cannot be
+      recycled.
+    title: Rob's policy on carbon emissions and environment protection?
 more:
   buttonLink: /contact/
   buttonText: contact rob

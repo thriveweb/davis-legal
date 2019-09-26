@@ -199,14 +199,14 @@ accordion:
       his professional activity as follows:
 
 
-      * 100% of the energy needs of Rob's chambers are provided by solar energy
+      * 100% of the energy needs of Rob's office are provided by solar energy
       and a solar battery storage system.
 
-      * 100% of the water consumed at Rob's chambers are harvested on site.
+      * 100% of the water consumed at Rob's office are harvested on site.
 
       * carbon offsets are purchased for all necessary air travel.
 
-      * paper and other suitable waste is recycled.
+      * all paper and other suitable waste is recycled.
 
 
       He asks that you please consider the environment when briefing Rob, and
@@ -216,7 +216,7 @@ accordion:
       If paper briefs are to be supplied then please use double sided printing
       (where possible) and minimise the use of packaging that cannot be
       recycled.
-    title: 'Rob''s environmental policy? '
+    title: Environmental policy.
 more:
   buttonLink: /contact/
   buttonText: contact rob

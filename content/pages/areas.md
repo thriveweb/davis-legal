@@ -43,7 +43,9 @@ iconList:
   right:
     - content: >-
         Over more than three decades Rob has conducted a large number of these
-        claims in Queensland, New South Wales and the ACT.
+        claims in Queensland, New South Wales and the ACT. Rob has undertaken
+        post graduate studies in, among other areas, product liability and has
+        presented and published on this topic.
       icon: /images/uploads/icon-safety.svg
       title: 'Motor Vehicle, Workplace, Defective Products & Premises Liability'
     - content: >-

@@ -35,9 +35,10 @@ iconList:
       title: Trade Practices & Consumer Litigation
     - content: >-
         Rob has represented many former employees of Commonwealth Departments
-        and Authorities and has appeared in many major cases on this subject,
-        commencing with the seminal decision in Cornwell v Commonwealth of
-        Australia [2007] HCA 16; 229 CLR 519; 81 ALJR 933; 234 ALR 148.
+        and Authorities and has appeared in most of the major cases on this
+        subject, commencing with the important decision in Cornwell v
+        Commonwealth of Australia [2007] HCA 16; 229 CLR 519; 81 ALJR 933; 234
+        ALR 148.
       icon: /images/uploads/icon-super.svg
       title: Commonwealth Superannuation Litigation
   right:

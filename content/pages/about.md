@@ -297,8 +297,7 @@ work:
         October 2017.
 
         * Preparing Witnesses for Trial - 2019 Australian Lawyers Alliance
-        National Conference, Sheraton Port Douglas, North Qld, 24 October 2019
-        (pending).
+        National Conference, Sheraton Port Douglas, North Qld, 24 October 2019.
       title: Presentations
   largeTitle: Work
   leftColumn: >-

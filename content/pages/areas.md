@@ -52,8 +52,8 @@ iconList:
         Rob has represented clients in many major inquests in Australia. These
         inquests have included a major passenger bus accident, experimental
         medical procedures, underwater diving fatalities, police pursuits, and
-        recreational adventure operations. He has a special interest in this
-        topic.
+        recreational adventure and theme park operations. He has a special
+        interest in this topic.
       icon: /images/uploads/icon-inquests.svg
       title: Inquests and Commissions of Inquiry
     - content: >-

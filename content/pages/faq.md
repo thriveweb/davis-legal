@@ -216,7 +216,7 @@ accordion:
       If paper briefs are to be supplied then please use double sided printing
       (where possible) and minimise the use of packaging that cannot be
       recycled.
-    title: Environmental policy.
+    title: Progress Towards Carbon Neutrality?
 more:
   buttonLink: /contact/
   buttonText: contact rob

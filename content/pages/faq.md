@@ -192,11 +192,15 @@ accordion:
     title: How do I employ a barrister?
   - content: >-
       Rob beleives that we should all take personal responsibility for, and
-      action to mitigate, the impact of our activity on the environment.
+      action to mitigate, the impact of our activity on the environment. 
 
 
-      For this reason he strives to minimise negative environmental impacts from
-      his professional activity as follows:
+      Australia currently has the highest per capita carbon emissions of all the
+      G20 countries. We all have a role to play to mitigate global warming. 
+
+
+      Rob strives to minimise negative environmental impacts from his
+      professional activity as follows:
 
 
       * 100% of the energy needs of Rob's office are provided by solar energy

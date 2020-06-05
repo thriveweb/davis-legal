@@ -179,13 +179,11 @@ work:
         (with Dr. J. Wilks).
       title: Journals
     - content: >-
-        - Kellam, Travers & Davis, Product Liability Law & Practice (Legal
+        * Kellam, Travers & Davis, Product Liability Law & Practice (Legal
         Books, 1996).
 
-        - Griffin QC & Davis et al, Personal Injury Litigation Queensland
+        * Griffin QC & Davis et al, Personal Injury Litigation Queensland
         (Butterworths, 1996).
-
-        - Wilks et al (eds), Tourism in Turbulent Times (Elsivar Books, 2005).
       title: Books
     - content: >-
         * Product Liability, The Past, The Present & The Future, (1993) Qld Law

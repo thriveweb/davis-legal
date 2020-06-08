@@ -17,15 +17,13 @@ about:
 
     * Certificate - Australian Advocacy Institute (August 1994)
   rightColumn: >-
-    - Second Master of Laws (Corporate and Commercial Law) - Bond (February
+    * Second Master of Laws (Corporate and Commercial Law) - Bond (February
     1999)
 
-
-    - Mediation Certificate - Bond University Dispute Resolution Centre
+    * Mediation Certificate - Bond University Dispute Resolution Centre
     (December 2001)
 
-
-    - Bar Association of Queensland Bar Practice Course - QUT (February 2007)
+    * Bar Association of Queensland Bar Practice Program - QUT (February 2007)
   subtitle: About Robert (Rob) Davis
   title: Academic qualifications
 timeline:

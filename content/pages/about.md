@@ -11,19 +11,20 @@ about:
     * Law Studies - Queensland SAB (December 1978)
 
     * Bachelor of Social Science (major studies in psychology and human biology)
-    - UNE (April 1989)
+    - University of New England (April 1989)
 
     * Master of Laws - Bond University (September 1991)
 
     * Certificate - Australian Advocacy Institute (August 1994)
   rightColumn: >-
-    * Second Master of Laws (Corporate and Commercial Law) - Bond (February
-    1999)
+    * Second Master of Laws (Corporate and Commercial Law) - Bond University
+    (February 1999)
 
     * Mediation Certificate - Bond University Dispute Resolution Centre
     (December 2001)
 
-    * Bar Association of Queensland Bar Practice Studies - QUT (February 2007)
+    * Bar Association of Queensland Bar Practice Studies - Queensland University
+    of Technology & Bar Association of Qld (February 2007)
   subtitle: About Robert (Rob) Davis
   title: Academic qualifications
 timeline:

@@ -23,7 +23,7 @@ about:
     * Mediation Certificate - Bond University Dispute Resolution Centre
     (December 2001)
 
-    * Bar Association of Queensland Bar Practice Program - QUT (February 2007)
+    * Bar Association of Queensland Bar Practice Studies - QUT (February 2007)
   subtitle: About Robert (Rob) Davis
   title: Academic qualifications
 timeline:

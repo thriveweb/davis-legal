@@ -8,7 +8,8 @@ footerImage: /images/uploads/footer-about.jpg
 about:
   largeTitle: About
   leftColumn: >-
-    * Law Studies - Queensland SAB (December 1978)
+    * Professional Law Studies - Queensland Solicitors Admission Board (December
+    1978)
 
     * Bachelor of Social Science (major studies in psychology and human biology)
     - University of New England (April 1989)

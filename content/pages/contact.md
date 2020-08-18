@@ -4,7 +4,7 @@ slug: contact
 title: Contact
 footerImage: /images/footer-contact.jpg
 intro:
-  largeTitle: Contact
+  largeTitle: 'Contact '
   leftColumn: >-
     Get in contact with Rob via phone or email or fill out the form below to
     find out more about his work. He looks forward to hearing from you and will

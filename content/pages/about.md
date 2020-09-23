@@ -296,6 +296,9 @@ work:
 
         * Preparing Witnesses for Trial - 2019 Australian Lawyers Alliance
         National Conference, Sheraton Port Douglas, North Qld, 24 October 2019.
+
+        * Witness Preparation - 2020 Australian Lawyers Alliance West Australian
+        Conference, Hyatt Regency, Perth, WA, 4 September 2020.
       title: Presentations
   largeTitle: Work
   leftColumn: >-

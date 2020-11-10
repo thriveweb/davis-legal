@@ -53,10 +53,12 @@ timeline:
         Australian Capital Territory and has since conducted many major cases in
         that court.
       year: '2003'
-    - content: >-
-        Rob was the President of the Queensland Law Society, before joining the
-        Queensland Bar in July.
+    - content: Rob was elected and served as President of the Queensland Law Society.
       year: '2006'
+    - content: >-
+        Rob transferred to the Queensland Bar in July 2007 and has practised as
+        a barrister throughout Qld, NSW and the ACT since that time.
+      year: '2007'
   eventNow:
     content: >-
       Rob accepts briefs for clients who engage him via a Solicitor. He also

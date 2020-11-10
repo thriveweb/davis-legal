@@ -108,7 +108,7 @@ career:
 
     - President, Queensland Law Society
   subtitle: About his career
-  title: Past professional roles
+  title: Past professional roles include
 work:
   accordion:
     - content: >-

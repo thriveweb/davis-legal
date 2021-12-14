@@ -301,6 +301,9 @@ work:
 
         * Witness Preparation - 2020 Australian Lawyers Alliance West Australian
         Conference, Hyatt Regency, Perth, WA, 4 September 2020.
+
+        * Everyday Issues of Ethics for Personal Injury Lawyers - Legalwise Qld
+        Personal Injuries Conference, Hilton Hotel, Brisbane, 11 March 2021.
       title: Presentations
   largeTitle: Work
   leftColumn: >-

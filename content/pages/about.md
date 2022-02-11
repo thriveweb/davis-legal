@@ -304,6 +304,9 @@ work:
 
         * Everyday Issues of Ethics for Personal Injury Lawyers - Legalwise Qld
         Personal Injuries Conference, Hilton Hotel, Brisbane, 11 March 2021.
+
+        * Wrongful Birth Damages - 2022 Australian Lawyers Alliance Qld State
+        Conference, Star Casino, Broadbeach, Qld, 11 February 2022.
       title: Presentations
   largeTitle: Work
   leftColumn: >-

@@ -87,26 +87,28 @@ career:
 
     * Vice President, Queensland Law Society
   rightColumn: >-
-    - Twice elected National President, APLA (now the Australian Lawyers
+    * Twice elected National President, APLA (now the Australian Lawyers
     Alliance)
 
-    - Council Member, Queensland Law Society
+    * Council Member, Queensland Law Society
 
-    - Member, first Personal Injury Specialist Accreditation Committee of the
+    * Member, first Personal Injury Specialist Accreditation Committee of the
     Queensland Law Society
 
-    - Director, College of Law Queensland Pty Ltd
+    * Director, College of Law Queensland Pty Ltd
 
-    - Adjunct Professor, Centre for Tourism and Risk Management at the
+    * Adjunct Professor, Centre for Tourism and Risk Management at the
     University of Queensland
 
-    - Chair, Queensland Law Society Alternative Dispute Resolution Section
+    * Chair, Queensland Law Society Alternative Dispute Resolution Section
 
-    - Member, Queensland Law Society Audit Committee
+    * Member, Queensland Law Society Audit Committee
 
-    - Director, Lexon Insurance Pty Ltd
+    * Director, Lexon Insurance Pty Ltd
 
-    - President, Queensland Law Society
+    * President, Queensland Law Society
+
+    * Member, Ethics Committee of the Bar Association of Queensland.
   subtitle: About his career
   title: Past professional roles include
 work:

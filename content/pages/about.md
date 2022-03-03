@@ -309,6 +309,9 @@ work:
 
         * Wrongful Birth Damages - 2022 Australian Lawyers Alliance Qld State
         Conference, Star Casino, Broadbeach, Qld, 11 February 2022.
+
+        * Wrongful Birth Damages Clarified - 2022 Australian Lawyers Alliance
+        ACT Conference, Online Presentation Canberra, 3 March 2022.
       title: Presentations
   largeTitle: Work
   leftColumn: >-

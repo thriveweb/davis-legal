@@ -200,21 +200,12 @@ accordion:
 
 
       Rob strives to minimise negative environmental impacts from his
-      professional activity as follows:
-
-
-      * 100% of the energy needs of Rob's office are provided by solar energy
-      and a solar battery storage system.
-
-      * 100% of the water consumed at Rob's office are harvested on site.
-
-      * carbon offsets are purchased for all necessary air travel.
-
-      * all paper and other suitable waste is recycled.
+      professional activity.
 
 
       He asks that you please consider the environment when briefing Rob, and
-      attempt wherever possible, to supply briefs in digital form.
+      attempt wherever possible, to supply briefs only in digital form
+      (preferably in searchable PDF format).
 
 
       If paper briefs are to be supplied then please use double sided printing

@@ -33,8 +33,9 @@ areas:
   largeTitle: About
   leftColumn: >-
     With extensive experience and ongoing academic qualifications, Rob began his
-    career in Queensland and New South Wales in 1979 then worked for many years
-    as a Litigation Solicitor before being called to the Queensland Bar in 2007.
+    career in Qld and NSW in 1979 then worked for many years as a Litigation
+    Solicitor practising throughout Qld, NSW, and the ACT, before being called
+    to the Queensland Bar in 2007.
   rightColumn: >-
     Over his career he has been featured in many publications and has served as
     President of the Queensland Law Society and the Australian Plaintiff Lawyers

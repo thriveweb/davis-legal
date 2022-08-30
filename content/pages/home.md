@@ -27,6 +27,7 @@ about:
 
     * Inquests and Commissions of Inquiry
     * Professional & Ethical Standards Disciplinary Proceedings
+    * Expert opinions
   subtitle: Practice Areas
   title: Accepting briefs to advise and appear
 areas:

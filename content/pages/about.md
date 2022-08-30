@@ -27,7 +27,7 @@ about:
     * Bar Association of Queensland Bar Practice Studies - Queensland University
     of Technology & Bar Association of Qld (February 2007)
   subtitle: About Robert (Rob) Davis
-  title: Academic qualifications
+  title: Professional & Academic
 timeline:
   event:
     - content: >-
@@ -41,7 +41,9 @@ timeline:
         Litigation Partner and in 1990 became the Managing Partner. He remained
         at this firm until 2000.
       year: '1979'
-    - content: Rob was admitted as a Barrister & Solicitor in Victoria in May 1980.
+    - content: >-
+        Rob was also admitted as a Barrister & Solicitor in Victoria in May
+        1980.
       year: '1980'
     - content: >-
         Rob commenced sole practice as a Litigation Lawyer and Legal Consultant
@@ -49,9 +51,9 @@ timeline:
         Association.
       year: '2000'
     - content: >-
-        Rob was enrolled as a Barrister & Solicitor in the Supreme Court of the
-        Australian Capital Territory and has since conducted many major cases in
-        that court.
+        Rob was also enrolled as a Barrister & Solicitor in the Supreme Court of
+        the Australian Capital Territory and has since conducted many major
+        cases in that court.
       year: '2003'
     - content: Rob was elected and served as President of the Queensland Law Society.
       year: '2006'
@@ -108,9 +110,9 @@ career:
 
     * President, Queensland Law Society
 
-    * Member, Ethics Committee of the Bar Association of Queensland.
+    * Member, Ethics Committee of the Bar Association of Queensland (current)
   subtitle: About his career
-  title: Past professional roles include
+  title: Professional roles have included
 work:
   accordion:
     - content: >-
@@ -322,8 +324,8 @@ work:
     Publications authored, books contributed towards and conference
     presentations made, include:
   rightColumn: ''
-  subtitle: Rob’s Work
-  title: Publications
+  subtitle: Authored Work
+  title: Publications & Presentations
 more:
   buttonLink: /contact/
   buttonText: contact Rob

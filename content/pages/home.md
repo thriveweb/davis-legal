@@ -8,7 +8,7 @@ about:
   largeTitle: Areas
   leftColumn: >-
     Rob Davis appears as counsel in Australian State, Territorial and Federal
-    Courts. His main areas of practice include:
+    Courts. His areas of practice include:
 
 
     * Legal, Medical & Financial Professional Negligence Litigation
@@ -28,6 +28,7 @@ about:
     * Inquests and Commissions of Inquiry
     * Professional & Ethical Standards Disciplinary Proceedings
     * Expert opinions
+    * Mediations
   subtitle: Practice Areas
   title: Accepting briefs to advise and appear
 areas:

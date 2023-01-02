@@ -19,7 +19,7 @@ about:
 
     * Commonwealth Superannuation Litigation
 
-    * Civil Aviation Litigation
+    * Aircraft Accident Litigation
 
     * Scuba Diving Litigation
   rightColumn: |-

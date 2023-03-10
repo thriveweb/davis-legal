@@ -116,73 +116,75 @@ career:
 work:
   accordion:
     - content: >-
-        - The Effect of The Decision of The Full Court of The Federal Court of
+        * The Effect of The Decision of The Full Court of The Federal Court of
         Australia in Cooling -v- FCT (1990) 1(2) Revenue Law Journal 216.
 
-        - The Origin of The Duty of Disclosure in Insurance Law (1991) 1
+        * The Origin of The Duty of Disclosure in Insurance Law (1991) 1
         Insurance Law Journal 71.
 
-        - Slips & Trips that Cost an Arm & a Leg (1993) 1(5) Tourism & Travel
+        * Slips & Trips that Cost an Arm & a Leg (1993) 1(5) Tourism & Travel
         Review.
 
-        - Litigation USA Style Jan/Feb (1994) Jan/Feb The Proctor.
+        * Litigation USA Style Jan/Feb (1994) Jan/Feb The Proctor.
 
-        - Why Plaintiffs are The Losers in Personal Injury Negotiations (1994)
+        * Why Plaintiffs are The Losers in Personal Injury Negotiations (1994)
         April APLA Update.
 
-        - Negotiating Personal Injury Cases: A Survey of Attitudes & Beliefs of
+        * Negotiating Personal Injury Cases: A Survey of Attitudes & Beliefs of
         Personal Injury Lawyers (1994) 68 Australian Law Journal 734.
 
-        - SCUBA Diving, Andrewartha -v- Rawlings & Coolangatta Dive Pty Ltd
+        * SCUBA Diving, Andrewartha -v- Rawlings & Coolangatta Dive Pty Ltd
         (1994) December APLA Update.
 
-        - Ciguatera Poisoning: How Diners Can Get Their Revenge (1995) Feb/Mar
+        * Ciguatera Poisoning: How Diners Can Get Their Revenge (1995) Feb/Mar
         APLA Update 6.
 
-        - The Regulation of Recreational SCUBA Diving (1995) 25(1) South Pacific
+        * The Regulation of Recreational SCUBA Diving (1995) 25(1) South Pacific
         Underwater Medicine Society Journal, 10.
 
-        - Can Obvious Dangers Constitute Defects under Part VA of the Trade
+        * Can Obvious Dangers Constitute Defects under Part VA of the Trade
         Practices Act? (1995) 6(2) Australian Product Liability Reporter 17.
 
-        - Risk Management for Scuba Diving Operators on Australia's Great
+        * Risk Management for Scuba Diving Operators on Australia's Great
         Barrier Reef (2000) 21 Tourism Management 591 (with Dr. J. Wilks).
 
-        - Negotiating Personal Injury Cases (2001) 43 Plaintiff 12.
+        * Negotiating Personal Injury Cases (2001) 43 Plaintiff 12.
 
-        - Citizens' Rights Under Attack (2001) 52 Plaintiff 4.
+        * Citizens' Rights Under Attack (2001) 52 Plaintiff 4.
 
-        - Interesting Times for Plaintiff Lawyers (2001) 46 Plaintiff 4.
+        * Interesting Times for Plaintiff Lawyers (2001) 46 Plaintiff 4.
 
-        - Medical Indemnity Reform & Structured Settlements (2001) 47 Plaintiff
+        * Medical Indemnity Reform & Structured Settlements (2001) 47 Plaintiff
         4.
 
-        - Premiums, Propaganda & The Push for Tort Reform (2001) 48 Plaintiff 4.
+        * Premiums, Propaganda & The Push for Tort Reform (2001) 48 Plaintiff 4.
 
-        - Media Distortions in the Public Liability Debate (2002) 50 Plaintiff
+        * Media Distortions in the Public Liability Debate (2002) 50 Plaintiff
         4.
 
-        - Death of Journalism (2002) 51 Plaintiff 4.
+        * Death of Journalism (2002) 51 Plaintiff 4.
 
-        - The Tort Reform Crisis (2002) 25(3) University of New South Wales Law
+        * The Tort Reform Crisis (2002) 25(3) University of New South Wales Law
         Journal 865.
 
-        - Queensland emphasises dispute resolution for personal injury claims to
+        * Queensland emphasises dispute resolution for personal injury claims to
         resolve premium 'crisis' (2002) 5(2) ADR Bulletin 1.
 
-        - Tort Reform & Other Weapons of Mass Distraction (2003) 147 Lawyers
+        * Tort Reform & Other Weapons of Mass Distraction (2003) 147 Lawyers
         Weekly 10.
 
-        - Defining Justice (2003) 57 Plaintiff 4.
+        * Defining Justice (2003) 57 Plaintiff 4.
 
-        - Legal Notes: Current Tourism & Leisure Issues for Older Travellers
+        * Legal Notes: Current Tourism & Leisure Issues for Older Travellers
         (2003) 46(2) Australian Parks and Leisure 41 (with Dr. J. Wilks).
 
-        - Duty of Care to Resort Guest Who Drowned (2003) International Travel
+        * Duty of Care to Resort Guest Who Drowned (2003) International Travel
         Law Journal 4 (with Dr. J. Wilks).
 
-        - International Tourists and Recreational Injuries (2003) 58 Plaintiff
+        * International Tourists and Recreational Injuries (2003) 58 Plaintiff
         (with Dr. J. Wilks).
+
+        * Pleadings Tips and Strategy (2023) 90 Hearsay Dec 2022.
       title: Journals
     - content: >-
         * Kellam, Travers & Davis, Product Liability Law & Practice (Legal

@@ -320,6 +320,13 @@ work:
         * Should I Discover That? - Ethics for Personal Injury Lawyers -
         Legalwise Qld Personal Injuries Conference, Soffitel Hotel, Brisbane, 10
         March 2022.
+
+        * Pleadings Tips and Strategy in Queensland - 2023 Legalwise Qld
+        Personal Injuries Conference, Hilton Hotel, Brisbane, 10 March 2023.
+
+        * Mandatory Pre-action Process Applicable to Medical Negligence
+        Litigation in Queensland - 32nd Annual Medeico-Legal Congress, Parkroyal
+        Darling Harbour, Sydney, 14-15 March 2023.
       title: Presentations
   largeTitle: Work
   leftColumn: >-

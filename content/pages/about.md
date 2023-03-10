@@ -325,7 +325,7 @@ work:
         Personal Injuries Conference, Hilton Hotel, Brisbane, 10 March 2023.
 
         * Mandatory Pre-action Process Applicable to Medical Negligence
-        Litigation in Queensland - 32nd Annual Medeico-Legal Congress, Parkroyal
+        Litigation in Queensland - 32nd Annual Medico-Legal Congress, Parkroyal
         Darling Harbour, Sydney, 14-15 March 2023.
       title: Presentations
   largeTitle: Work

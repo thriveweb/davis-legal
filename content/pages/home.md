@@ -11,15 +11,15 @@ about:
     Courts. His areas of practice include:
 
 
-    * Legal, Medical & Financial Professional Negligence Litigation
+    * Legal, Medical & Financial Professional Negligence
 
-    * Motor Vehicle, Workplace, Defective Products & Premises Liability
+    * Motor Vehicle, Workplace, & Premises Liability
 
-    * Trade Practices & Consumer Litigation
+    * Defective Product Liability
 
     * Commonwealth Superannuation Litigation
 
-    * Aircraft Accident Litigation
+    * Aircraft Accidents
 
     * Scuba Diving Litigation
   rightColumn: |-

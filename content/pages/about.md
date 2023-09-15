@@ -186,6 +186,9 @@ work:
         * Pleadings Tips and Strategy (2022) 90 Hearsay Dec 2022.
 
         * Should I Disclose That Document? (2023) 93 Hearsay Sept 2023.
+
+        * Barrister’s Conduct Rules and The Integrity of Evidence (2023) 93
+        Hearsay Sept 2023 (with John Meredith).
       title: Journals
     - content: >-
         * Kellam, Travers & Davis, Product Liability Law & Practice (Legal

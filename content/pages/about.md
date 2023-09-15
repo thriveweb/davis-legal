@@ -185,7 +185,7 @@ work:
 
         * Pleadings Tips and Strategy (2022) 90 Hearsay Dec 2022.
 
-        * Should I Discover That Document? (2023) 92 Hearsay Sept 2023.
+        * Should I Disclose That Document? (2023) 93 Hearsay Sept 2023.
       title: Journals
     - content: >-
         * Kellam, Travers & Davis, Product Liability Law & Practice (Legal

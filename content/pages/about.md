@@ -183,7 +183,9 @@ work:
         * International Tourists and Recreational Injuries (2003) 58 Plaintiff
         (with Dr. J. Wilks).
 
-        * Pleadings Tips and Strategy (2023) 90 Hearsay Dec 2022.
+        * Pleadings Tips and Strategy (2022) 90 Hearsay Dec 2022.
+
+        * Should I Discover That Document? (2023) 92 Hearsay Sept 2023.
       title: Journals
     - content: >-
         * Kellam, Travers & Davis, Product Liability Law & Practice (Legal

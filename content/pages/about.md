@@ -350,8 +350,8 @@ work:
     Publications authored, books contributed towards and conference
     presentations made, include:
   rightColumn: ''
-  subtitle: Authored Work
-  title: Publications & Presentations
+  subtitle: Authored Work & Associations
+  title: 'Publications, Presentations & Memberships'
 more:
   buttonLink: /contact/
   buttonText: contact Rob

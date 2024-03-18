@@ -334,6 +334,17 @@ work:
         Litigation in Queensland - 32nd Annual Medico-Legal Congress, Parkroyal
         Darling Harbour, Sydney, 14-15 March 2023.
       title: Presentations
+    - content: |-
+        \- Bar Association of Queensland.
+
+        \- Australian Bar Association.
+
+        \- International Bar Association.
+
+        \- Gold Coast Bar Association.
+
+        \- Australian Lawyers Alliance.
+      title: Associations
   largeTitle: Work
   leftColumn: >-
     Publications authored, books contributed towards and conference

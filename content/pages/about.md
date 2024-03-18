@@ -190,8 +190,7 @@ work:
         * Barrister’s Conduct Rules and The Integrity of Evidence (2023) 93
         Hearsay Sept 2023 (with John Meredith).
 
-        * Compensation for Aviation Injuries & Death (2024) 95 Hearsay March
-        2024.
+        * Actions for Aviation Injuries & Death (2024) 95 Hearsay March 2024.
       title: Journals
     - content: >-
         * Kellam, Travers & Davis, Product Liability Law & Practice (Legal

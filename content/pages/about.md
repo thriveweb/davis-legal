@@ -333,6 +333,11 @@ work:
         * Mandatory Pre-action Process Applicable to Medical Negligence
         Litigation in Queensland - 32nd Annual Medico-Legal Congress, Parkroyal
         Darling Harbour, Sydney, 14-15 March 2023.
+
+        * ALAANZ Debate: Expansion of the 'Bodily Injury' Concept to include
+        Psychiatric Injuries - Aviation Law Association of Australia & New
+        Zealand, 40th Annual Conference, Emporium Hotel, Southbank, Brisbane, 2
+        May 2024.
       title: Presentations
     - content: |-
         \- Bar Association of Queensland.

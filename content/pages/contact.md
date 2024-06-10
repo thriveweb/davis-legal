@@ -17,7 +17,7 @@ intro:
   subtitle: Contact Rob
   title: Get in touch
 contactInfo:
-  address: 'PO BOX 213, West Burleigh QLD 4219 Australia'
+  address: 'PO BOX 260, Burleigh Town, QLD 4220, Australia'
   email: rdavis@davislegal.com.au
   phone: +61 414 339 494
 meta:

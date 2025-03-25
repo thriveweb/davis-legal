@@ -191,6 +191,9 @@ work:
         Hearsay Sept 2023 (with John Meredith).
 
         * Actions for Aviation Injuries & Death (2024) 95 Hearsay March 2024.
+
+        * Choosing the Right Court in Aviation Claims, 186 Precedent
+        January/February 2025.
       title: Journals
     - content: >-
         * Kellam, Travers & Davis, Product Liability Law & Practice (Legal
@@ -338,6 +341,9 @@ work:
         Psychiatric Injuries - Aviation Law Association of Australia & New
         Zealand, 40th Annual Conference, Emporium Hotel, Southbank, Brisbane, 2
         May 2024.
+
+        * Applied Ethics for Personal Injury Lawyers, 18th Annual Personal
+        Injury Conference, Legalwise, Hilton Hotel Brisbane, 5 March 2025.
       title: Presentations
     - content: |-
         \- Bar Association of Queensland.

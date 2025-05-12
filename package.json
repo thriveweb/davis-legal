@@ -6,8 +6,8 @@
     "@researchgate/react-intersection-observer": "^0.7.3",
     "date-fns": "^1.29.0",
     "dom-form-serializer": "^1.0.7",
-    "gatsby": "^1",
-    "gatsby-image": "^1.0.54",
+    "gatsby": "^1.9.274",
+    "gatsby-image": "^1.0.55",
     "gatsby-plugin-netlify": "^1.0.21",
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-nprogress": "^1.0.14",
@@ -32,9 +32,9 @@
     "react": "^16.4.1",
     "react-burger-menu": "^2.5.2",
     "react-dom": "^16.4.1",
-    "react-feather": "^1.1.0",
+    "react-feather": "^1.1.1",
     "react-helmet": "^5.2.0",
-    "react-markdown": "^3.3.2",
+    "react-markdown": "^3.6.0",
     "uuid": "^3.2.1"
   },
   "keywords": [
